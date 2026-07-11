@@ -49,7 +49,8 @@ DISCOVERY_QUERIES = [
 # Safety cap on total candidates attempted, regardless of how many get accepted.
 # Prevents a bug (e.g. an over-strict actionability bar) from silently burning
 # through your entire monthly Tavily/Hunter free-tier budget on one run.
-MAX_CANDIDATES_SAFETY_CAP = 300
+MAX_CANDIDATES_SAFETY_CAP = 300  # production value — use a much lower cap (e.g. 15-20) via
+# run_pipeline's target_count-driven testing before scaling back up for the real 50-record run
 RESULTS_PER_QUERY = 8
 
 

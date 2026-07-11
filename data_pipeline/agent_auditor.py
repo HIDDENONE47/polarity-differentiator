@@ -31,13 +31,13 @@ from config import (
     VerificationStatus,
     ExtractionMethod,
     DEFAULT_CONFIG,
+    invoke_llm_with_retry,
 )
-
 load_dotenv()
 
 tavily_client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
 auditor_llm = ChatGroq(
-    model=DEFAULT_CONFIG.llm_model,
+    model=DEFAULT_CONFIG.auditor_llm_model,
     groq_api_key=os.getenv("GROQ_API_KEY"),
     temperature=0,
 )
@@ -92,7 +92,7 @@ fact means NOT supported.
 Respond ONLY as compact JSON: {{"supported": true/false, "reasoning": "<one sentence>",
 "confidence": <0.0 to 1.0>}}. No prose, no markdown outside the JSON.
 """
-    response = auditor_llm.invoke(prompt)
+    response = invoke_llm_with_retry(auditor_llm, prompt)
     try:
         parsed = json.loads(response.content)
         return {

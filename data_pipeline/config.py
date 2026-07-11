@@ -7,10 +7,12 @@ carries its own verification metadata. A value with no source/method is not
 allowed to present itself as "verified" anywhere downstream.
 """
 
+import time
 from enum import Enum
 from typing import Optional, List
 from pydantic import BaseModel, Field, model_validator
 from datetime import datetime
+from groq import RateLimitError
 
 
 # ---------------------------------------------------------------------------
@@ -133,7 +135,35 @@ class PipelineConfig(BaseModel):
     min_signals_per_record: int = 1
     require_at_least_one_principal_contact: bool = True  # else record fails actionability
     embedding_model: str = "all-MiniLM-L6-v2"
-    llm_model: str = "llama-3.3-70b-versatile"  # via Groq
+    llm_model: str = "llama-3.1-8b-instant"  # via Groq — extraction: harder task, keep the bigger model
+    auditor_llm_model: str = "llama-3.1-8b-instant"  # via Groq — audit is a bounded yes/no judgment call,
+    # and Groq quotas are per-model/per-org, so this gives audit its own 500K-tokens/day pool instead of
+    # fighting extraction for the 70B model's much smaller 100K/day
 
 
 DEFAULT_CONFIG = PipelineConfig()
+
+
+# ---------------------------------------------------------------------------
+# Shared LLM call helper
+# ---------------------------------------------------------------------------
+
+def invoke_llm_with_retry(llm, prompt: str, max_retries: int = 6, initial_wait: float = 10.0):
+    """
+    Calls llm.invoke(prompt) with exponential backoff on Groq's free-tier
+    rate limit (429 RateLimitError). Hitting the TPM cap is an expected,
+    routine condition under normal pipeline load on the free tier — not a
+    bug — so the pipeline must tolerate it rather than crash on first hit.
+    Shared by agent_extraction.py and agent_auditor.py, which each hold
+    their own ChatGroq client instance but should retry identically.
+    """
+    wait = initial_wait
+    for attempt in range(max_retries):
+        try:
+            return llm.invoke(prompt)
+        except RateLimitError:
+            if attempt == max_retries - 1:
+                raise  # exhausted retries — fail loud, don't guess
+            print(f"  [groq rate limit] waiting {wait:.0f}s before retry {attempt + 1}/{max_retries - 1}...")
+            time.sleep(wait)
+            wait *= 2
