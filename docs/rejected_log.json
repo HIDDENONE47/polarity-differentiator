@@ -1,0 +1,267 @@
+[
+  {
+    "entity_name": "EX-99.3 - SEC.gov",
+    "reason": "extraction_failed: Not a family office \u2014 EX-99.3 - SEC.gov: The entity is described as a wealth and asset management services provider to multiple clients, including individuals, families, foundations, and institutions.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1838615/000119312523004775/d431644dex993.htm"
+  },
+  {
+    "entity_name": "ZAIS Group Holdings, Inc. - SEC.gov",
+    "reason": "extraction_failed: Not a family office \u2014 ZAIS Group Holdings, Inc. - SEC.gov: ZAIS Group Holdings, Inc. is a publicly traded company and its filings mention institutional clients, not a single ultra-high-net-worth family.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1562214/000114420415017816/v404972_8k.htm"
+  },
+  {
+    "entity_name": "[PDF] IM Guidance Update - SEC.gov",
+    "reason": "extraction_failed: Not a family office \u2014 [PDF] IM Guidance Update - SEC.gov: This is a regulatory guidance document, not a private family office.",
+    "source": "https://www.sec.gov/investment/im-guidance-2014-13.pdf"
+  },
+  {
+    "entity_name": "10-K - Silvercrest Investor Relations",
+    "reason": "extraction_failed: Not a family office \u2014 10-K - Silvercrest Investor Relations: The entity is a publicly traded company with a registered class of stock, indicating it is not a private family office.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1549966/000119312526108402/samg-20251231.htm"
+  },
+  {
+    "entity_name": "samg-10k_20151231.htm - SEC.gov",
+    "reason": "extraction_failed: Not a family office \u2014 samg-10k_20151231.htm - SEC.gov: The entity is a publicly traded company, not a private family office.",
+    "source": "https://www.sec.gov/Archives/edgar/data/0001549966/000156459016014433/samg-10k_20151231.htm"
+  },
+  {
+    "entity_name": "10-K - Silvercrest Investor Relations",
+    "reason": "extraction_failed: Not a family office \u2014 10-K - Silvercrest Investor Relations: The entity is a publicly traded company with a registered class of stock, indicating it is not a private family office.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1549966/000095017024027981/samg-20231231.htm"
+  },
+  {
+    "entity_name": "Family Office: A Small Entity Compliance Guide - SEC.gov",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://www.sec.gov/files/rules/final/2011/ia-3220-secg.htm"
+  },
+  {
+    "entity_name": "[PDF] 2023 annual report - Silvercrest Investor Relations",
+    "reason": "extraction_failed: Not a family office \u2014 [PDF] 2023 annual report - Silvercrest Investor Relations: The entity is a publicly traded company and a registered investment advisor.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1549966/000095017024049828/2023_annual_report.pdf"
+  },
+  {
+    "entity_name": "Hildred Capital Partners",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://www.linkedin.com/pulse/11-family-offices-new-york-active-venture-fundingstack-xfftf"
+  },
+  {
+    "entity_name": "30 Single and Multi-Family Offices that might be of interest",
+    "reason": "extraction_failed: Extraction LLM returned non-JSON for 30 Single and Multi-Family Offices that might be of interest: ```json\n{\n  \"is_family_office\": true,\n  \"is_family_office_reasoning\": \"The entity is a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family.\",\n  \"entity_name\"",
+    "source": "https://diie.substack.com/p/30-single-and-multi-family-offices"
+  },
+  {
+    "entity_name": "Single Family Office in New York City, United States",
+    "reason": "extraction_failed: Not a family office \u2014 Single Family Office in New York City, United States: This is a list of single family offices, but the text does not indicate that the entity itself is a family office.",
+    "source": "https://tracxn.com/d/investor-lists/single-family-offices-in-new-york-city-united-states/__9k4HU7aHFNR99xoGlGny4PSCe9IT-UHBKYe7ayu1Bv8"
+  },
+  {
+    "entity_name": "New York City Family Office Directory",
+    "reason": "extraction_failed: Extraction LLM returned non-JSON for New York City Family Office Directory: ```json\n{\n  \"is_family_office\": false,\n  \"is_family_office_reasoning\": \"This entity appears to be a directory or platform for family offices, rather than a private family office itself.\",\n  \"entity_na",
+    "source": "https://familyofficeaccess.com/family-offices-new-york-city"
+  },
+  {
+    "entity_name": "Prestel and Partner Family Office Forum",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://prestelandpartner.com/family-office-forum-new-york.html"
+  },
+  {
+    "entity_name": "List of the 80 Largest Single Family Offices New York [2026]",
+    "reason": "extraction_failed: Not a family office \u2014 List of the 80 Largest Single Family Offices New York [2026]: The text appears to be a research report or article about family offices.",
+    "source": "https://familyofficehub.io/product/new-york-single-family-offices"
+  },
+  {
+    "entity_name": "Top 10 Family Offices in New York City 2026 - Dakota",
+    "reason": "extraction_failed: Not a family office \u2014 Top 10 Family Offices in New York City 2026 - Dakota: The entity provides research and data services to various investment firms and professional services, indicating it is not a dedicated wealth/investment management entity.",
+    "source": "https://www.dakota.com/resources/blog/top-10-family-offices-in-new-york-city-2026"
+  },
+  {
+    "entity_name": "Family Offices looking to invest - Capboard",
+    "reason": "extraction_failed: Not a family office \u2014 Family Offices looking to invest - Capboard: The text describes multiple venture capital firms and angel investor groups, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family.",
+    "source": "https://www.capboard.io/en/investors/family_office"
+  },
+  {
+    "entity_name": "Family Offices in London | 146 Verified Firms",
+    "reason": "extraction_failed: Extraction LLM returned non-JSON for Family Offices in London | 146 Verified Firms: ```json\n{\n  \"is_family_office\": true,\n  \"is_family_office_reasoning\": \"It is a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family.\",\n  \"entity_name\": \"3C Ca",
+    "source": "https://praxisrock.com/resources/investors/family-offices-london"
+  },
+  {
+    "entity_name": "Leading Multi Family Office in London - Patronus Partners",
+    "reason": "extraction_failed: 1 validation error for FamilyOfficePrincipal\nname\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type",
+    "source": "https://www.patronuspartners.com/multi-family-office-in-london"
+  },
+  {
+    "entity_name": "Top 10 Multi-Family Offices in Europe (2026 Guide) - Dakota",
+    "reason": "extraction_failed: Not a family office \u2014 Top 10 Multi-Family Offices in Europe (2026 Guide) - Dakota: The entity provides a platform for various financial services and data, but does not indicate it serves a single ultra-high-net-worth family.",
+    "source": "https://www.dakota.com/resources/blog/top-10-multi-family-offices-in-europe-2026-guide"
+  },
+  {
+    "entity_name": "London Top Family Offices: Grosvenor Estate, INEOS, Alta Advisers | Shahbaz M. posted on the topic | LinkedIn",
+    "reason": "extraction_failed: 1 validation error for FamilyOfficePrincipal\nname\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type",
+    "source": "https://www.linkedin.com/posts/syed-shahbaz-masood_list-of-top-family-offices-in-london-london-activity-7457065254699630592-WUfO"
+  },
+  {
+    "entity_name": "List of the 70 largest Multi Family Offices UK [2026] - familyofficehub.io",
+    "reason": "extraction_failed: Not a family office \u2014 List of the 70 largest Multi Family Offices UK [2026] - familyofficehub.io: The text describes a research report or article about family offices.",
+    "source": "https://familyofficehub.io/product/multi-family-offices-uk"
+  },
+  {
+    "entity_name": "Top 10 Family Offices in London: 2026 Guide - Dakota",
+    "reason": "extraction_failed: Not a family office \u2014 Top 10 Family Offices in London: 2026 Guide - Dakota: The entity provides a platform for various financial services and data, but does not appear to be a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family.",
+    "source": "https://www.dakota.com/resources/blog/top-10-family-offices-in-london-2026-guide"
+  },
+  {
+    "entity_name": "Prestel & Partner",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://prestelandpartner.com/familyofficeforumlondon.html"
+  },
+  {
+    "entity_name": "Stonehage Fleming",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://www.stonehagefleming.com/services/family-office-1"
+  },
+  {
+    "entity_name": "Family Office / Fund of Funds VC Virtual Conf \u2013 Dec 11, 2025",
+    "reason": "extraction_failed: Not a family office \u2014 Family Office / Fund of Funds VC Virtual Conf \u2013 Dec 11, 2025: The entity is a conference organizer and does not appear to be a dedicated wealth/investment management entity.",
+    "source": "https://pitchcalls.com/vc"
+  },
+  {
+    "entity_name": "CF Private Equity Closes on Three Venture Capital Funds",
+    "reason": "extraction_failed: Not a family office \u2014 CF Private Equity Closes on Three Venture Capital Funds: The entity is described as a firm with multiple clients, including foundations, endowments, pensions, and family offices.",
+    "source": "https://www.commonfund.org/cf-private-equity/cf-private-equity-closes-on-three-venture-capital-funds"
+  },
+  {
+    "entity_name": "Family Office Venture Capital Investment Strategy",
+    "reason": "extraction_failed: Not a family office \u2014 Family Office Venture Capital Investment Strategy: The text is a research report or article about family offices.",
+    "source": "https://govclab.com/2025/08/12/family-office-investment-in-venture-capital"
+  },
+  {
+    "entity_name": "Deep Dive: Family Offices in Venture Capital (2025)",
+    "reason": "extraction_failed: Not a family office \u2014 Deep Dive: Family Offices in Venture Capital (2025): The text is a research report or article about family offices.",
+    "source": "https://www.vcstack.io/blog/deep-dive-family-offices"
+  },
+  {
+    "entity_name": "Private Equity Co-Investing for Family Offices: Structures and Playbook",
+    "reason": "extraction_failed: Not a family office \u2014 Private Equity Co-Investing for Family Offices: Structures and Playbook: The text is a research report or article about family offices.",
+    "source": "https://fundcount.com/private-equity-co-investing-for-family-offices"
+  },
+  {
+    "entity_name": "Family Office \u00d7 Venture Studio Research 2025",
+    "reason": "extraction_failed: Not a family office \u2014 Family Office \u00d7 Venture Studio Research 2025: The text describes a research report about family offices, not a family office itself.",
+    "source": "https://inniches.com/family-office-venture-studio-research-2025"
+  },
+  {
+    "entity_name": "The evolution of family office direct and co-investing - Affinity",
+    "reason": "extraction_failed: Not a family office \u2014 The evolution of family office direct and co-investing - Affinity: The text is a research report or article about family offices.",
+    "source": "https://www.affinity.co/blog/family-offices-direct-investing"
+  },
+  {
+    "entity_name": "How Do Family Offices Invest in Private Equity Assets?",
+    "reason": "extraction_failed: Not a family office \u2014 How Do Family Offices Invest in Private Equity Assets?: The text is a research report or article about family offices.",
+    "source": "https://eqtgroup.com/en/thinq/Education/how-do-family-offices-invest-in-private-equity-assets"
+  },
+  {
+    "entity_name": "[PDF] Anticipated 2025 Family Office Investments - Sandalwood Securities",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://www.sandalwoodsecurities.com/pdf/Sandalwood_Opportunistic_Funds_for_2025_-_website.pdf"
+  },
+  {
+    "entity_name": "2025 Family Office Investment Insights: Global Trends and Strategies",
+    "reason": "extraction_failed: Not a family office \u2014 2025 Family Office Investment Insights: Global Trends and Strategies: The entity appears to be a research and consulting firm that provides insights and services to family offices, rather than a dedicated family office itself.",
+    "source": "https://certuity.com/insights/family-office-investment-insights"
+  },
+  {
+    "entity_name": "Global Family Office Deals Study 2025",
+    "reason": "extraction_failed: Not a family office \u2014 Global Family Office Deals Study 2025: The entity is a research report about family offices, not a family office itself.",
+    "source": "https://www.pwc.com/gx/en/services/family-business/assets/global-family-office-deals-study-2025.pdf"
+  },
+  {
+    "entity_name": "Where Are North American Family Offices Placing Their Bets in 2025?",
+    "reason": "extraction_failed: Not a family office \u2014 Where Are North American Family Offices Placing Their Bets in 2025?: The text is a research report or article about family offices.",
+    "source": "https://www.linkedin.com/posts/ronalddiamond_where-are-north-american-family-offices-placing-activity-7333828214747779072-nEuS"
+  },
+  {
+    "entity_name": "[PDF] 2025 Investment Insights for Single Family Offices",
+    "reason": "extraction_failed: Not a family office \u2014 [PDF] 2025 Investment Insights for Single Family Offices: The entity is a research report about family offices, not a family office itself.",
+    "source": "https://info.wealth.bny.com/rs/636-GOT-884/images/BNYW_2025_Investment_Insights_Single_Family_Offices_Report.pdf"
+  },
+  {
+    "entity_name": "Family Offices Driving Change in Private Equity: Key Trends and Investment Structures | Bennett Jones LLP - JDSupra",
+    "reason": "extraction_failed: Not a family office \u2014 Family Offices Driving Change in Private Equity: Key Trends and Investment Structures | Bennett Jones LLP - JDSupra: The text is a research report or article about family offices.",
+    "source": "https://www.jdsupra.com/legalnews/family-offices-driving-change-in-6709595"
+  },
+  {
+    "entity_name": "Lunate",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://altss.com/blog/august-2025-s-10-largest-family-office-deals"
+  },
+  {
+    "entity_name": "Single Family Office",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://www.linkedin.com/jobs/view/family-office-director-at-single-family-office-4429548766"
+  },
+  {
+    "entity_name": "The Family Offices Global - LinkedIn",
+    "reason": "extraction_failed: Not a family office \u2014 The Family Offices Global - LinkedIn: It is a global investment banking and advisory platform serving family offices, endowments, and institutional investors.",
+    "source": "https://www.linkedin.com/company/family-offices-global"
+  },
+  {
+    "entity_name": "Family Office",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://www.linkedin.com/company/familyoffic"
+  },
+  {
+    "entity_name": "91 Family Office Director jobs in New York City Metropolitan Area",
+    "reason": "extraction_failed: Not a family office \u2014 91 Family Office Director jobs in New York City Metropolitan Area: The text lists various job openings for a Family Office Director, but does not indicate that the entity itself is a private family office.",
+    "source": "https://www.linkedin.com/jobs/family-office-director-jobs-new-york-city-metropolitan-area"
+  },
+  {
+    "entity_name": "I\u2019m excited to share that I\u2019ve joined a single-family office as Managing Director, Investments & Strategic Partnerships. \n\nIn this capacity, I will focus on sourcing and structuring investments\u2026 | Andy Vargas-Hernandez | 115 comments",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://www.linkedin.com/posts/andy-vargas-ivan_im-excited-to-share-that-ive-joined-a-single-family-activity-7455987657878175744-8kBf"
+  },
+  {
+    "entity_name": "1,000+ Family Office jobs in United States - LinkedIn",
+    "reason": "extraction_failed: Not a family office \u2014 1,000+ Family Office jobs in United States - LinkedIn: This is a job search page for family office jobs, not a private family office itself.",
+    "source": "https://www.linkedin.com/jobs/family-office-jobs"
+  },
+  {
+    "entity_name": "Industry Knowledge for Family Offices",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://www.linkedin.com/top-content/finance/family-office-investment-options/industry-knowledge-for-family-offices"
+  },
+  {
+    "entity_name": "Balancing risk and living well: insights from a family office principal",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://www.linkedin.com/posts/kristina-chang-044b639_as-a-family-office-principal-i-think-a-lot-activity-7351733576968687617-Zcoc"
+  },
+  {
+    "entity_name": "Hot Investor Mandate: Family Office Invests in Pre-Clinical and Clinical Stage Biotech and Tech-Enabled Healthcare Technologies in North America | Next Phase Newsletter",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://blog.lifesciencenation.com/2026/03/03/hot-investor-mandate-family-office-invests-in-pre-clinical-and-clinical-stage-biotech-and-tech-enabled-healthcare-technologies-in-north-america"
+  },
+  {
+    "entity_name": "4Point0",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://www.fintrx.com/blog/5-family-offices-investing-in-healthcare"
+  },
+  {
+    "entity_name": "Surge in Family Offices: Investing in Healthcare | Next Phase Newsletter",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://blog.lifesciencenation.com/2023/08/10/surge-in-family-offices-investing-in-healthcare"
+  },
+  {
+    "entity_name": "Family Office Club",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://www.youtube.com/watch?v=POz8EvNETfo&vl=en"
+  },
+  {
+    "entity_name": "FAMILY OFFICE HEALTHCARE INVESTING \u2013 MASQANA INVESTMENTS, LLC",
+    "reason": "extraction_failed: 1 validation error for FamilyOfficePrincipal\nname\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type",
+    "source": "https://masqana.com/family-office-healthcare-investing"
+  },
+  {
+    "entity_name": "Family Offices Lead Global Health Tech Investment Wave",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://www.worldhealthexpo.com/insights/medical-technology/health-tech-investment-family-office-investing-gcc"
+  }
+]
