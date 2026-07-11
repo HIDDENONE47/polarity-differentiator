@@ -152,7 +152,9 @@ def discover_node(state: PipelineState) -> dict:
     hits: List[dict] = []
     while queries and not hits:
         next_query = queries.pop(0)
+        print(f"[discover] searching: {next_query!r}")
         hits = rate_limited_search(next_query, max_results=RESULTS_PER_QUERY, delay=1.0)
+        print(f"[discover] {len(hits)} candidate(s) found")
 
     return {"queries": queries, "current_query_results": hits}
 
@@ -163,12 +165,14 @@ def extract_node(state: PipelineState) -> dict:
     candidate = candidates.pop(0)
     entity_name = candidate.get("title", "Unknown Entity")
     source_url = candidate.get("url", "")
+    print(f"[extract] attempting: {entity_name!r} ({source_url})")
 
     raw_text = _fetch_full_text_for_extraction(source_url) or candidate.get("content", "")
 
     try:
         raw_record = raw_extract_entity_from_source(entity_name, source_url, raw_text)
     except ValueError as e:
+        print(f"[extract] rejected: {e}")
         return {
             "current_query_results": candidates,
             "raw_record": None,
@@ -180,6 +184,7 @@ def extract_node(state: PipelineState) -> dict:
             }],
         }
 
+    print(f"[extract] passed — entering audit: {raw_record.entity_name!r}")
     return {
         "current_query_results": candidates,
         "raw_record": raw_record,
@@ -189,7 +194,9 @@ def extract_node(state: PipelineState) -> dict:
 
 def audit_node(state: PipelineState) -> dict:
     """Runs the full adversarial audit on the raw record. This is where VERIFIED/COULD_NOT_VERIFY get decided."""
+    print(f"[audit] auditing {state['raw_record'].entity_name!r} — several LLM + Tavily calls, may take a bit")
     audited = audit_record(state["raw_record"], rate_limit_delay=1.0)
+    print(f"[audit] done: {audited.entity_name!r}")
     return {"audited_record": audited, "raw_record": None}
 
 
@@ -203,6 +210,7 @@ def filter_node(state: PipelineState) -> dict:
     entity_key = audited.entity_name.strip().lower()
 
     if entity_key in state["seen_entity_names"]:
+        print(f"[filter] rejected (duplicate): {audited.entity_name!r}")
         return {
             "audited_record": None,
             "rejected_log": state["rejected_log"] + [{
@@ -213,6 +221,7 @@ def filter_node(state: PipelineState) -> dict:
         }
 
     if not passes_actionability_bar(audited):
+        print(f"[filter] rejected (no verified contact): {audited.entity_name!r}")
         return {
             "audited_record": None,
             "seen_entity_names": state["seen_entity_names"] + [entity_key],
@@ -223,6 +232,7 @@ def filter_node(state: PipelineState) -> dict:
             }],
         }
 
+    print(f"[filter] ACCEPTED ({len(state['accepted_records']) + 1}/{state['target_count']}): {audited.entity_name!r}")
     return {
         "audited_record": None,
         "seen_entity_names": state["seen_entity_names"] + [entity_key],

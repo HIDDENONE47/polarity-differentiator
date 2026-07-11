@@ -34,9 +34,9 @@ llm = ChatGroq(
     model=DEFAULT_CONFIG.llm_model,
     groq_api_key=os.getenv("GROQ_API_KEY"),
     temperature=0,  # deterministic extraction, not creative writing
-    max_tokens=800,  # bounds completion cost — the requested JSON schema is compact,
-    # and leaving completion length unbounded makes per-call cost on the scarce
-    # 70B daily pool unpredictable
+    max_tokens=1500,  # raised from the emergency 800 now that extraction has its own quota
+    # pool — still bounded, not unlimited, since daily budget is finite and shared across
+    # every candidate attempted (see graph_orchestrator.py's MAX_CANDIDATES_SAFETY_CAP)
 )
 
 
@@ -66,17 +66,24 @@ Entity (as found by search — may be an inaccurate page title, verify against t
 Source URL: {source_url}
 
 Raw text:
-{raw_text[:3000]}
+{raw_text[:4500]}
 
 First, classify: is this entity itself plausibly a private family office — a dedicated
 wealth/investment management entity serving one specific ultra-high-net-worth family, or
 a small number of families? Answer false for: research reports or articles about family
 offices, institutional asset managers/OCIOs/endowment or pension managers that merely
 count family offices among their many client types, regulatory filings or guidance
-documents, or any unrelated company that just happens to mention the term.
+documents, or any unrelated company that just happens to mention the term. Also answer
+false for: a private bank, wealth manager, or trust company's internal "family office
+advisory," "family office group," or "family office services" business unit — these
+serve MANY external family offices as clients and are not themselves one (e.g. "Citi
+Private Bank," "Citi Wealth's Family Office Group," "J.P. Morgan Family Office Advisory").
+Also answer false for: software, technology, or professional-service vendors that sell
+products or services TO family offices (e.g. family office software platforms, fund
+administrators, law firms, consultancies) — selling to family offices is not being one.
 
 Extract (if present in the text): the organization's actual proper name (not the raw
-page title, not SEO text, not anything after a "|" or "—" separator), investing thesis,
+page title, not SEO text, not anything after a "|", "—", "-", or ":" separator), investing thesis,
 investing mandate, background info, AUM, corporate LinkedIn URL, entity type, location,
 website, and any named principals with title/LinkedIn/email/phone if mentioned. Also
 extract any recent signals (investments, hires, news) with dates if given.
@@ -117,9 +124,20 @@ No prose, no markdown.
     if not isinstance(parsed, dict):
         raise ValueError(f"Extraction LLM returned unexpected JSON shape for {entity_name}: {response.content[:200]}")
 
-    if not parsed.get("is_family_office", False):
+    def _coerce_bool(value) -> bool:
+        """Smaller Groq models sometimes emit "true"/"false" as JSON strings rather
+        than real booleans — bool("false") is True in Python, so a naive truthy
+        check would silently let a rejected entity through. Coerce explicitly."""
+        if isinstance(value, bool):
+            return value
+        if isinstance(value, str):
+            return value.strip().lower() in ("true", "yes", "1")
+        return bool(value)
+
+    if not _coerce_bool(parsed.get("is_family_office", False)):
         reasoning = parsed.get("is_family_office_reasoning", "no reasoning given")
-        raise ValueError(f"Not a family office — {entity_name}: {reasoning}")
+        cleaned_name = parsed.get("entity_name") or entity_name
+        raise ValueError(f"Not a family office — {cleaned_name}: {reasoning}")
 
     def wrap(field_value: Optional[str]) -> VerifiableField:
         """Every extracted field starts life as UNVERIFIED — auditor promotes it later."""
@@ -135,7 +153,9 @@ No prose, no markdown.
 
     principals = [
         FamilyOfficePrincipal(
-            name=p.get("name", "Unknown"),
+            name=(p.get("name") or "Unknown"),  # .get(key, default) only fires on a MISSING
+            # key — an explicit JSON null still returns None here, which crashes Pydantic's
+            # str-typed name field unless coerced with `or`
             title=p.get("title"),
             linkedin_url=wrap(p.get("linkedin_url")),
             work_email=wrap(p.get("work_email")),
