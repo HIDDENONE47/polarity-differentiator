@@ -29,29 +29,30 @@ DOCS_DIR = Path(__file__).resolve().parent.parent / "docs"
 DOCS_DIR.mkdir(exist_ok=True)
 
 DISCOVERY_QUERIES = [
-    '"family office" AUM investment thesis site:sec.gov',
-    '"single family office" New York technology investments',
-    '"multi-family office" London private equity',
-    '"family office" venture capital co-investment announcement',
-    '"family office" recent fund commitment 2025',
-    '"family office" principal managing director LinkedIn',
-    '"family office" healthcare investment mandate',
-    '"family office" real estate portfolio United States',
-    '"family office" fintech investment United Kingdom',
-    '"family office" hired chief investment officer',
-    '"family office" family wealth SEC ADV filing',
-    '"family office" climate impact investing mandate',
-    '"family office" direct investment startup announcement',
-    '"family office" Texas California investment strategy',
-    '"family office" press release fund launch',
+    # Broad single/multi family office footprint queries
+    '"single family office" "investment mandate" "portfolio" -directory -list -top',
+    '"single family office" "AUM" "co-investment" -news -wiki -directory',
+    '"family investment firm" "managing director" "contact us"',
+    '"multi-family office" "principals" "SEC filings" "wealth management"',
+    
+    # Platform-specific emulated footprint queries
+    'site:linkedin.com/company "single family office" "investment firm"',
+    'site:crunchbase.com "family office" "investments"',
+    
+    # Sector & Geographic strategic focus footprints
+    '"family office" "healthcare" OR "biotech" "direct investment" "portfolio"',
+    '"family office" "real estate portfolio" "United States" "investments"',
+    '"family office" "fintech" OR "venture capital" London "contact"',
+    '"family office" "Texas" OR "California" "investment strategy" "AUM"',
+    
+    # Direct transactional & news announcements
+    '"family office" "direct investment" startup announcement "seed" OR "series"',
+    '"family office" "press release" fund launch OR fund commitment 2025'
 ]
 
 # Safety cap on total candidates attempted, regardless of how many get accepted.
-# Prevents a bug (e.g. an over-strict actionability bar) from silently burning
-# through your entire monthly Tavily/Hunter free-tier budget on one run.
-MAX_CANDIDATES_SAFETY_CAP = 300  # production value — use a much lower cap (e.g. 15-20) via
-# run_pipeline's target_count-driven testing before scaling back up for the real 50-record run
-RESULTS_PER_QUERY = 8
+MAX_CANDIDATES_SAFETY_CAP = 500  
+RESULTS_PER_QUERY = 25  # Expanded search depth to pull deep listings per query loop
 
 
 # ---------------------------------------------------------------------------
@@ -233,6 +234,11 @@ def filter_node(state: PipelineState) -> dict:
         }
 
     print(f"[filter] ACCEPTED ({len(state['accepted_records']) + 1}/{state['target_count']}): {audited.entity_name!r}")
+    
+    # INCREMENTAL SAVE: Append to file instantly so we never lose data on a crash
+    with open(DOCS_DIR / "family_offices_dataset_BACKUP.jsonl", "a", encoding="utf-8") as f:
+        f.write(audited.model_dump_json() + "\n")
+
     return {
         "audited_record": None,
         "seen_entity_names": state["seen_entity_names"] + [entity_key],
@@ -318,22 +324,43 @@ def build_graph():
 
 def run_pipeline(target_count: int = DEFAULT_CONFIG.target_record_count):
     app = build_graph()
+    
+    # RECOVERY & DEDUPLICATION LAYER
+    recovered_records = []
+    seen_names = []
+    backup_file = DOCS_DIR / "family_offices_dataset_BACKUP.jsonl"
+    
+    if backup_file.exists():
+        with open(backup_file, "r", encoding="utf-8") as f:
+            for line in f:
+                if line.strip():
+                    try:
+                        record_dict = json.loads(line)
+                        record = FamilyOfficeRecord.model_validate(record_dict)
+                        recovered_records.append(record)
+                        seen_names.append(record.entity_name.strip().lower())
+                    except Exception as e:
+                        print(f"Warning: Could not parse a line in backup file: {e}")
+        
+        print(f"🔄 Recovered {len(recovered_records)} previously accepted records from backup.")
+        print(f"Remaining to target: {target_count - len(recovered_records)}")
+
     initial_state: PipelineState = {
         "queries": list(DISCOVERY_QUERIES),
         "current_query_results": [],
         "raw_record": None,
         "audited_record": None,
-        "accepted_records": [],
+        "accepted_records": recovered_records,  # Feeds previously saved records back into state
         "rejected_log": [],
-        "seen_entity_names": [],
+        "seen_entity_names": seen_names,        # Memory map to automatically skip duplicates
         "target_count": target_count,
         "total_processed": 0,
     }
-    # recursion_limit set high since a 50-record run with rejections can
-    # easily exceed LangGraph's default of 25 supersteps
+    
+    # Increased recursion limit to allow deep iteration loops over massive search streams
     final_state = app.invoke(initial_state, config={"recursion_limit": 2000})
     return final_state
 
 
 if __name__ == "__main__":
-    run_pipeline(target_count=3)
+    run_pipeline(target_count=50)

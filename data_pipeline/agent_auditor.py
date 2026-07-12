@@ -89,20 +89,35 @@ support this claimed fact? Vague relatedness is not support. The entity being
 merely mentioned near a number is not support for that number. Silence on the
 fact means NOT supported.
 
-Respond ONLY as compact JSON: {{"supported": true/false, "reasoning": "<one sentence>",
-"confidence": <0.0 to 1.0>}}. No prose, no markdown outside the JSON.
+CRITICAL FORMATTING RULES:
+1. Respond ONLY as compact JSON.
+2. Do NOT wrap the response in an outer JSON array container ([ ... ]). 
+3. Do NOT include any conversational prose before or after the JSON.
+4. Do NOT include markdown block wrappers like ```json.
+
+Required JSON shape: {{"supported": true/false, "reasoning": "<one sentence>", "confidence": <0.0 to 1.0>}}
 """
     response = invoke_llm_with_retry(auditor_llm, prompt)
+    
+    import re
+    raw_output = response.content.strip()
+    
+    # ROBUST PARSING: Extract JSON block even if the LLM hallucinates markdown
+    match = re.search(r'(\{.*\})', raw_output, re.DOTALL)
+    if match:
+        raw_output = match.group(1)
+
     try:
-        parsed = json.loads(response.content)
+        parsed = json.loads(raw_output)
         return {
             "supported": bool(parsed.get("supported", False)),
             "reasoning": str(parsed.get("reasoning", "")),
             "confidence": float(parsed.get("confidence", 0.0)),
         }
-    except (json.JSONDecodeError, ValueError, TypeError):
+    except (json.JSONDecodeError, ValueError, TypeError) as e:
         # If the adjudicator itself fails to respond cleanly, we cannot trust
         # its verdict — default to "not supported" rather than guessing.
+        print(f"  [audit error] unparseable JSON from auditor: {raw_output[:100]}")
         return {"supported": False, "reasoning": "Adjudicator response unparseable.", "confidence": 0.0}
 
 
