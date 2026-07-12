@@ -70,50 +70,56 @@ Raw text:
 
 First, classify: is this entity itself plausibly a private family office — a dedicated
 wealth/investment management entity serving one specific ultra-high-net-worth family, or
-a small number of families? Answer false for: research reports or articles about family
-offices, institutional asset managers/OCIOs/endowment or pension managers that merely
-count family offices among their many client types, regulatory filings or guidance
-documents, or any unrelated company that just happens to mention the term. Also answer
-false for: a private bank, wealth manager, or trust company's internal "family office
-advisory," "family office group," or "family office services" business unit — these
-serve MANY external family offices as clients and are not themselves one (e.g. "Citi
-Private Bank," "Citi Wealth's Family Office Group," "J.P. Morgan Family Office Advisory").
-Also answer false for: software, technology, or professional-service vendors that sell
-products or services TO family offices (e.g. family office software platforms, fund
-administrators, law firms, consultancies) — selling to family offices is not being one.
+a small number of families (roughly 2-30 client families is still a normal-sized
+multi-family office and should PASS — do not reject an entity just because it says it
+serves "multiple families" or "multiple clients"; that phrase alone is not disqualifying).
+Answer false for: research reports or articles about family offices, institutional asset
+managers/OCIOs/endowment or pension managers that serve a broad mix of client types
+(pensions, endowments, corporations, RIAs, banks) with family offices as only one category
+among many, regulatory filings or guidance documents, or any unrelated company that just
+happens to mention the term. Also answer false for: a private bank, wealth manager, or
+trust company's internal "family office advisory," "family office group," or "family
+office services" business unit. Also answer false for: software, technology, or
+professional-service vendors (including recruitment/staffing agencies) that sell products
+or services TO family offices — a job listing or "we placed this candidate" case study on
+a recruiter's own site is about the recruiter, not the family office named in it.
 
 Extract (if present in the text): the organization's actual proper name (not the raw
-page title, not SEO text, not anything after a "|", "—", "-", or ":" separator), investing thesis,
-investing mandate, background info, AUM, corporate LinkedIn URL, entity type, location,
-website, and any named principals with title/LinkedIn/email/phone if mentioned. Also
-extract any recent signals (investments, hires, news) with dates if given.
+page title, not SEO text), investing thesis, investing mandate, background info, 
+AUM, corporate LinkedIn URL, entity type, location, website, and any named principals 
+with title/LinkedIn/email/phone if mentioned. Also extract any recent signals (investments, hires, news) with dates if given.
+
+CRITICAL FORMATTING RULES:
+1. You MUST return EXACTLY ONE valid JSON object mapping to the schema below. 
+2. Do NOT wrap the response in an outer JSON array container ([ ... ]). 
+3. Do NOT include any conversational prose before or after the JSON.
+4. Do NOT include markdown block wrappers like ```json.
 
 Respond ONLY as compact JSON with keys matching: is_family_office (true/false),
 is_family_office_reasoning (one short sentence), entity_name, investing_thesis,
 investing_mandate, background_info, aum, corporate_linkedin, entity_type, location,
 website, principals (list of {{name, title, linkedin_url, work_email, direct_phone}}),
 signals (list of {{signal_type, description, date}}). Use null for anything not found.
-No prose, no markdown.
 """
     response = invoke_llm_with_retry(llm, prompt)
     import json
+    import re
     raw_output = response.content.strip()
-    if raw_output.startswith("```"):
-        # Smaller Groq models routinely wrap JSON in markdown fences despite
-        # being told not to — strip them before parsing rather than failing.
-        raw_output = raw_output.strip("`").strip()
-        if raw_output.lower().startswith("json"):
-            raw_output = raw_output[4:].strip()
+    
+    # ROBUST PARSING: Extract JSON block even if the LLM hallucinates markdown or prose around it
+    match = re.search(r'(\{.*\}|\[.*\])', raw_output, re.DOTALL)
+    if match:
+        raw_output = match.group(1)
+        
     try:
         parsed = json.loads(raw_output)
     except json.JSONDecodeError:
-        # Still not valid JSON even after stripping — fail loud, don't guess
+        # Still not valid JSON even after regex stripping — fail loud, don't guess
         raise ValueError(f"Extraction LLM returned non-JSON for {entity_name}: {response.content[:200]}")
 
     if isinstance(parsed, list):
-        # Smaller models occasionally wrap the single expected object in a
-        # top-level array — unwrap it rather than failing on a shape quirk.
-        if len(parsed) == 1 and isinstance(parsed[0], dict):
+        # Un-wrap if it still hallucinates an array
+        if len(parsed) >= 1 and isinstance(parsed[0], dict):
             parsed = parsed[0]
         else:
             raise ValueError(

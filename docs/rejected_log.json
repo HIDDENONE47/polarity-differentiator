@@ -1318,5 +1318,25 @@
     "entity_name": "New Mountain Capital: Home",
     "reason": "extraction_failed: Not a family office \u2014 New Mountain Capital: The entity appears to be an institutional asset manager with a broad range of investment strategies and a large amount of assets under management, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.newmountaincapital.com"
+  },
+  {
+    "entity_name": "QP Global Family Offices",
+    "reason": "manually_removed_post_hoc: Confirmed via manual research: SEC-registered RIA (CRD #294879) that manages single-family offices for multiple wealthy families as an outsourced service \u2014 a vendor, not a family office.",
+    "source": "https://www.linkedin.com/company/qp-global-family-offices"
+  },
+  {
+    "entity_name": "Century Private Wealth",
+    "reason": "manually_removed_post_hoc: Confirmed via manual research: DFSA-regulated wealth manager serving family offices, corporates, and institutions as clients; launched a public Nasdaq-licensed fund. Not a private family office.",
+    "source": "https://hk.linkedin.com/company/century-pvt-wealth"
+  },
+  {
+    "entity_name": "QP Global Family Offices",
+    "reason": "manually_removed_post_hoc: Confirmed via manual research: SEC-registered RIA (CRD #294879) that manages single-family offices for multiple wealthy families as an outsourced service \u2014 a vendor, not a family office.",
+    "source": "https://www.linkedin.com/company/qp-global-family-offices"
+  },
+  {
+    "entity_name": "Century Private Wealth",
+    "reason": "manually_removed_post_hoc: Confirmed via manual research: DFSA-regulated wealth manager serving family offices, corporates, and institutions as clients; launched a public Nasdaq-licensed fund. Not a private family office.",
+    "source": "https://hk.linkedin.com/company/century-pvt-wealth"
   }
 ]

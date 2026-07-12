@@ -16,7 +16,7 @@ from pathlib import Path
 
 DOCS_DIR = Path(__file__).resolve().parent.parent / "docs"
 SOURCE_FILE = DOCS_DIR / "family_offices_dataset_BACKUP.jsonl"  # adjust if your resume system uses a different filename
-OUTPUT_FILE = DOCS_DIR / "family_offices_dataset_CLEANED.jsonl"
+OUTPUT_FILE = DOCS_DIR / "family_offices_dataset.jsonl"
 REJECTED_LOG = DOCS_DIR / "rejected_log.json"
 
 # Entity names confirmed via manual research to be vendors/wealth-managers
