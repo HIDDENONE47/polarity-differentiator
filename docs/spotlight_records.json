@@ -1,0 +1,239 @@
+[
+  {
+    "entity_name": "Partner's Path",
+    "entity_type": "Private Family Office",
+    "location": "New York City",
+    "website": "https://www.partnerspath.com",
+    "investing_thesis": {
+      "value": null,
+      "status": "could_not_verify",
+      "source_url": null,
+      "extraction_method": null,
+      "verification_notes": null,
+      "confidence_score": null
+    },
+    "investing_mandate": {
+      "value": null,
+      "status": "could_not_verify",
+      "source_url": null,
+      "extraction_method": null,
+      "verification_notes": null,
+      "confidence_score": null
+    },
+    "background_info": {
+      "value": null,
+      "status": "could_not_verify",
+      "source_url": null,
+      "extraction_method": null,
+      "verification_notes": null,
+      "confidence_score": null
+    },
+    "aum": {
+      "value": null,
+      "status": "could_not_verify",
+      "source_url": null,
+      "extraction_method": null,
+      "verification_notes": null,
+      "confidence_score": null
+    },
+    "corporate_linkedin": {
+      "value": null,
+      "status": "could_not_verify",
+      "source_url": null,
+      "extraction_method": null,
+      "verification_notes": null,
+      "confidence_score": null
+    },
+    "principals": [
+      {
+        "name": "Billy Haddad",
+        "title": null,
+        "linkedin_url": {
+          "value": null,
+          "status": "could_not_verify",
+          "source_url": null,
+          "extraction_method": null,
+          "verification_notes": null,
+          "confidence_score": null
+        },
+        "work_email": {
+          "value": "whaddad@partnerspath.com",
+          "status": "verified",
+          "source_url": "https://www.google.com/search?q=site:linkedin.com%20william%20haddad%20partnerspath",
+          "extraction_method": "direct_source",
+          "verification_notes": "Confirmed via Hunter.io Email Finder, confidence score 96/100.",
+          "confidence_score": 0.96
+        },
+        "direct_phone": {
+          "value": null,
+          "status": "could_not_verify",
+          "source_url": null,
+          "extraction_method": null,
+          "verification_notes": null,
+          "confidence_score": null
+        }
+      }
+    ],
+    "signals": [],
+    "discovery_source": "https://www.thesisdriven.com/letters/family-office-fireside-partners-path",
+    "record_created_at": "2026-07-11T21:06:32.458974"
+  },
+  {
+    "entity_name": "Patronus Partners",
+    "entity_type": "Multi-family office",
+    "location": "London",
+    "website": "https://www.patronuspartners.com/multi-family-office-in-london",
+    "investing_thesis": {
+      "value": null,
+      "status": "could_not_verify",
+      "source_url": null,
+      "extraction_method": null,
+      "verification_notes": null,
+      "confidence_score": null
+    },
+    "investing_mandate": {
+      "value": null,
+      "status": "could_not_verify",
+      "source_url": null,
+      "extraction_method": null,
+      "verification_notes": null,
+      "confidence_score": null
+    },
+    "background_info": {
+      "value": null,
+      "status": "could_not_verify",
+      "source_url": null,
+      "extraction_method": null,
+      "verification_notes": null,
+      "confidence_score": null
+    },
+    "aum": {
+      "value": null,
+      "status": "could_not_verify",
+      "source_url": null,
+      "extraction_method": null,
+      "verification_notes": null,
+      "confidence_score": null
+    },
+    "corporate_linkedin": {
+      "value": null,
+      "status": "could_not_verify",
+      "source_url": null,
+      "extraction_method": null,
+      "verification_notes": null,
+      "confidence_score": null
+    },
+    "principals": [
+      {
+        "name": "James Barton",
+        "title": null,
+        "linkedin_url": {
+          "value": null,
+          "status": "could_not_verify",
+          "source_url": null,
+          "extraction_method": null,
+          "verification_notes": null,
+          "confidence_score": null
+        },
+        "work_email": {
+          "value": "james.barton@patronuspartners.com",
+          "status": "verified",
+          "source_url": "https://hunter.io/verify/patronuspartners.com",
+          "extraction_method": "direct_source",
+          "verification_notes": "Confirmed via Hunter.io Email Finder, confidence score 84/100.",
+          "confidence_score": 0.84
+        },
+        "direct_phone": {
+          "value": null,
+          "status": "could_not_verify",
+          "source_url": null,
+          "extraction_method": null,
+          "verification_notes": null,
+          "confidence_score": null
+        }
+      }
+    ],
+    "signals": [],
+    "discovery_source": "https://www.patronuspartners.com/multi-family-office-in-london",
+    "record_created_at": "2026-07-12T03:35:10.355239"
+  },
+  {
+    "entity_name": "WE Family Offices",
+    "entity_type": null,
+    "location": null,
+    "website": "http://www.wefamilyoffices.com",
+    "investing_thesis": {
+      "value": null,
+      "status": "could_not_verify",
+      "source_url": null,
+      "extraction_method": null,
+      "verification_notes": null,
+      "confidence_score": null
+    },
+    "investing_mandate": {
+      "value": null,
+      "status": "could_not_verify",
+      "source_url": null,
+      "extraction_method": null,
+      "verification_notes": null,
+      "confidence_score": null
+    },
+    "background_info": {
+      "value": null,
+      "status": "could_not_verify",
+      "source_url": null,
+      "extraction_method": null,
+      "verification_notes": null,
+      "confidence_score": null
+    },
+    "aum": {
+      "value": null,
+      "status": "could_not_verify",
+      "source_url": null,
+      "extraction_method": null,
+      "verification_notes": null,
+      "confidence_score": null
+    },
+    "corporate_linkedin": {
+      "value": null,
+      "status": "could_not_verify",
+      "source_url": null,
+      "extraction_method": null,
+      "verification_notes": null,
+      "confidence_score": null
+    },
+    "principals": [
+      {
+        "name": "Santiago Ulloa",
+        "title": "Chief Investment Officer and Managing Partner",
+        "linkedin_url": {
+          "value": null,
+          "status": "could_not_verify",
+          "source_url": null,
+          "extraction_method": null,
+          "verification_notes": null,
+          "confidence_score": null
+        },
+        "work_email": {
+          "value": "santiago.ulloa@wefamilyoffices.com",
+          "status": "verified",
+          "source_url": "https://www.google.com/search?q=site:linkedin.com%20santiago%20ulloa%20wefamilyoffices",
+          "extraction_method": "direct_source",
+          "verification_notes": "Confirmed via Hunter.io Email Finder, confidence score 99/100.",
+          "confidence_score": 0.99
+        },
+        "direct_phone": {
+          "value": null,
+          "status": "could_not_verify",
+          "source_url": null,
+          "extraction_method": null,
+          "verification_notes": null,
+          "confidence_score": null
+        }
+      }
+    ],
+    "signals": [],
+    "discovery_source": "http://www.wefamilyoffices.com/wp-content/uploads/2018/05/fambrief_5_R5.pdf",
+    "record_created_at": "2026-07-12T03:46:16.084895"
+  }
+]

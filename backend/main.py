@@ -22,21 +22,17 @@ load_dotenv(dotenv_path=_ENV_PATH)
 
 from rag_retriever import answer_query, _state, _ensure_loaded
 
+# Single, clean initialization
 app = FastAPI(title="PolarityIQ Family Office Micro-RAG", version="1.0.0")
 
-# Permissive CORS for the assessment demo — the React frontend during dev
-# runs on a different port (localhost:5173 vs the API's own port), and the
-# deployed frontend will be on a different domain than the deployed backend.
-# Tighten this to specific origins before treating this as production-hardened
-# beyond the scope of this assessment.
+# Single, clean CORS block
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"], # Allows all domains (safe enough for this assessment)
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 class QueryRequest(BaseModel):
     query: str
@@ -44,13 +40,11 @@ class QueryRequest(BaseModel):
     entity_filter: Optional[str] = None
     field_filter: Optional[str] = None
 
-
 class QueryResponse(BaseModel):
     answer: str
     sources: list
     chunks_used: int
     grounded: bool
-
 
 @app.on_event("startup")
 def load_index_on_startup():
@@ -68,11 +62,9 @@ def load_index_on_startup():
         print(f"WARNING: {e}")
         print("Server starting without a loaded index — /query will fail until build_index.py is run.")
 
-
 @app.get("/")
 def root():
     return {"service": "PolarityIQ Family Office Micro-RAG", "status": "running"}
-
 
 @app.get("/health")
 def health_check():
@@ -83,7 +75,6 @@ def health_check():
         "index_loaded": index_loaded,
         "chunks_indexed": len(_state.metadata) if _state.metadata else 0,
     }
-
 
 @app.post("/query", response_model=QueryResponse)
 def query_dataset(request: QueryRequest):
@@ -103,7 +94,6 @@ def query_dataset(request: QueryRequest):
             detail=f"Vector store not available: {e}. Run build_index.py first.",
         )
     return result
-
 
 @app.get("/stats")
 def dataset_stats():
