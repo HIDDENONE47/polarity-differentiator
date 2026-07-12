@@ -1,53 +1,38 @@
 [
   {
-    "entity_name": "Family Office Types: Single-Family, Multi-Family, and Virtual Structures",
-    "reason": "extraction_failed: Not a family office \u2014 Asset Vantage Systems Private Limited: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family.",
-    "source": "https://www.assetvantage.com/blogs/family-office-types"
+    "entity_name": "[PDF] 2025 Investment Insights for Single Family Offices",
+    "reason": "extraction_failed: Not a family office \u2014 BNY Wealth: The entity appears to be a research report or article about family offices, rather than a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
+    "source": "https://info.wealth.bny.com/rs/636-GOT-884/images/BNYW_2025_Investment_Insights_Single_Family_Offices_Report.pdf"
   },
   {
-    "entity_name": "What is a Single-Family Office? Structure, Setup, & Operations",
-    "reason": "extraction_failed: Not a family office \u2014 What is a Single-Family Office? Structure, Setup, & Operations: The text is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family.",
-    "source": "https://carta.com/learn/private-funds/structures/family-offices/sfo"
-  },
-  {
-    "entity_name": "Family Office: What It Is, Responsibilities, and Types",
-    "reason": "extraction_failed: Not a family office \u2014 Family Office: What It Is, Responsibilities, and Types: The entity is a research report or article about family offices, not a dedicated wealth management entity serving a specific ultra-high-net-worth family or families.",
-    "source": "https://www.investopedia.com/terms/f/family-offices.asp"
-  },
-  {
-    "entity_name": "What is a Multi-Family Office? Guide to Structure & Operations",
-    "reason": "extraction_failed: Not a family office \u2014 What is a Multi-Family Office? Guide to Structure & Operations: The text is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://carta.com/learn/private-funds/structures/family-offices/mfo"
-  },
-  {
-    "entity_name": "The Hoban Family Office (HFO)",
-    "reason": "failed_actionability_bar_no_verified_contact",
-    "source": "https://hobanfamilyoffice.com/direct-investments"
-  },
-  {
-    "entity_name": "SINGLE Definition & Meaning - Merriam-Webster",
-    "reason": "extraction_failed: Not a family office \u2014 SINGLE Definition & Meaning - Merriam-Webster: The entity is a dictionary definition page for the word 'single' and does not relate to a family office.",
-    "source": "https://www.merriam-webster.com/dictionary/single"
-  },
-  {
-    "entity_name": "Family Office Investment Strategy: How Portfolios Are Built Over Time",
-    "reason": "extraction_failed: Not a family office \u2014 FundCount: The entity is a software vendor that sells products to family offices.",
-    "source": "https://fundcount.com/family-office-investment-strategy"
-  },
-  {
-    "entity_name": "What is a Single Family Office?",
-    "reason": "extraction_failed: Not a family office \u2014 What is a Single Family Office?: The text is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family.",
+    "entity_name": "What is a Single Family Office? | Asseta",
+    "reason": "extraction_failed: Not a family office \u2014 Asseta: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family.",
     "source": "https://www.asseta.ai/resources/what-is-a-single-family-office"
   },
   {
-    "entity_name": "Single-Family Office: Structure, Costs and Setup | Creative Planning",
-    "reason": "extraction_failed: Not a family office \u2014 Creative Planning: The entity is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family.",
-    "source": "https://creativeplanning.com/insights/high-net-worth/single-family-office"
+    "entity_name": "A 7-step guide to single family office investment - Mercer",
+    "reason": "extraction_failed: Not a family office \u2014 Mercer: The entity is a research report or article about family offices, not a private family office.",
+    "source": "https://www.mercer.com/insights/investments/portfolio-strategies/guide-to-single-family-office-investment"
   },
   {
-    "entity_name": "Setting Up a Family Office: The Institutional Approach",
-    "reason": "extraction_failed: Not a family office \u2014 Setting Up a Family Office: The Institutional Approach: The text is an article about setting up a family office, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family.",
-    "source": "https://carta.com/learn/private-funds/structures/family-offices/setting-up-family-office"
+    "entity_name": "15 Best Practices for Family Office Portfolio Management | Asora",
+    "reason": "extraction_failed: Not a family office \u2014 15 Best Practices for Family Office Portfolio Management | Asora: The text is about best practices for family office portfolio management, not about a specific family office entity.",
+    "source": "https://www.asora.com/blog/family-office-portfolio-management"
+  },
+  {
+    "entity_name": "Investment and Portfolio Operations Manager - Single Family Office, London - PLACED - Agreus",
+    "reason": "duplicate_entity",
+    "source": "https://www.agreusgroup.com/investment-and-portfolio-operations-manager-sfo-london"
+  },
+  {
+    "entity_name": "Family Offices Portfolio Breakdown: Q1 2026 | Ronald Diamond posted on the topic | LinkedIn",
+    "reason": "extraction_failed: Not a family office \u2014 Family Offices Portfolio Breakdown: Q1 2026 | Ronald Diamond posted on the topic | LinkedIn: The text appears to be a research report or article about family offices, rather than a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
+    "source": "https://www.linkedin.com/posts/ronalddiamond_people-often-ask-me-what-family-offices-are-activity-7473732940326408192-KfbE"
+  },
+  {
+    "entity_name": "Family Office Investment Strategy: How Portfolios Are Built Over Time",
+    "reason": "extraction_failed: Not a family office \u2014 FundCount: The entity appears to be a software company serving family offices, rather than a dedicated wealth/investment management entity.",
+    "source": "https://fundcount.com/family-office-investment-strategy"
   },
   {
     "entity_name": "Family office investment strategy: A long-term wealth plan - Aleta",
@@ -55,173 +40,173 @@
     "source": "https://aleta.io/knowledge-hub/family-office-investment-strategy"
   },
   {
-    "entity_name": "Family Office Investments: How Portfolios Are Built and Managed",
-    "reason": "extraction_failed: Not a family office \u2014 FundCount: The text is from a company that provides software and services to family offices, not a family office itself.",
-    "source": "https://fundcount.com/family-office-traditional-and-alternative-investments"
+    "entity_name": "Single family offices - Mercer",
+    "reason": "extraction_failed: Not a family office \u2014 Mercer: The entity appears to be a part of a larger company (Mercer) that provides investment advisory services to various clients, including family offices, rather than a dedicated wealth management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.mercer.com/en-gb/solutions/investments/single-family-offices"
   },
   {
-    "entity_name": "A Simple guide to single family office structure - Guides | Simple",
-    "reason": "extraction_failed: Not a family office \u2014 Simple: The entity provides guides, research, and tools for family offices, indicating it is not a family office itself but rather a service provider.",
-    "source": "https://andsimple.co/guides/single-family-office"
-  },
-  {
-    "entity_name": "A 7-step guide to single family office investment - Mercer",
-    "reason": "extraction_failed: Not a family office \u2014 Mercer: The entity is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family.",
-    "source": "https://www.mercer.com/insights/investments/portfolio-strategies/guide-to-single-family-office-investment"
-  },
-  {
-    "entity_name": "Alternative Investments Key Part of Single-Family Office Portfolio Strategy - iCapital",
-    "reason": "extraction_failed: Not a family office \u2014 iCapital Network: The entity is a financial technology platform that provides research and services to high-net-worth individuals and their advisors, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family.",
-    "source": "https://icapital.com/newsroom/press-releases/alternative-investments-key-part-of-single-family-office-portfolio-strategy"
+    "entity_name": "What Is a Single-Family Office? Structure, Costs and Setup Guide",
+    "reason": "extraction_failed: Not a family office \u2014 What Is a Single-Family Office? Structure, Costs and Setup Guide: The entity is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family.",
+    "source": "https://creativeplanning.com/insights/family-office/single-family-office"
   },
   {
     "entity_name": "What is a Family Office? Structures & Investment Strategies",
-    "reason": "extraction_failed: Not a family office \u2014 What is a Family Office? Structures & Investment Strategies: The text is an article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 What is a Family Office? Structures & Investment Strategies: The text is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
     "source": "https://carta.com/learn/private-funds/structures/family-offices"
   },
   {
-    "entity_name": "What to Know About Single Family Offices",
-    "reason": "extraction_failed: Not a family office \u2014 What to Know About Single Family Offices: The text is an article about single family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://thefopro.com/single-family-offices"
+    "entity_name": "Investment management best practices for family offices",
+    "reason": "extraction_failed: Not a family office \u2014 Citi Private Bank's Global Family Office Group: The entity is a private bank's (Citi) internal group providing advisory services to family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.privatebank.citibank.com/newcpb-media/media/documents/Investment-Management-Best-Practices-for-Family-Offices.pdf"
   },
   {
-    "entity_name": "Match\u00ae | The leading dating app for singles. Find better matches.",
-    "reason": "extraction_failed: Not a family office \u2014 Match: The entity appears to be a dating app company, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
-    "source": "https://www.match.com"
+    "entity_name": "Family Office Best Practices: Building a Well-Functioning ...",
+    "reason": "extraction_failed: Not a family office \u2014 Masttro: The entity appears to be a software or technology vendor that provides products or services to family offices, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://masttro.com/insights/family-office-best-practices"
   },
   {
-    "entity_name": "SINGLE | English meaning - Cambridge Dictionary",
-    "reason": "extraction_failed: Not a family office \u2014 SINGLE | English meaning - Cambridge Dictionary: The entity is a dictionary definition page and not a private wealth management entity.",
-    "source": "https://dictionary.cambridge.org/dictionary/english/single"
+    "entity_name": "5 Best Practices for Single-Family Offices in 2026 | Asora",
+    "reason": "extraction_failed: Not a family office \u2014 Asora: The entity appears to be a software or technology vendor that sells products or services to family offices.",
+    "source": "https://www.asora.com/blog/best-practices-for-single-family-offices"
   },
   {
-    "entity_name": "A Guide to Creating a Successful Family Office",
-    "reason": "extraction_failed: Not a family office \u2014 A Guide to Creating a Successful Family Office: The text is a guide to creating a successful family office, not a dedicated wealth management entity serving one specific ultra-high-net-worth family.",
-    "source": "https://www.bny.com/wealth/global/en/insights/key-considerations-when-creating-a-family-office.html"
+    "entity_name": "[PDF] Building a family office to steward family wealth and values",
+    "reason": "extraction_failed: Not a family office \u2014 UBS Family Office Solutions Group: The entity is a business unit of UBS, a private bank and wealth manager, providing family office advisory services to ultra-high-net-worth clients.",
+    "source": "https://www.privateriskmanagement.org/files/Building_a_family_office_R1.pdf"
   },
   {
-    "entity_name": "Family Office Investment Services: A Comprehensive Guide for Preserving and Growing Family Wealth",
-    "reason": "extraction_failed: Not a family office \u2014 Creative Planning: The entity provides family office-style advisory services to multiple ultra-high-net-worth families, not a single family.",
-    "source": "https://wp.creativeplanning.com/insights/family-office/family-office-investment-services"
+    "entity_name": "Multi-family vs. single family office | J.P. Morgan Private Bank U.S.",
+    "reason": "extraction_failed: Not a family office \u2014 J.P. Morgan Private Bank U.S.: The entity is a private bank's business unit offering family office services, not a dedicated wealth management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://privatebank.jpmorgan.com/nam/en/who-we-serve/family-office/single-family-office-vs-multi-family-office"
   },
   {
-    "entity_name": "The Definitive Guide to Family Offices",
-    "reason": "extraction_failed: Not a family office \u2014 The Definitive Guide to Family Offices: The entity is a research report or article about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
-    "source": "https://www.fintrx.com/blog/the-guide-to-family-offices"
+    "entity_name": "Best Practices for Setting Up a Single-Family Office",
+    "reason": "extraction_failed: Not a family office \u2014 U.S. Bank Wealth Management: The entity is a bank's wealth management page providing general information and services for various clients, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.usbank.com/wealth-management/financial-perspectives/financial-planning/family-office/single-family-office.html"
   },
   {
-    "entity_name": "Single (film) - Wikipedia",
-    "reason": "extraction_failed: Not a family office \u2014 Single (film) - Wikipedia: The entity is a film production company and not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://en.wikipedia.org/wiki/Single_(film)"
+    "entity_name": "Portfolio construction for family offices: Public markets and ...",
+    "reason": "extraction_failed: Not a family office \u2014 Invesco: The entity appears to be an institutional asset manager/OCIO that serves a broad mix of client types, including family offices.",
+    "source": "https://www.invesco.com/apac/en/institutional/insights/multi-asset/Portfolio-construction-for-family-offices-public-markets-and-the-role-of-etfs.html"
   },
   {
-    "entity_name": "SINGLE Definition & Meaning | Dictionary.com",
-    "reason": "extraction_failed: Not a family office \u2014 SINGLE Definition & Meaning | Dictionary.com: The text is a dictionary definition of the word 'single' and does not relate to a family office.",
-    "source": "https://www.dictionary.com/browse/single"
+    "entity_name": "Private Markets Portfolio Construction for Family Offices",
+    "reason": "extraction_failed: Not a family office \u2014 NEPC: The text is a research report or article about best practices for family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.nepc.com/investing-in-private-markets-best-practices-for-family-offices-part-2"
   },
   {
-    "entity_name": "Single person - Wikipedia",
-    "reason": "extraction_failed: Not a family office \u2014 Single person - Wikipedia: The entity is a Wikipedia page about single persons, not a dedicated wealth/investment management entity.",
-    "source": "https://en.wikipedia.org/wiki/Single_person"
+    "entity_name": "What Is a Family Office and When Should HNIs Consider One?",
+    "reason": "extraction_failed: Not a family office \u2014 Carnelian Capital: The entity appears to be a wealth management company writing about family offices, rather than a dedicated family office.",
+    "source": "https://carneliancapital.co.in/blog/what-is-a-family-office-and-when-should-hnis-consider-one"
+  },
+  {
+    "entity_name": "Establishing a Family Office: Entity Structures and Best Practices",
+    "reason": "extraction_failed: Not a family office \u2014 Establishing a Family Office: Entity Structures and Best Practices: The text is a general guide about family offices and does not describe a specific family office entity.",
+    "source": "https://horganlawfirm.com/establishing-a-family-office-entity-structures-and-best-practices"
+  },
+  {
+    "entity_name": "Family Office Strategy: Mastering Wealth Across Generations - Masttro",
+    "reason": "extraction_failed: Not a family office \u2014 Masttro: The entity appears to be a software or technology vendor that sells products or services to family offices, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://masttro.com/insights/family-office-strategy"
+  },
+  {
+    "entity_name": "The Family Office: What Is It, Purpose, Strategies",
+    "reason": "extraction_failed: Not a family office \u2014 Bank of America Private Bank: The entity appears to be a private bank's internal business unit offering family office services, rather than a dedicated wealth management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.privatebank.bankofamerica.com/articles/managing-your-family-legacy-through-a-family-office.html"
+  },
+  {
+    "entity_name": "What Is a Family Office? Definition, Types, and How They Work - elev-x",
+    "reason": "extraction_failed: Not a family office \u2014 What Is a Family Office? Definition, Types, and How They Work - elev-x: The entity is an article about family offices, not a private family office itself.",
+    "source": "https://elev-x.com/news-insights/article-what-is-a-family-office"
+  },
+  {
+    "entity_name": "Portfolio Construction: A Blueprint for Private Families",
+    "reason": "extraction_failed: Not a family office \u2014 Cambridge Associates: The entity appears to be an institutional asset manager/OCIO that serves a broad mix of client types, including family offices.",
+    "source": "https://www.cambridgeassociates.com/insight/portfolio-construction-private-families"
   },
   {
     "entity_name": "[PDF] 2025 Investment Insights for Single Family Offices",
-    "reason": "extraction_failed: Not a family office \u2014 BNY Wealth: The entity appears to be a research report or analysis about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family.",
+    "reason": "extraction_failed: Not a family office \u2014 BNY Wealth: The entity appears to be a research report or article about family offices, rather than a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
     "source": "https://info.wealth.bny.com/rs/636-GOT-884/images/BNYW_2025_Investment_Insights_Single_Family_Offices_Report.pdf"
   },
   {
-    "entity_name": "Insights on Single Family Office Executive Compensation",
-    "reason": "extraction_failed: Not a family office \u2014 Fidelity Family Office Services: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://www.forgecommunity.com/-/media/project/forge/2017-forge-compensation-benchmarking-study.pdf"
+    "entity_name": "The evolution of family office direct and co-investing",
+    "reason": "extraction_failed: Not a family office \u2014 The evolution of family office direct and co-investing: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.affinity.co/blog/family-offices-direct-investing"
   },
   {
-    "entity_name": "Family Offices Market Size, Share, Trends & Global Industry Analysis, 2031",
-    "reason": "extraction_failed: Not a family office \u2014 Mordor Intelligence: The entity appears to be a market research firm providing reports and analysis on various industries, including family offices.",
-    "source": "https://www.mordorintelligence.com/industry-reports/global-family-offices-industry"
+    "entity_name": "Family Office Insights Series \u2013 Global Edition",
+    "reason": "extraction_failed: Not a family office \u2014 Deloitte: The entity appears to be a research report or article about family offices from a professional services firm, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.deloitte.com/cbc/en/services/deloitte-private/about/family-office-insights-series-global-edition.html"
   },
   {
-    "entity_name": "Citi Report: Modern Family Offices Shift to Lean Platforms with $2.1B AUM | Natalia Biryukova posted on the topic | LinkedIn",
-    "reason": "extraction_failed: Not a family office \u2014 Citi Report: Modern Family Offices Shift to Lean Platforms with $2.1B AUM | Natalia Biryukova posted on the topic | LinkedIn: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family.",
-    "source": "https://www.linkedin.com/posts/natalia-biryukova-943a8233_citi-global-family-office-report-2025-346-activity-7433853315253428225-o7a0"
+    "entity_name": "How Do Family Offices Invest in Private Equity Assets? | EQT",
+    "reason": "extraction_failed: Not a family office \u2014 How Do Family Offices Invest in Private Equity Assets? | EQT: The entity is an article about family offices, not a dedicated wealth management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://eqtgroup.com/en/thinq/Education/how-do-family-offices-invest-in-private-equity-assets"
   },
   {
-    "entity_name": "Family Offices Think in Decades, Not Quarters: India's $45B AUM Growth | Vikrant Agarwal posted on the topic | LinkedIn",
-    "reason": "extraction_failed: Not a family office \u2014 Family Offices Think in Decades, Not Quarters: India's $45B AUM Growth | Vikrant Agarwal posted on the topic | LinkedIn: The text is a LinkedIn post by Vikrant Agarwal discussing family offices in general, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
-    "source": "https://www.linkedin.com/posts/vikrant-agarwal-53b43416_familyoffice-wealthmanagement-generationalwealth-activity-7427934179914424320-VQmW"
+    "entity_name": "Family Office Investment Strategies",
+    "reason": "extraction_failed: Not a family office \u2014 Family Office Investment Strategies: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.linkedin.com/top-content/finance/family-office-investment-options/family-office-investment-strategies"
   },
   {
-    "entity_name": "Family office definition, structures and costs ($100M, $500M)",
-    "reason": "extraction_failed: Not a family office \u2014 Family office definition, structures and costs ($100M, $500M): The entity is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://family-office-advisory.com/articles/what-is-a-family-office-complete-guide"
-  },
-  {
-    "entity_name": "The family office structure: A comprehensive guide",
-    "reason": "extraction_failed: Not a family office \u2014 Aleta: The entity is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family.",
-    "source": "https://aleta.io/knowledge-hub/the-family-office-structure"
-  },
-  {
-    "entity_name": "Single-Family-Office-The-Art-of-effective-Wealth-Management ...",
-    "reason": "extraction_failed: Not a family office \u2014 Single-Family-Office-The-Art-of-effective-Wealth-Management ...: The text is a research report about single family offices, not a dedicated wealth management entity serving one specific ultra-high-net-worth family.",
+    "entity_name": "[PDF] Single-Family-Office-The-Art-of-effective-Wealth-Management.pdf",
+    "reason": "extraction_failed: Not a family office \u2014 [PDF] Single-Family-Office-The-Art-of-effective-Wealth-Management.pdf: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
     "source": "https://wgfa.wharton.upenn.edu/wp-content/uploads/2020/04/Single-Family-Office-The-Art-of-effective-Wealth-Management.pdf"
   },
   {
-    "entity_name": "How Do Family Offices Work - FundCount",
-    "reason": "extraction_failed: Not a family office \u2014 FundCount: The entity is a software/platform vendor that sells products/services to family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://fundcount.com/how-do-family-offices-work"
+    "entity_name": "[PDF] PwC Global Family Office Deals Study 2025",
+    "reason": "extraction_failed: Not a family office \u2014 PwC: The entity is a research report about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.pwc.com/gx/en/services/family-business/assets/global-family-office-deals-study-2025.pdf"
   },
   {
-    "entity_name": "[PDF] The evolution of direct investing for family offices - Citi Private Bank",
-    "reason": "extraction_failed: Not a family office \u2014 Citi Private Capital Group: The entity is a private bank's research report and not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://www.privatebank.citibank.com/legacy/newcpb-media/media/documents/insights/the-evolution-of-direct-investing-for-family-offices.pdf.coredownload.inline.pdf"
+    "entity_name": "Private assets for family offices | Vlerick Business School",
+    "reason": "extraction_failed: Not a family office \u2014 Vlerick Business School: The entity is a business school and research institution, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.vlerick.com/en/insights/mastering-private-assets-expert-insights-for-family-offices"
   },
   {
-    "entity_name": "Examining Family Offices by Primary Business Activities",
-    "reason": "extraction_failed: Not a family office \u2014 FINTRX: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
-    "source": "https://www.fintrx.com/hubfs/_Approved%20Marketing%20Collateral/PDFs%20and%20Reports/FINTRX%20Global%20Family%20Office%20Report%20Part%205%20%7C%20Sponsored%20By%20Charles%20Schwab.pdf"
+    "entity_name": "Investment management best practices for family offices",
+    "reason": "extraction_failed: Not a family office \u2014 Citi Private Bank's Global Family Office Group: The entity is a private bank's Global Family Office Group, providing services to multiple families and offering investment management best practices.",
+    "source": "https://www.privatebank.citibank.com/newcpb-media/media/documents/Investment-Management-Best-Practices-for-Family-Offices.pdf"
   },
   {
-    "entity_name": "What is a Family Office? Structures & Investment Strategies",
-    "reason": "extraction_failed: Not a family office \u2014 What is a Family Office? Structures & Investment Strategies: The text is an article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "entity_name": "What is a Family Office? Structures & Investment Strategies - Carta",
+    "reason": "extraction_failed: Not a family office \u2014 Carta: The entity is a research report or article about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://carta.com/learn/private-funds/structures/family-offices"
   },
   {
-    "entity_name": "Compensation Practices of Investment-Focused Family ...",
-    "reason": "extraction_failed: Not a family office \u2014 Morgan Stanley: The entity is a research report publisher and a financial services company providing content and referral network to single family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://www.morganstanley.com/content/dam/msdotcom/articles/single-family-office-compensation/ms-sfo-compensation-report.pdf"
+    "entity_name": "How Family Offices Manage Private Equity and Investment ...",
+    "reason": "extraction_failed: Not a family office \u2014 Gravity Software: The entity is a software company that provides services to family offices, rather than a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
+    "source": "https://www.gogravity.com/blog/family-office-private-equity-investments"
   },
   {
-    "entity_name": "Family Offices \u2013 Our collective intelligence | BlackRock",
-    "reason": "extraction_failed: Not a family office \u2014 BlackRock: The entity is an institutional asset manager that provides information to financial intermediaries, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://www.blackrock.com/americas-offshore/en/strategies/family-offices"
+    "entity_name": "Family office investment strategy: A long-term wealth plan - Aleta",
+    "reason": "extraction_failed: Not a family office \u2014 Aleta: The entity appears to be a company that provides knowledge and services related to family office investment strategies, rather than a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://aleta.io/knowledge-hub/family-office-investment-strategy"
   },
   {
-    "entity_name": "[PDF] THE FUTURE OF FAMILY OFFICES",
-    "reason": "extraction_failed: Not a family office \u2014 [PDF] THE FUTURE OF FAMILY OFFICES: The text is a research report about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://data.bloomberglp.com/professional/sites/10/The-Future-of-Family-Offices.pdf"
+    "entity_name": "A 7-step guide to single family office investment - Mercer",
+    "reason": "extraction_failed: Not a family office \u2014 Mercer: The entity is a research report or article about family offices, not a private family office.",
+    "source": "https://www.mercer.com/insights/investments/portfolio-strategies/guide-to-single-family-office-investment"
   },
   {
-    "entity_name": "Private Equity vs. Family Office: What's the Difference?",
-    "reason": "extraction_failed: Not a family office \u2014 Masttro: The text is an article about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://masttro.com/insights/private-equity-vs-family-office"
-  },
-  {
-    "entity_name": "Have $1M-$30M? You NEED a Micro Family Office",
-    "reason": "extraction_failed: Not a family office \u2014 Have $1M-$30M? You NEED a Micro Family Office: The entity appears to be a YouTube channel or a company promoting a concept called 'Micro Family Office' rather than a dedicated wealth management entity serving a specific ultra-high-net-worth family or families.",
-    "source": "https://www.youtube.com/watch?v=m0UTmH7Cn2E"
+    "entity_name": "Single - definition of single by The Free Dictionary",
+    "reason": "extraction_failed: Not a family office \u2014 Single - definition of single by The Free Dictionary: The entity is a dictionary definition website and not a wealth management entity serving a specific family or families.",
+    "source": "https://www.thefreedictionary.com/single"
   },
   {
     "entity_name": "Single person - Wikipedia",
-    "reason": "extraction_failed: Not a family office \u2014 Single person - Wikipedia: The entity is a Wikipedia page about single persons, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
+    "reason": "extraction_failed: Not a family office \u2014 Single person - Wikipedia: The entity is a Wikipedia page about single persons, not a wealth management entity.",
     "source": "https://en.wikipedia.org/wiki/Single_person"
   },
   {
-    "entity_name": "Private Equity Solutions  | Asset Management | Commonfund",
-    "reason": "extraction_failed: Not a family office \u2014 CF Private Equity (formerly Commonfund Capital): The entity appears to be a global private equity investment manager serving institutional organizations and sophisticated investors, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://www.commonfund.org/private-equity"
+    "entity_name": "SINGLE Definition & Meaning",
+    "reason": "extraction_failed: Not a family office \u2014 SINGLE Definition & Meaning: The text is a dictionary definition of the word 'single' and does not relate to a family office.",
+    "source": "https://www.dictionary.com/browse/single"
   },
   {
     "entity_name": "SINGLE Definition & Meaning - Merriam-Webster",
-    "reason": "extraction_failed: Not a family office \u2014 SINGLE Definition & Meaning - Merriam-Webster: The entity is a dictionary definition page for the word 'single' and does not relate to a family office.",
+    "reason": "extraction_failed: Not a family office \u2014 SINGLE Definition & Meaning - Merriam-Webster: The entity is a dictionary definition page for the word 'single' and does not appear to be related to a family office.",
     "source": "https://www.merriam-webster.com/dictionary/single"
   },
   {
@@ -230,164 +215,139 @@
     "source": "https://dictionary.cambridge.org/dictionary/english/single"
   },
   {
-    "entity_name": "9 Ways to Meet Singles in Durham, NC (Dating Guide)",
-    "reason": "extraction_failed: Not a family office \u2014 9 Ways to Meet Singles in Durham, NC (Dating Guide): The entity appears to be a dating guide webpage and not a wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
-    "source": "https://www.datingadvice.com/dating-in/durham-nc"
-  },
-  {
     "entity_name": "Single (film) - Wikipedia",
-    "reason": "extraction_failed: Not a family office \u2014 Single (film) - Wikipedia: The entity is a film production company and not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Single (film) - Wikipedia: The entity is a film production company and not a wealth or investment management entity serving a specific family or families.",
     "source": "https://en.wikipedia.org/wiki/Single_(film)"
   },
   {
     "entity_name": "Why Some People Really Love Being Single | Psychology Today",
-    "reason": "extraction_failed: Not a family office \u2014 Why Some People Really Love Being Single | Psychology Today: The entity is a Psychology Today blog article and not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Why Some People Really Love Being Single | Psychology Today: The entity is a Psychology Today article and not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.psychologytoday.com/us/blog/living-single/202109/why-some-people-really-love-being-single"
   },
   {
+    "entity_name": "Find Top Local Singles in Your Area - Match",
+    "reason": "extraction_failed: Not a family office \u2014 Find Top Local Singles in Your Area - Match: The entity appears to be a dating website and not a wealth or investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.match.com/p/singles/match-the-number-one-site-to-find-top-local-singles"
+  },
+  {
     "entity_name": "Match\u00ae | The leading dating app for singles. Find better matches.",
-    "reason": "extraction_failed: Not a family office \u2014 Match: The entity appears to be a dating app company, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Match\u00ae | The leading dating app for singles. Find better matches.: The entity appears to be a dating app and not a wealth or investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.match.com"
   },
   {
-    "entity_name": "Buy Family Office Email Database | 14,525+ Verified Contacts",
-    "reason": "extraction_failed: Not a family office \u2014 Prospect Wallet: The entity appears to be a vendor selling email lists and data services to family offices and other professionals.",
-    "source": "https://www.prospectwallet.com/professionals/family-office-email-list"
+    "entity_name": "9 Ways to Meet Singles in Spokane, WA (Dating Guide)",
+    "reason": "extraction_failed: Not a family office \u2014 9 Ways to Meet Singles in Spokane, WA (Dating Guide): The entity appears to be a dating guide article and not a wealth management entity serving a specific family or families.",
+    "source": "https://www.datingadvice.com/dating-in/spokane-wa"
   },
   {
-    "entity_name": "Dallas Family Office & Private Wealth Management Firm | Cresset",
-    "reason": "extraction_failed: Not a family office \u2014 Cresset: The entity appears to be a private wealth management firm offering family office services to multiple clients, not a dedicated wealth management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "entity_name": "Cresset",
+    "reason": "failed_actionability_bar_no_verified_contact",
     "source": "https://cressetcapital.com/locations/dallas"
   },
   {
     "entity_name": "Private Clients & Family Offices - Cambridge Associates",
-    "reason": "extraction_failed: Not a family office \u2014 Cambridge Associates: The entity provides services to multiple family offices and ultra-high-net-worth individuals, indicating it is not a dedicated wealth management entity serving one specific family.",
+    "reason": "extraction_failed: Not a family office \u2014 Cambridge Associates: The entity provides investment management services to multiple families and ultra-high-net-worth individuals, indicating it is not a dedicated wealth management entity serving one specific family or a small number of families.",
     "source": "https://www.cambridgeassociates.com/private-clients-family-offices"
   },
   {
-    "entity_name": "Buy Verified Family Office Email List Today - A1 Data",
-    "reason": "extraction_failed: Not a family office \u2014 A1 Data: The entity provides a Family Office Email List and connects with family offices, wealth managers, and high-net-worth investors, indicating it is not a private family office.",
-    "source": "https://a1data.us/family-office-email-list"
-  },
-  {
-    "entity_name": "New York City Family Office & Private Wealth Management Firm",
-    "reason": "extraction_failed: Not a family office \u2014 Cresset Capital: The entity appears to be a wealth management firm offering family office services to multiple clients, not a dedicated wealth management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://cressetcapital.com/locations/new-york-city"
-  },
-  {
     "entity_name": "Family Offices",
-    "reason": "extraction_failed: Not a family office \u2014 Family Offices: The text is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Family Offices: The text appears to be a research report or article about family offices, rather than a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://gilmartinir.com/family-offices"
   },
   {
-    "entity_name": "Family capital | BlackRock",
-    "reason": "extraction_failed: Not a family office \u2014 BlackRock Family Capital: The entity provides investment solutions and services to multiple family offices, indicating it is not a dedicated wealth management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://www.blackrock.com/institutions/en-us/solutions/blackrock-client-partnership/family-capital"
-  },
-  {
-    "entity_name": "Family Office Email List - Direct Reach",
-    "reason": "extraction_failed: Not a family office \u2014 Direct Reach: The entity provides a database of family office contacts and services for outreach and marketing, indicating it is not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
-    "source": "https://directreach.us/family-office-email-list"
-  },
-  {
-    "entity_name": "Duquesne Family Office LLC",
+    "entity_name": "The Help Company",
     "reason": "failed_actionability_bar_no_verified_contact",
-    "source": "https://www.swfinstitute.org/profile/5c29b9322e0bf8615bda4b1b"
+    "source": "https://thehelpcompany.com/jobs/managing-director-of-family-office"
+  },
+  {
+    "entity_name": "Callan Family Office",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://callanfamilyoffice.com"
   },
   {
     "entity_name": "Family Office Wealth Management | J.P. Morgan Private Bank U.S.",
-    "reason": "extraction_failed: Not a family office \u2014 J.P. Morgan Private Bank: The entity is a private bank's internal family office advisory business unit, serving many external family offices as clients.",
+    "reason": "extraction_failed: Not a family office \u2014 J.P. Morgan Private Bank U.S.: The entity appears to be a private bank's internal family office advisory business unit.",
     "source": "https://privatebank.jpmorgan.com/nam/en/who-we-serve/family-office"
   },
   {
-    "entity_name": "Private Family Office",
+    "entity_name": "Rockefeller Global Family Office",
     "reason": "failed_actionability_bar_no_verified_contact",
-    "source": "https://finalscout.com/company/private_family_office"
-  },
-  {
-    "entity_name": "Rockefeller Global Family Office - Rockefeller Capital Management",
-    "reason": "extraction_failed: Not a family office \u2014 Rockefeller Global Family Office: The entity appears to be a wealth management arm of a larger company, Rockefeller Capital Management, rather than a dedicated family office.",
     "source": "https://www.rockco.com/rockefeller-global-family-office"
   },
   {
-    "entity_name": "1,000+ Family Office Director jobs in New York City Metropolitan Area",
-    "reason": "extraction_failed: Not a family office \u2014 1,000+ Family Office Director jobs in New York City Metropolitan Area: The entity appears to be a job listing page for Family Office Director positions, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://www.linkedin.com/jobs/family-office-director-jobs-new-york-city-metropolitan-area"
-  },
-  {
-    "entity_name": "Family Office Practice | Lowenstein Sandler LLP",
-    "reason": "extraction_failed: Not a family office \u2014 Lowenstein Sandler LLP: The entity is a law firm that provides services to family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://www.lowenstein.com/practices-sectors/investment-management/family-office-practice"
-  },
-  {
     "entity_name": "Director of Family Office Services - New York, NY - Silvercrest",
-    "reason": "extraction_failed: Not a family office \u2014 Silvercrest Asset Management Group LLC: The entity provides bespoke asset management and family office services to multiple ultra-high-net-worth families and institutional investors, indicating it is not a dedicated wealth management entity serving one specific family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Silvercrest Asset Management Group LLC: The entity provides bespoke asset management and family office services to ultra-high-net-worth families and select institutional investors, indicating it serves a broad mix of client types.",
     "source": "https://www.silvercrestgroup.com/careers/director-family-office-services"
   },
   {
-    "entity_name": "Leaders List \u2014 Family Office Advisors & Consultants | Citywealth",
-    "reason": "extraction_failed: Not a family office \u2014 Citywealth: The entity appears to be a research publication or directory that profiles family office advisors and consultants, rather than a dedicated wealth management entity serving a specific ultra-high-net-worth family or families.",
-    "source": "https://www.citywealthmag.com/leaders-list-family-office"
+    "entity_name": "Seven considerations before creating a family office",
+    "reason": "extraction_failed: Not a family office \u2014 Seven considerations before creating a family office: The entity is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.bbh.com/us/en/insights/capital-partners-insights/seven-considerations-before-creating-a-family-office.html"
   },
   {
-    "entity_name": "Family Office Services - Curi Capital",
-    "reason": "extraction_failed: Not a family office \u2014 Curi Capital: The entity provides family office services to multiple clients, not a single ultra-high-net-worth family.",
-    "source": "https://curicapital.com/family-office-services/about"
+    "entity_name": "The Family Office",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://www.linkedin.com/company/familyoffic"
   },
   {
-    "entity_name": "Rockefeller Capital Management: Homepage",
-    "reason": "extraction_failed: Not a family office \u2014 Rockefeller Capital Management: The entity appears to be a wealth management and investment firm serving multiple clients, not a dedicated family office for a specific ultra-high-net-worth family.",
-    "source": "https://www.rockco.com"
+    "entity_name": "The Family Office Group Company Overview, Contact Details & Competitors | LeadIQ",
+    "reason": "extraction_failed: Not a family office \u2014 The Family Office Group: The entity appears to be a company providing services to high-net-worth family offices, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://leadiq.com/c/the-family-office-group/5d9c3b46408f0cc3d919336d"
   },
   {
-    "entity_name": "Family Office Wealth Management Services - Cerity Partners",
-    "reason": "extraction_failed: Not a family office \u2014 Cerity Partners: The entity provides family office services to multiple families, not just one.",
+    "entity_name": "Family offices | Wellington US Institutional",
+    "reason": "extraction_failed: Not a family office \u2014 Wellington: The entity appears to be an institutional asset manager/OCIO that serves a broad mix of client types, including family offices.",
+    "source": "https://www.wellington.com/en-us/institutional/capabilities/family-offices"
+  },
+  {
+    "entity_name": "Family Office Wealth Management Services | Cerity Partners",
+    "reason": "extraction_failed: Not a family office \u2014 Cerity Partners: The entity provides wealth management services to multiple families, not a single ultra-high-net-worth family or a small number of families.",
     "source": "https://ceritypartners.com/individuals-and-families/family-office"
   },
   {
     "entity_name": "Family Office for Wealth Owners - BMO Wealth Management",
-    "reason": "extraction_failed: Not a family office \u2014 BMO Family Office: The entity appears to be a business unit of BMO Wealth Management offering family office services to multiple clients, rather than a dedicated wealth management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 BMO Family Office: The entity appears to be a business unit of a private bank/wealth manager offering family office services to multiple clients.",
     "source": "https://uswealth.bmo.com/our-services/bmo-family-office-wealth-owners"
   },
   {
-    "entity_name": "The Family Office: What Is It, Purpose, Strategies",
-    "reason": "extraction_failed: Not a family office \u2014 Bank of America Private Bank: The entity is a private bank's article about family offices, not a dedicated wealth management entity serving one specific ultra-high-net-worth family.",
-    "source": "https://www.privatebank.bankofamerica.com/articles/managing-your-family-legacy-through-a-family-office.html"
+    "entity_name": "The why, who, what and how of starting a family office",
+    "reason": "extraction_failed: Not a family office \u2014 J.P. Morgan Private Bank: The entity appears to be a private bank's internal family office advisory business unit.",
+    "source": "https://privatebank.jpmorgan.com/nam/en/insights/markets-and-investing/ideas-and-insights/the-why-who-what-and-how-of-starting-a-family-office"
+  },
+  {
+    "entity_name": "Cresset Capital",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://cressetcapital.com"
+  },
+  {
+    "entity_name": "The Family Office",
+    "reason": "duplicate_entity",
+    "source": "https://tfoco.com/en"
+  },
+  {
+    "entity_name": "Family Offices | Katten Muchin Rosenman LLP",
+    "reason": "extraction_failed: Not a family office \u2014 Katten Muchin Rosenman LLP: The entity is a law firm that provides services to family offices, rather than a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
+    "source": "https://katten.com/family-offices"
   },
   {
     "entity_name": "Multi-Family Office | Brown Brothers Harriman | BBH",
-    "reason": "extraction_failed: Not a family office \u2014 Brown Brothers Harriman: The entity appears to be a wealth management and multi-family office services provider, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Brown Brothers Harriman & Co. (BBH) Multi-Family Office: The entity appears to be a private bank or wealth manager's internal family office services business unit, rather than a dedicated wealth/investment management entity serving a small number of ultra-high-net-worth families.",
     "source": "https://www.bbh.com/us/en/what-we-do/capital-partners/multi-family-office.html"
   },
   {
-    "entity_name": "Goldman Sachs Family Office | Goldman Sachs",
-    "reason": "extraction_failed: Not a family office \u2014 Goldman Sachs Family Office: The entity appears to be a business unit of Goldman Sachs offering family office services to multiple clients, rather than a dedicated wealth management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://pwm.gs.com/nam/en-us/what-we-do/goldman-sachs-family-office"
+    "entity_name": "Family office advisory | Citi Private Bank",
+    "reason": "extraction_failed: Not a family office \u2014 Citi Private Bank: The entity is a private bank's internal family office advisory business unit.",
+    "source": "https://www.privatebank.citibank.com/we-offer/family-office-advisory"
   },
   {
-    "entity_name": "Private Family Office",
-    "reason": "duplicate_entity",
-    "source": "https://www.linkedin.com/company/official-private-family-office"
+    "entity_name": "Family Office and UHNW - Global Wealth Management",
+    "reason": "extraction_failed: Not a family office \u2014 UBS Wealth Management: The entity appears to be a wealth management business unit of a large financial institution, UBS, rather than a dedicated family office.",
+    "source": "https://www.ubs.com/global/en/wealthmanagement/family-office-uhnw.html"
   },
   {
     "entity_name": "Board Members",
-    "reason": "extraction_failed: Not a family office \u2014 Board Members: The entity appears to be a division of a larger financial institution (Piper Sandler) rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Board Members: The entity appears to be a part of a larger financial institution (Piper Sandler) and does not indicate it serves a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://tfoco.com/en/about-us/board-of-directors"
-  },
-  {
-    "entity_name": "Tanara Wealth Management LLC | Multi Family Office | Altss",
-    "reason": "extraction_failed: Not a family office \u2014 Tanara Wealth Management LLC: The entity is classified as a multi-family office, indicating it serves multiple high-net-worth families.",
-    "source": "https://altss.com/profile/tanara-wealth-management-llc"
-  },
-  {
-    "entity_name": "What Are Family Offices and How Are They Regulated? - LegalClarity",
-    "reason": "extraction_failed: Not a family office \u2014 What Are Family Offices and How Are They Regulated? - LegalClarity: The text is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family.",
-    "source": "https://legalclarity.org/what-are-family-offices-and-how-are-they-regulated"
-  },
-  {
-    "entity_name": "Caerus Investment Advisors, LLC: Funding, Team & Investors",
-    "reason": "extraction_failed: Not a family office \u2014 Caerus Investment Advisors, LLC: The entity serves multiple high-net-worth individuals, family offices, foundations, and endowments, not just one specific ultra-high-net-worth family.",
-    "source": "https://startupintros.com/orgs/caerus-investment-advisors-llc"
   },
   {
     "entity_name": "ZH Wealth Management, LLC",
@@ -395,23 +355,23 @@
     "source": "https://altss.com/profile/zh-wealth-management-llc"
   },
   {
-    "entity_name": "Home - Endowment Wealth Management, Inc.",
-    "reason": "extraction_failed: Not a family office \u2014 Endowment Wealth Management, Inc.: The entity appears to be a wealth management firm serving multiple clients, not a dedicated wealth management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "entity_name": "What Are Family Offices and How Are They Regulated? - LegalClarity",
+    "reason": "extraction_failed: Not a family office \u2014 What Are Family Offices and How Are They Regulated? - LegalClarity: The text is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://legalclarity.org/what-are-family-offices-and-how-are-they-regulated"
+  },
+  {
+    "entity_name": "Endowment Wealth Management, Inc.",
+    "reason": "failed_actionability_bar_no_verified_contact",
     "source": "https://endowmentwm.com"
   },
   {
-    "entity_name": "99 Multi-Family Offices Worldwide (2026) | Praxis Rock",
-    "reason": "extraction_failed: Not a family office \u2014 Praxis Rock: The entity appears to be a research report or article about multi-family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://praxisrock.com/resources/investors/multi-family-offices"
-  },
-  {
     "entity_name": "What is a Multi-Family Office? Guide to Structure & Operations",
-    "reason": "extraction_failed: Not a family office \u2014 What is a Multi-Family Office? Guide to Structure & Operations: The text is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 What is a Multi-Family Office? Guide to Structure & Operations: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
     "source": "https://carta.com/learn/private-funds/structures/family-offices/mfo"
   },
   {
-    "entity_name": "Family Office | Day Pitney Services",
-    "reason": "extraction_failed: Not a family office \u2014 Day Pitney: The entity provides services to family offices, but is not itself a family office.",
+    "entity_name": "Family Office | Day Pitney Services | Day Pitney",
+    "reason": "extraction_failed: Not a family office \u2014 Day Pitney: The entity is a law firm that provides services to family offices, rather than a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
     "source": "https://www.daypitney.com/services/family-office"
   },
   {
@@ -421,83 +381,93 @@
   },
   {
     "entity_name": "The Multi-Family Office: Structure, Services and Fees Explained",
-    "reason": "extraction_failed: Not a family office \u2014 The Multi-Family Office: Structure, Services and Fees Explained: The text is a research report or article about family offices, not a dedicated wealth management entity serving one or a small number of ultra-high-net-worth families.",
+    "reason": "extraction_failed: Not a family office \u2014 The Multi-Family Office: Structure, Services and Fees Explained: The text is an article about multi-family offices, not a dedicated wealth management entity serving one or a small number of families.",
     "source": "https://creativeplanning.com/insights/family-office/multi-family-office"
   },
   {
     "entity_name": "Family Offices: Structuring for Investment Adviser Compliance | Publications | Kirkland & Ellis LLP",
-    "reason": "extraction_failed: Not a family office \u2014 Kirkland & Ellis LLP: The text is a research report or article about family offices from a law firm, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family.",
+    "reason": "extraction_failed: Not a family office \u2014 Kirkland & Ellis LLP: The text is a publication by a law firm, Kirkland & Ellis LLP, providing guidance on family office structuring and investment adviser compliance, rather than information about a specific family office.",
     "source": "https://www.kirkland.com/publications/private-investment-and-family-office-insights/2018/12/family-offices-structuring"
   },
   {
     "entity_name": "Family Office Services: Advisory, Wealth Planning Solutions",
-    "reason": "extraction_failed: Not a family office \u2014 Merrill Private Wealth Management: The entity provides family office services to multiple wealthy families, not a single family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Merrill Private Wealth Management: The entity appears to be a business unit of Merrill Private Wealth Management, a Bank of America company, offering family office services to multiple clients.",
     "source": "https://www.pbig.ml.com/solutions/family-office.html"
   },
   {
     "entity_name": "Family office",
-    "reason": "extraction_failed: Not a family office \u2014 Family office: The Wikipedia page is a general article about family offices, not a specific family office entity.",
+    "reason": "extraction_failed: Not a family office \u2014 Family office: The entity appears to be a Wikipedia article about family offices, not a specific family office.",
     "source": "https://en.wikipedia.org/wiki/Family_office"
   },
   {
+    "entity_name": "Citizens Financial Group, Inc. to Expand Wealth Management Business with the Acquisition of Clarfeld Financial Advisors, LLC \u2013 Citizens Bank",
+    "reason": "extraction_failed: Not a family office \u2014 Clarfeld Financial Advisors, LLC: The entity is a wealth management firm and multi-family office being acquired by a bank, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://investor.citizensbank.com/about-us/newsroom/latest-news/2018/2018-11-05-140343894.aspx"
+  },
+  {
+    "entity_name": "Family Office - Hedge Fund Trend: Escaping Fees, Regulation, and Public Scrutiny",
+    "reason": "extraction_failed: Not a family office \u2014 Asset Vantage Systems Private Limited: The entity appears to be a research report or article about family offices, rather than a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
+    "source": "https://www.assetvantage.com/blogs/family-office-hedge-fund"
+  },
+  {
+    "entity_name": "Bezos Expeditions",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://praxisrock.com/resources/investors/family-offices-seattle"
+  },
+  {
+    "entity_name": "Summation Wealth Group",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://summationwealthgroup.nm.com/our-approach/multi-family-office"
+  },
+  {
     "entity_name": "CI Financial Corient Acquires Multi-Family Office Business of Geller",
-    "reason": "extraction_failed: Not a family office \u2014 Corient Private Wealth LLC: The entity is a wealth management firm that serves multiple clients, not a dedicated wealth management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Corient Private Wealth LLC: The entity is a wealth management firm that serves a broad mix of client types, including high-net-worth and ultra-high-net-worth individuals, families, and businesses.",
     "source": "https://ir.cifinancial.com/news/news-details/2025/Corient-Acquires-Multi-Family-Office-Business-of-Geller-2025-fXV8xbQ-pC/default.aspx"
   },
   {
-    "entity_name": "What Is a Multi-Family Office?",
-    "reason": "extraction_failed: Not a family office \u2014 Cresset Capital: The entity appears to be a wealth management company that provides family office services to multiple clients, rather than a dedicated wealth management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "entity_name": "Cresset Capital",
+    "reason": "duplicate_entity",
     "source": "https://cressetcapital.com/family-office/multi-family-office"
   },
   {
     "entity_name": "Family Office Services | Accounting & Advisory Services",
-    "reason": "extraction_failed: Not a family office \u2014 Kaufman Rossin: The entity provides family office services to multiple clients, not a single ultra-high-net-worth family.",
+    "reason": "extraction_failed: Not a family office \u2014 Kaufman Rossin: The entity provides family office services to multiple families, indicating it is a multi-family office or a professional services firm offering family office services, rather than a dedicated single-family office.",
     "source": "https://kaufmanrossin.com/services/family-office-services"
   },
   {
-    "entity_name": "Multi-Family Office - Summation Wealth Group",
-    "reason": "extraction_failed: Not a family office \u2014 Summation Wealth Group: The entity appears to be a wealth management company serving multiple families, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://summationwealthgroup.nm.com/our-approach/multi-family-office"
-  },
-  {
-    "entity_name": "Family Office: A Small Entity Compliance Guide",
-    "reason": "extraction_failed: Not a family office \u2014 U.S. Securities and Exchange Commission: This is a regulatory filing or guidance document, not a private family office.",
-    "source": "https://www.sec.gov/files/rules/final/2011/ia-3220-secg.htm"
-  },
-  {
-    "entity_name": "Multi-Family Office | Brown Brothers Harriman | BBH",
-    "reason": "extraction_failed: Not a family office \u2014 Brown Brothers Harriman: The entity appears to be a wealth management and multi-family office services provider, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://www.bbh.com/us/en/what-we-do/capital-partners/multi-family-office.html"
+    "entity_name": "Top 50 Family Offices in the US (2026) - unbiased.com",
+    "reason": "extraction_failed: Not a family office \u2014 Top 50 Family Offices in the US (2026) - unbiased.com: The entity is a research report or article about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.unbiased.com/discover/financial-advice/top-50-family-offices"
   },
   {
     "entity_name": "News Details - Associated Banc-Corp - Investor Relations",
-    "reason": "extraction_failed: Not a family office \u2014 Whitnell & Co.: The entity is a wealth management and multi-family office services firm that serves multiple affluent Midwest families, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Whitnell & Co.: The entity is being acquired by a bank and provides wealth management and multi-family office services to multiple clients, indicating it is not a dedicated wealth management entity serving one specific ultra-high-net-worth family or a small number of families.",
     "source": "https://investor.associatedbank.com/news/news-details/2017/Associated-Banc-Corp-to-acquire-wealth-management-family-services-firm-Whitnell--Co/default.aspx"
   },
   {
+    "entity_name": "Silvercrest Establishes Atlanta Office, Hires Brittain Prigge :: Silvercrest Asset Management Group LLC (SAMG)",
+    "reason": "extraction_failed: Not a family office \u2014 Silvercrest Asset Management Group Inc.: The entity is an institutional asset manager/OCIO that serves a broad mix of client types, specifically ultra-high-net-worth individuals and families, but also has a business model that is not dedicated to serving just one specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://ir.silvercrestgroup.com/news-events/press-releases/detail/446/silvercrest-establishes-atlanta-office-hires-brittain"
+  },
+  {
+    "entity_name": "Family Office Directory \u2014 Browse & Explore | Simple",
+    "reason": "extraction_failed: Not a family office \u2014 Simple: The entity appears to be a software or service provider for family offices, not a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
+    "source": "https://andsimple.co/family-offices"
+  },
+  {
+    "entity_name": "Family Office: A Small Entity Compliance Guide",
+    "reason": "extraction_failed: Not a family office \u2014 Family Office: A Small Entity Compliance Guide: The entity is a regulatory filing or guidance document from the U.S. Securities and Exchange Commission, not a private family office.",
+    "source": "https://www.sec.gov/files/rules/final/2011/ia-3220-secg.htm"
+  },
+  {
     "entity_name": "alti-20251231",
-    "reason": "extraction_failed: Not a family office \u2014 Alti: This is a regulatory filing for a publicly traded company, not a private family office.",
+    "reason": "extraction_failed: Not a family office \u2014 Alti: The entity is a publicly traded company filing a regulatory document, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.sec.gov/Archives/edgar/data/1838615/000162828026022450/alti-20251231.htm"
   },
   {
-    "entity_name": "Single Family Office",
-    "reason": "failed_actionability_bar_no_verified_contact",
-    "source": "https://www.linkedin.com/company/sfoeh"
-  },
-  {
-    "entity_name": "SKH Family Office - Cultivating Excellence. Shaping Legacies.",
-    "reason": "extraction_failed: 1 validation error for FamilyOfficeRecord\nlocation\n  Input should be a valid string [type=string_type, input_value=['Dubai', 'London'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type",
-    "source": "https://www.linkedin.com/company/skh-fo"
-  },
-  {
-    "entity_name": "Ligo Partners Family Office - A single family office investing into disruptive tech-focused tech deal flow sourced from top investors worldwide",
-    "reason": "extraction_failed: 1 validation error for FamilyOfficeRecord\nlocation\n  Input should be a valid string [type=string_type, input_value=['Miami, FL 33131, US', '...New York, NY 10009, US'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type",
-    "source": "https://mc.linkedin.com/company/ligo-partners"
-  },
-  {
-    "entity_name": "MPI Family Office",
-    "reason": "duplicate_entity",
-    "source": "https://www.linkedin.com/company/mpi-family-office"
+    "entity_name": "Why I limit my client roster to 55 households | Mark Stancato CFP\u00ae, EA, ECA, CRPS\u00ae posted on the topic | LinkedIn",
+    "reason": "extraction_failed: Not a family office \u2014 VIP Wealth Advisors: The entity appears to be a registered investment advisor serving multiple clients, not a dedicated wealth management entity for one or a small number of ultra-high-net-worth families.",
+    "source": "https://www.linkedin.com/posts/markstancato_feeonly-fiduciary-financialadvisor-activity-7368635485050556416--JPF"
   },
   {
     "entity_name": "Green Capital Single Family Office",
@@ -505,23 +475,28 @@
     "source": "https://in.linkedin.com/company/green-capital-single-family-office"
   },
   {
-    "entity_name": "QP Global Family Offices - LinkedIn",
-    "reason": "extraction_failed: Not a family office \u2014 QP Global Family Offices: The entity provides services to multiple families, not just one.",
+    "entity_name": "Single Family Office",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://www.linkedin.com/company/sfoeh"
+  },
+  {
+    "entity_name": "MPI Family Office",
+    "reason": "duplicate_entity",
+    "source": "https://www.linkedin.com/company/mpi-family-office"
+  },
+  {
+    "entity_name": "QP Global Family Offices",
+    "reason": "duplicate_entity",
     "source": "https://www.linkedin.com/company/qp-global-family-offices"
   },
   {
     "entity_name": "The Family Office Company BSC (c) - Offering bespoke diversified portfolios in high-quality private market opportunities at the touch of a button.",
-    "reason": "extraction_failed: Not a family office \u2014 The Family Office Company BSC (c): The entity provides wealth management services to multiple families and investors, not a single ultra-high-net-worth family.",
+    "reason": "extraction_failed: 1 validation error for FamilyOfficeRecord\nlocation\n  Input should be a valid string [type=string_type, input_value=['Manama', 'Bahrain', 'Ri...Dubai', 'UAE', 'Kuwait'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type",
     "source": "https://www.linkedin.com/company/the-family-office"
   },
   {
-    "entity_name": "The Family Office Company BSC (c) - Offering bespoke diversified portfolios in high-quality private market opportunities at the touch of a button.",
-    "reason": "extraction_failed: Not a family office \u2014 The Family Office Company BSC (c): The entity provides wealth management services to multiple families and investors, not a single ultra-high-net-worth family.",
-    "source": "https://al.linkedin.com/company/the-family-office"
-  },
-  {
-    "entity_name": "Single Family Office - LinkedIn",
-    "reason": "extraction_failed: Not a family office \u2014 Single Family Office: The entity appears to be a company listed on LinkedIn with a generic name and description, suggesting it may not be a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
+    "entity_name": "Single Family Office",
+    "reason": "duplicate_entity",
     "source": "https://uk.linkedin.com/company/single-family-office"
   },
   {
@@ -531,17 +506,12 @@
   },
   {
     "entity_name": "The Family Office",
-    "reason": "failed_actionability_bar_no_verified_contact",
+    "reason": "duplicate_entity",
     "source": "https://www.linkedin.com/company/familyoffic"
   },
   {
-    "entity_name": "Billionaire Family Office",
-    "reason": "extraction_failed: Not a family office \u2014 Billionaire Family Office: The entity provides services to multiple families and offers various solutions such as CIO services, co-investment deal flow, and family office formation.",
-    "source": "https://www.linkedin.com/company/billionaire-family-office"
-  },
-  {
-    "entity_name": "Private Family Office",
-    "reason": "duplicate_entity",
+    "entity_name": "Private Family Office - Nurturing legacy. Guiding prosperity. Building futures.",
+    "reason": "extraction_failed: 1 validation error for FamilyOfficeRecord\nlocation\n  Input should be a valid string [type=string_type, input_value=['New York', 'Toronto', '...ty', 'Vienna', 'Madrid'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type",
     "source": "https://www.linkedin.com/company/official-private-family-office"
   },
   {
@@ -550,38 +520,23 @@
     "source": "https://uk.linkedin.com/company/sfo-alliance"
   },
   {
-    "entity_name": "Family Office Factory - LinkedIn",
-    "reason": "extraction_failed: Not a family office \u2014 Family Office Factory: The entity is a media and insights platform providing information and networking opportunities to family offices, rather than a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
-    "source": "https://www.linkedin.com/company/family-office-factory"
-  },
-  {
-    "entity_name": "Active Family Offices - The best database of Active Family Offices. Compiled by a team of humans.",
-    "reason": "extraction_failed: Not a family office \u2014 Active Family Offices: The entity appears to be a database compiler and information services provider, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
-    "source": "https://www.linkedin.com/company/active-family-offices"
-  },
-  {
-    "entity_name": "Devotio Capital Management | LinkedIn",
-    "reason": "extraction_failed: Not a family office \u2014 Devotio Capital Management: Devotio Capital Management serves multiple ultra-high net worth individuals, select family offices, and RIAs, indicating it is not a dedicated wealth/investment management entity for a single family or a small number of families.",
-    "source": "https://www.linkedin.com/company/devotio"
-  },
-  {
-    "entity_name": "Family Office Club - 30 events a year, 50 artificial intelligence tools, 16 million registered members. PROXIMITY. SUPERINTELLIGENCE. SCALE.",
-    "reason": "extraction_failed: Not a family office \u2014 Family Office Club: The entity appears to be a platform serving multiple family offices, fund managers, and investors, rather than a dedicated wealth/investment management entity for a single ultra-high-net-worth family or a small number of families.",
-    "source": "https://www.linkedin.com/company/familyoffices"
-  },
-  {
-    "entity_name": "Family Office Networks - LinkedIn",
-    "reason": "extraction_failed: Not a family office \u2014 Family Office Networks: The entity appears to be a network or community for families to share information and intelligence, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "entity_name": "Family Office Networks",
+    "reason": "extraction_failed: Not a family office \u2014 Family Office Networks: The entity appears to be a network or community for families and provides services to multiple families, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.linkedin.com/company/the-family-office-networks"
   },
   {
-    "entity_name": "DRA Family Investment Office",
-    "reason": "duplicate_entity",
-    "source": "https://www.linkedin.com/company/dra-family-office"
+    "entity_name": "Family Office Factory - Simplifying how family offices discover events, trends, and each other.",
+    "reason": "extraction_failed: Not a family office \u2014 Family Office Factory: The entity is a media and insights platform that provides educational content, news, and market insights to family offices, rather than a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.linkedin.com/company/family-office-factory"
   },
   {
-    "entity_name": "Diamond Wealth | LinkedIn",
-    "reason": "extraction_failed: Not a family office \u2014 Diamond Wealth Strategies: The entity provides services to high and ultra-high net worth individuals and families, but does not serve a single family or a small number of families.",
+    "entity_name": "WPA Family Office & Private Wealth LLC - An independent, boutique, multi-family office RIA firm who simplifies life while managing all your financial needs.",
+    "reason": "extraction_failed: 1 validation error for FamilyOfficeRecord\nlocation\n  Input should be a valid string [type=string_type, input_value=['12240 Inwood Road, Suit...risco, Texas 75034, US'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type",
+    "source": "https://www.linkedin.com/company/wpafamilyoffice"
+  },
+  {
+    "entity_name": "Diamond Wealth - Comprehensive Advisor for Family Offices.",
+    "reason": "extraction_failed: Not a family office \u2014 Diamond Wealth Strategies: The entity appears to be a wealth management firm serving multiple high and ultra-high net worth individuals and families, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.linkedin.com/company/diamond-wealth-strategies"
   },
   {
@@ -590,34 +545,59 @@
     "source": "https://www.linkedin.com/company/dca-family-office"
   },
   {
-    "entity_name": "Family Office Access - The Most Accurate Family Office Database Designed to Help You Get Funding",
-    "reason": "extraction_failed: Not a family office \u2014 Family Office Access: The entity provides a database and platform for connecting with family offices, UHNWI, and investors, indicating it is a service provider rather than a dedicated wealth/investment management entity.",
-    "source": "https://www.linkedin.com/company/familyofficeaccess"
+    "entity_name": "ASK Private Wealth",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://in.linkedin.com/company/ask-private-wealth"
   },
   {
-    "entity_name": "InvestorLists.vc - Free lists of active investors, for startups.",
-    "reason": "extraction_failed: Not a family office \u2014 InvestorLists.vc: The entity provides lists of active investors and VCs, and sells information services to startups, indicating it is not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
-    "source": "https://il.linkedin.com/company/investorlists"
+    "entity_name": "CGI+ | Real Estate Investments - CGI+ is a real estate investment and strategy firm providing personalized, high-quality service and performing assets.",
+    "reason": "extraction_failed: Not a family office \u2014 CGI+: The entity appears to be a real estate investment and strategy firm serving multiple clients, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.linkedin.com/company/cgiplus"
   },
   {
-    "entity_name": "Glossary of Investor Types - Crunchbase | Knowledge Center",
-    "reason": "extraction_failed: Not a family office \u2014 Glossary of Investor Types - Crunchbase | Knowledge Center: The text is a glossary of investor types and does not describe a specific family office entity.",
+    "entity_name": "Private Wealth Systems - Portfolio management software uniquely designed for ultra-high net worth individuals, family offices and private banks.",
+    "reason": "extraction_failed: Not a family office \u2014 Private Wealth Systems: The entity provides software and technology services to ultra-high net worth individuals, family offices, and private banks, rather than managing investments for a specific family or families.",
+    "source": "https://www.linkedin.com/company/private-wealth-systems-inc-"
+  },
+  {
+    "entity_name": "Aldrich Wealth - Protecting and growing your financial assets for the future.",
+    "reason": "extraction_failed: Not a family office \u2014 Aldrich Wealth: The entity appears to be a Registered Investment Advisory firm serving multiple clients, including business owners, high net worth individuals and families, and corporate retirement plans.",
+    "source": "https://www.linkedin.com/company/aldrich-wealth"
+  },
+  {
+    "entity_name": "Lake Street Private Wealth",
+    "reason": "extraction_failed: Not a family office \u2014 Lake Street Private Wealth: The entity appears to be a full-service independent wealth management firm serving emerging and high-net-worth individuals, their families, and institutions, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.linkedin.com/company/lakestreet"
+  },
+  {
+    "entity_name": "Evercore Wealth Management - Committed to meeting our clients\u2019 financial goals, and to earning and sustaining their trust.",
+    "reason": "extraction_failed: Not a family office \u2014 Evercore Wealth Management, LLC: The entity serves high net worth individuals, families and related institutions, not a single ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.linkedin.com/company/evercore-wealth-management-llc"
+  },
+  {
+    "entity_name": "Capital Group Private Client Services - At Capital Group Private Client Services, numbers mean the world to us, but people matter even more.",
+    "reason": "extraction_failed: Not a family office \u2014 Capital Group Private Client Services: The entity appears to be a wealth management firm serving a select group of wealthy individuals, families, trusts, and foundations, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.linkedin.com/company/capital-group-private-client-services"
+  },
+  {
+    "entity_name": "Wells Fargo Private Wealth",
+    "reason": "extraction_failed: Not a family office \u2014 Wells Fargo Private Wealth: The entity appears to be a wealth management service offered by a large bank, serving multiple high-net-worth individuals, families, and institutions, rather than a dedicated family office serving a single ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.linkedin.com/company/wells-fargo-private-wealth"
+  },
+  {
+    "entity_name": "Glossary of Investor Types \u2013 Crunchbase | Knowledge Center",
+    "reason": "extraction_failed: Not a family office \u2014 Glossary of Investor Types \u2013 Crunchbase | Knowledge Center: The text is a general article about investor types and does not describe a specific family office.",
     "source": "https://support.crunchbase.com/hc/en-us/articles/115010624128-Glossary-of-Investor-Types"
   },
   {
     "entity_name": "The Family Offices Global - Crunchbase Company Profile & Funding",
-    "reason": "extraction_failed: Not a family office \u2014 Family Offices Global: The entity appears to be a business offering services to multiple families, not a dedicated wealth management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Family Offices Global: The entity appears to be a business offering services to multiple families rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.crunchbase.com/organization/family-offices-global"
   },
   {
     "entity_name": "Charting The Adoption Of Direct Startup Investments By Family Offices",
     "reason": "extraction_failed: Not a family office \u2014 Charting The Adoption Of Direct Startup Investments By Family Offices: The text is a research report or article about family offices, not a specific family office entity.",
     "source": "https://news.crunchbase.com/venture/charting-adoption-direct-startup-investments-family-offices"
-  },
-  {
-    "entity_name": "Homsher Family Office",
-    "reason": "failed_actionability_bar_no_verified_contact",
-    "source": "https://www.crunchbase.com/organization/homsher-family-office-de68"
   },
   {
     "entity_name": "WSH Family Office",
@@ -650,18 +630,13 @@
     "source": "https://www.crunchbase.com/organization/dalio-family-office"
   },
   {
-    "entity_name": "Duquesne Family Office",
-    "reason": "failed_actionability_bar_no_verified_contact",
-    "source": "https://www.crunchbase.com/organization/duquesne-family-office"
-  },
-  {
-    "entity_name": "Family Investment Offices with Investments in Greater New York Area",
-    "reason": "extraction_failed: Not a family office \u2014 Family Investment Offices with Investments in Greater New York Area: The entity appears to be a hub page listing family investment offices, rather than a single family office.",
-    "source": "https://www.crunchbase.com/hub/family-investment-offices-investments-in-greater-new-york-area"
+    "entity_name": "Seed Stage Investors Family Investment Offices - Crunchbase",
+    "reason": "extraction_failed: Not a family office \u2014 Seed Stage Investors Family Investment Offices - Crunchbase: The entity appears to be a list or hub of seed stage investors and family investment offices, rather than a single family office.",
+    "source": "https://www.crunchbase.com/hub/seed-stage-investors-family-investment-offices"
   },
   {
     "entity_name": "List of top Debt Investors Family Investment Offices - Crunchbase",
-    "reason": "extraction_failed: Not a family office \u2014 List of top Debt Investors Family Investment Offices - Crunchbase: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 List of top Debt Investors Family Investment Offices - Crunchbase: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
     "source": "https://www.crunchbase.com/hub/debt-investors-family-investment-offices"
   },
   {
@@ -670,9 +645,19 @@
     "source": "https://www.crunchbase.com/organization/v%C3%AAneto-family-office"
   },
   {
+    "entity_name": "Duquesne Family Office",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://www.crunchbase.com/organization/duquesne-family-office"
+  },
+  {
     "entity_name": "David Bellet Family Office",
     "reason": "failed_actionability_bar_no_verified_contact",
     "source": "https://www.crunchbase.com/organization/david-bellet-family-office/financial_details"
+  },
+  {
+    "entity_name": "List of top Family Investment Offices - Crunchbase Hub Profile",
+    "reason": "extraction_failed: Not a family office \u2014 List of top Family Investment Offices - Crunchbase Hub Profile: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.crunchbase.com/hub/family-investment-offices"
   },
   {
     "entity_name": "Smart Family Office",
@@ -685,28 +670,23 @@
     "source": "https://www.crunchbase.com/organization/ivesta-family-office"
   },
   {
-    "entity_name": "List of top Greater Chicago Area Family Investment Offices",
-    "reason": "extraction_failed: Not a family office \u2014 List of top Greater Chicago Area Family Investment Offices: The entity appears to be a list or directory of family investment offices, not a single family office.",
-    "source": "https://www.crunchbase.com/hub/greater-chicago-area-family-investment-offices"
-  },
-  {
     "entity_name": "List of top Sweden Family Investment Offices - Crunchbase Hub Profile",
-    "reason": "extraction_failed: Not a family office \u2014 List of top Sweden Family Investment Offices - Crunchbase Hub Profile: The entity appears to be a list or directory of family investment offices rather than a single family office.",
+    "reason": "extraction_failed: Not a family office \u2014 List of top Sweden Family Investment Offices - Crunchbase Hub Profile: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
     "source": "https://www.crunchbase.com/hub/sweden-family-investment-offices"
   },
   {
     "entity_name": "List of top Midwestern US Family Investment Offices - Crunchbase",
-    "reason": "extraction_failed: Not a family office \u2014 List of top Midwestern US Family Investment Offices - Crunchbase: The entity appears to be a list or directory of family investment offices, not a single family office.",
+    "reason": "extraction_failed: Not a family office \u2014 List of top Midwestern US Family Investment Offices - Crunchbase: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.crunchbase.com/hub/midwestern-us-family-investment-offices"
   },
   {
-    "entity_name": "Core Family Office - Crunchbase Company Profile & Funding",
-    "reason": "extraction_failed: Not a family office \u2014 Core Family Office: The entity appears to be a financial services firm offering services to individuals and business owners, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "entity_name": "Core Family Office",
+    "reason": "failed_actionability_bar_no_verified_contact",
     "source": "https://www.crunchbase.com/organization/core-family-office"
   },
   {
     "entity_name": "List of top Southern US Family Investment Offices - Crunchbase",
-    "reason": "extraction_failed: Not a family office \u2014 List of top Southern US Family Investment Offices - Crunchbase: The entity appears to be a list or hub page for family investment offices, rather than a single family office.",
+    "reason": "extraction_failed: Not a family office \u2014 List of top Southern US Family Investment Offices - Crunchbase: The entity appears to be a list or hub page for multiple family investment offices, rather than a single family office.",
     "source": "https://www.crunchbase.com/hub/southern-us-family-investment-offices"
   },
   {
@@ -715,28 +695,28 @@
     "source": "https://www.crunchbase.com/organization/freedom-family-office"
   },
   {
-    "entity_name": "List of top United States Family Investment Offices - Crunchbase",
-    "reason": "extraction_failed: Not a family office \u2014 List of top United States Family Investment Offices - Crunchbase: The entity appears to be a list or hub of family investment offices, not a single family office.",
-    "source": "https://www.crunchbase.com/hub/united-states-family-investment-offices"
+    "entity_name": "List of top Florida Family Investment Offices - Crunchbase Hub Profile",
+    "reason": "extraction_failed: Not a family office \u2014 List of top Florida Family Investment Offices - Crunchbase Hub Profile: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.crunchbase.com/hub/florida-family-investment-offices"
   },
   {
     "entity_name": "[PDF] Family Office Wealth Origin Series: Healthcare - FINTRX",
-    "reason": "extraction_failed: Not a family office \u2014 FINTRX: The entity appears to be a research provider about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family.",
+    "reason": "extraction_failed: Not a family office \u2014 FINTRX: The entity appears to be a research provider about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.fintrx.com/hubfs/Family-Office-Wealth-Origin-Series-Healthcare-2.pdf?hsCtaTracking=548ff0b6-bc84-47f4-97d9-0cc2d9cda32f%7Cbac16fcb-ced2-4161-a3b9-ce05a8e1b56c"
   },
   {
-    "entity_name": "3 Family Offices Investing in Healthcare & Biotechnology | by FINTRX Family Office Database | Medium",
-    "reason": "extraction_failed: Extraction LLM returned non-JSON for 3 Family Offices Investing in Healthcare & Biotechnology | by FINTRX Family Office Database | Medium: ```\n{\n  \"is_family_office\": true,\n  \"is_family_office_reasoning\": \"The entity is described as a single family office managing the wealth of a specific ultra-high-net-worth family.\",\n  \"entity_name\": \"",
+    "entity_name": "Wasson Enterprise",
+    "reason": "failed_actionability_bar_no_verified_contact",
     "source": "https://fintrx.medium.com/3-family-offices-investing-in-healthcare-biotechnology-96321f99b3e"
   },
   {
-    "entity_name": "Top 10 Sectors Family Offices Invest In - Dakota",
-    "reason": "extraction_failed: Not a family office \u2014 Dakota: The entity appears to be a software or data services company that provides products and services to family offices, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "entity_name": "Top 10 Sectors Family Offices Invest In",
+    "reason": "extraction_failed: Not a family office \u2014 Dakota: The entity appears to be a software or data services company that provides products and services to family offices, rather than a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
     "source": "https://www.dakota.com/resources/blog/top-10-sectors-family-offices-invest-in"
   },
   {
     "entity_name": "How Do Family Offices Invest in Private Equity Assets?",
-    "reason": "extraction_failed: Not a family office \u2014 How Do Family Offices Invest in Private Equity Assets?: The text is an article about family offices, not a dedicated wealth management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 How Do Family Offices Invest in Private Equity Assets?: The entity is an article about family offices, not a dedicated wealth management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://eqtgroup.com/en/thinq/Education/how-do-family-offices-invest-in-private-equity-assets"
   },
   {
@@ -745,24 +725,14 @@
     "source": "https://www.cooperfamilyoffice.com/healthcare-biotechnology"
   },
   {
-    "entity_name": "Family Offices and Biotech Impact Investment: Accelerating Innovation for a Better Future. Ty Murphy",
-    "reason": "extraction_failed: Not a family office \u2014 Family Offices and Biotech Impact Investment: Accelerating Innovation for a Better Future. Ty Murphy: The text is an article about family offices and biotech impact investment, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
-    "source": "https://www.linkedin.com/pulse/family-offices-biotech-impact-investment-accelerating-ty-murphy"
-  },
-  {
     "entity_name": "From Lab to Legacy: Why Family offices should Invest in Biotech? | Adrian Rubstein",
-    "reason": "extraction_failed: Not a family office \u2014 From Lab to Legacy: Why Family offices should Invest in Biotech? | Adrian Rubstein: The text is an article about family offices and their potential investment in biotech, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 From Lab to Legacy: Why Family offices should Invest in Biotech? | Adrian Rubstein: The text is an article about family offices investing in biotech, not about a specific family office entity.",
     "source": "https://www.linkedin.com/posts/adrianrubstein_investment-familyoffice-investor-activity-7311039335322034198-FxYQ"
   },
   {
-    "entity_name": "Investment Banks' Perspective on the Family Office Direct ...",
-    "reason": "extraction_failed: Not a family office \u2014 Investment Banks' Perspective on the Family Office Direct ...: The text is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "entity_name": "Investment Banks\u2019 Perspective on the Family Office Direct Investment Trend | Next Phase Newsletter",
+    "reason": "extraction_failed: Not a family office \u2014 Investment Banks\u2019 Perspective on the Family Office Direct Investment Trend | Next Phase Newsletter: The entity is a research report or article about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://blog.lifesciencenation.com/2013/05/22/the-family-office-direct-investment-trend-an-investment-banks-perspective"
-  },
-  {
-    "entity_name": "FAMILY OFFICE HEALTHCARE INVESTING",
-    "reason": "extraction_failed: Not a family office \u2014 Masqana, LLC: The entity appears to be an investment fund or a company that focuses on healthcare investing, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://masqana.com/family-office-healthcare-investing"
   },
   {
     "entity_name": "Family Offices Lead Global Health Tech Investment Wave",
@@ -771,42 +741,47 @@
   },
   {
     "entity_name": "Family Offices\u2019 Quiet Power Behind Life Sciences",
-    "reason": "extraction_failed: Not a family office \u2014 Family Offices\u2019 Quiet Power Behind Life Sciences: The text is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Family Offices\u2019 Quiet Power Behind Life Sciences: The text is a research report about family offices, not a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
     "source": "https://www.familywealthreport.com/article.php/Family-Offices%E2%80%99-Quiet-Power-Behind-Life-Sciences?id=190694"
   },
   {
-    "entity_name": "[PDF] The evolution of direct investing for family offices - Citi Private Bank",
-    "reason": "extraction_failed: Not a family office \u2014 Citi Private Bank: The entity is a private bank's research report and business unit, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://www.privatebank.citibank.com/legacy/newcpb-media/media/documents/insights/the-evolution-of-direct-investing-for-family-offices.pdf.coredownload.inline.pdf"
+    "entity_name": "Masqana Investments, LLC",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://masqana.com/family-office-healthcare-investing"
   },
   {
-    "entity_name": "4Point0 (Nihar Parikh Family Office), Interplay Family Office",
+    "entity_name": "4Point0 (Nihar Parikh Family Office)",
     "reason": "failed_actionability_bar_no_verified_contact",
     "source": "https://www.fintrx.com/blog/5-family-offices-investing-in-healthcare"
   },
   {
+    "entity_name": "[PDF] The evolution of direct investing for family offices - Citi Private Bank",
+    "reason": "extraction_failed: Not a family office \u2014 Citi Private Capital Group: The entity is a private bank's research report about family offices, not a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
+    "source": "https://www.privatebank.citibank.com/legacy/newcpb-media/media/documents/insights/the-evolution-of-direct-investing-for-family-offices.pdf.coredownload.inline.pdf"
+  },
+  {
     "entity_name": "List of the 300 largest Biotech Investor Single Family Offices [2026]",
-    "reason": "extraction_failed: Not a family office \u2014 Family Office Hub: The entity appears to be a research report or article about family offices, specifically a product page for a list of biotech investor single family offices.",
+    "reason": "extraction_failed: Not a family office \u2014 Family Office Hub: The entity appears to be a research report or article about family offices, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
     "source": "https://familyofficehub.io/product/biotech-investor-single-family-offices"
   },
   {
-    "entity_name": "Top Biotechnology Family Offices with Recent Private M&A Activity | Axial",
-    "reason": "extraction_failed: Extraction LLM returned non-JSON for Top Biotechnology Family Offices with Recent Private M&A Activity | Axial: ```json\n{\n  \"is_family_office\": true,\n  \"is_family_office_reasoning\": \"The entity appears to be a dedicated investment vehicle for a specific family or a small number of families.\",\n  \"entity_name\": \"",
+    "entity_name": "VIP MSG, LLC",
+    "reason": "failed_actionability_bar_no_verified_contact",
     "source": "https://www.axial.net/forum/companies/biotechnology-family-offices"
   },
   {
     "entity_name": "How Family Offices Are Cracking the Code on Biotech Investing\u00a0 | Next Phase Newsletter",
-    "reason": "extraction_failed: Not a family office \u2014 How Family Offices Are Cracking the Code on Biotech Investing\u00a0 | Next Phase Newsletter: The text is about a newsletter article discussing family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Life Science Nation (LSN): The entity is an event organizer and publisher of a newsletter, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://blog.lifesciencenation.com/2025/04/15/how-family-offices-are-cracking-the-code-on-biotech-investing"
   },
   {
-    "entity_name": "Are there Family Offices actually investing in biotech? | Vadim Shepel",
-    "reason": "extraction_failed: Not a family office \u2014 Are there Family Offices actually investing in biotech? | Vadim Shepel: The text is a LinkedIn post by Vadim Shepel about family offices investing in biotech, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
+    "entity_name": "Family Offices Investing in Biotech: Where to Find Them | Vadim Shepel posted on the topic | LinkedIn",
+    "reason": "extraction_failed: Not a family office \u2014 Family Offices Investing in Biotech: Where to Find Them | Vadim Shepel posted on the topic | LinkedIn: The text is a LinkedIn post by Vadim Shepel about family offices investing in biotech, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
     "source": "https://www.linkedin.com/posts/vadim-shepel_are-there-family-offices-actually-investing-activity-7402805963289681920-bUQx"
   },
   {
     "entity_name": "Healthcare through the Lens of a Family Office - by GPFO",
-    "reason": "extraction_failed: Not a family office \u2014 GPFO (Global Partnership Family Offices): The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
+    "reason": "extraction_failed: Not a family office \u2014 GPFO (Global Partnership Family Offices): The entity appears to be a research report or article about family offices, rather than a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://familyofficeinsider.substack.com/p/healthcare-through-the-lens-of-a"
   },
   {
@@ -815,99 +790,74 @@
     "source": "https://www.pwmnet.com/content/f261d943-1be2-55d5-9b55-390c6acb3895"
   },
   {
+    "entity_name": "Life Sciences - ICG",
+    "reason": "extraction_failed: Not a family office \u2014 ICG: The entity appears to be an institutional asset manager serving a broad mix of client types, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.icgam.com/what-we-do/structured-capital/life-sciences"
+  },
+  {
     "entity_name": "[PDF] Exploring Real Estate Investment Trends Among Family Offices",
-    "reason": "extraction_failed: Not a family office \u2014 FINTRX: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
+    "reason": "extraction_failed: Not a family office \u2014 FINTRX: The entity appears to be a research report or article about family offices, rather than a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.fintrx.com/hubfs/_Approved%20Marketing%20Collateral/PDFs%20and%20Reports/Exploring%20Real%20Estate%20Investment%20Trends%20Among%20Family%20Offices.pdf"
   },
   {
-    "entity_name": "Family office investment in real estate poised to increase - RSM US",
-    "reason": "extraction_failed: Not a family office \u2014 RSM US: The entity appears to be a research report or article about family offices from a professional services firm, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://rsmus.com/insights/industries/real-estate/family-office-investment-in-real-estate-poised-to-increase.html"
+    "entity_name": "Family offices make opportunistic bets on real estate",
+    "reason": "extraction_failed: Not a family office \u2014 Family offices make opportunistic bets on real estate: The text appears to be a research report or article about family offices, rather than a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
+    "source": "https://www.cnbc.com/2026/03/26/family-offices-make-opportunistic-bets-on-real-estate.html"
   },
   {
     "entity_name": "[PDF] Real estate & the family office - Plante Moran",
-    "reason": "extraction_failed: Not a family office \u2014 Plante Moran: The entity appears to be a research report or article about family offices from a professional services firm, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Plante Moran: The entity appears to be a research report or article about family offices from a professional services firm, rather than a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
     "source": "https://go.plantemoran.com/rs/946-CTY-601/images/REIA-2021-Family%20Office%20Real%20Estate%20Investing%20White%20Paper.pdf"
   },
   {
-    "entity_name": "How US family offices can thrive in the M&A market: PwC",
-    "reason": "extraction_failed: Not a family office \u2014 PwC: The text is a research report about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://www.pwc.com/us/en/services/audit-assurance/private-company-services/library/family-offices-deals-market.html"
+    "entity_name": "Family office investment in real estate poised to increase",
+    "reason": "extraction_failed: Not a family office \u2014 Family office investment in real estate poised to increase: The entity appears to be a research report or article about family offices rather than a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://rsmus.com/insights/industries/real-estate/family-office-investment-in-real-estate-poised-to-increase.html"
   },
   {
     "entity_name": "The Knight Frank 150: Global family office investment strategies",
-    "reason": "extraction_failed: Not a family office \u2014 Knight Frank: The entity is a research report about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Knight Frank: The entity is a research report about family offices, not a dedicated wealth/investment management entity serving specific ultra-high-net-worth families.",
     "source": "https://www.knightfrank.com/research/article/2025/3/the-knight-frank-150-global-family-office-investment-strategies"
   },
   {
-    "entity_name": "Real Estate Family Offices - Axial",
-    "reason": "extraction_failed: Extraction LLM returned non-JSON for Real Estate Family Offices - Axial: ```json\n{\n  \"is_family_office\": true,\n  \"is_family_office_reasoning\": \"The entity appears to be a dedicated investment management entity serving a specific family or families.\",\n  \"entity_name\": \"Nort",
-    "source": "https://www.axial.net/forum/companies/real-estate-family-offices"
-  },
-  {
     "entity_name": "How family offices approach real estate investments - BAM Capital",
-    "reason": "extraction_failed: Not a family office \u2014 BAM Capital: The entity appears to be an investment management firm providing research and advisory services to family offices, rather than a dedicated wealth management entity serving one or a small number of ultra-high-net-worth families.",
+    "reason": "extraction_failed: Not a family office \u2014 BAM Capital: The entity appears to be a research report or article about family offices rather than a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://bamcapital.com/how-family-offices-approach-real-estate-investments"
   },
   {
-    "entity_name": "The Hoban Family Office (HFO)",
-    "reason": "duplicate_entity",
+    "entity_name": "Hoban Family Office",
+    "reason": "failed_actionability_bar_no_verified_contact",
     "source": "https://hobanfamilyoffice.com/direct-investments"
   },
   {
-    "entity_name": "2025 Family Office Investment Insights | Global Trends | Certuity",
-    "reason": "extraction_failed: Not a family office \u2014 Certuity: The entity appears to be a research report or article about family offices, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://certuity.com/insights/family-office-investment-insights"
+    "entity_name": "Northwoods Partners",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://www.axial.net/forum/companies/real-estate-family-offices"
   },
   {
     "entity_name": "Family Office Investment Strategies",
-    "reason": "extraction_failed: Not a family office \u2014 Family Office Investment Strategies: The text is a LinkedIn article about family office investment strategies, not a dedicated wealth management entity serving a specific ultra-high-net-worth family or families.",
+    "reason": "extraction_failed: Not a family office \u2014 Family Office Investment Strategies: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.linkedin.com/top-content/finance/family-office-investment-options/family-office-investment-strategies"
   },
   {
-    "entity_name": "Coughlin Capital",
-    "reason": "failed_actionability_bar_no_verified_contact",
-    "source": "https://www.axial.net/forum/companies/real-estate-investment-trusts-reits-family-offices"
+    "entity_name": "Simplifying Family Office Real Estate Management \u2013\u00a0Masttro",
+    "reason": "extraction_failed: Not a family office \u2014 Masttro: The entity appears to be a software or technology vendor that sells products or services to family offices, rather than a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
+    "source": "https://masttro.com/insights/family-office-real-estate-management"
   },
   {
     "entity_name": "6 Types of Family Offices in Real Estate | Thesis Driven",
-    "reason": "extraction_failed: Not a family office \u2014 Thesis Driven: The text is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Thesis Driven: The entity is a research report or article about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
     "source": "https://www.thesisdriven.com/letters/the-six-types-of-family-offices-youll-meet"
   },
   {
     "entity_name": "Family Offices and Real Estate: Strategies for Multigenerational Wealth\u00a0 \u2013 Aprio",
-    "reason": "extraction_failed: Not a family office \u2014 Aprio: The entity appears to be a professional services firm providing insights and solutions, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Aprio: The entity appears to be a professional services firm providing insights and solutions related to family offices, rather than a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
     "source": "https://www.aprio.com/insights-events/family-offices-and-real-estate-strategies-for-multigenerational-wealth-ins-article-re"
   },
   {
-    "entity_name": "2025 Global Family Office Report",
-    "reason": "extraction_failed: Not a family office \u2014 2025 Global Family Office Report: The entity is a research report about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
-    "source": "https://www.privatebank.citibank.com/doc/family-office/2025-global-family-office-report.pdf"
-  },
-  {
-    "entity_name": "Real Estate Services for Family Offices",
-    "reason": "extraction_failed: Not a family office \u2014 Baker Tilly: The entity provides services to family offices and high-net-worth individuals, indicating it is a service provider rather than a family office itself.",
+    "entity_name": "Real Estate Services for Family Offices | Baker Tilly",
+    "reason": "extraction_failed: Not a family office \u2014 Baker Tilly: The entity provides services to family offices and high-net-worth individuals, but is not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.bakertilly.com/services/real-estate-services-for-family-offices"
-  },
-  {
-    "entity_name": "Four Family Office Trends to Watch in 2025",
-    "reason": "extraction_failed: Not a family office \u2014 bfinance: The entity appears to be an institutional asset manager/OCIO that provides services to family offices among other clients.",
-    "source": "https://www.bfinance.com/fr-ca/nos-publications/four-family-office-trends-to-watch-in-2025"
-  },
-  {
-    "entity_name": "Global Family Office Landscape 2026",
-    "reason": "extraction_failed: Not a family office \u2014 J.P. Morgan: The text appears to be a report or survey about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family.",
-    "source": "https://app.mindstudio.ai/share/public/asset/64UXHHq7q3DR4oBVvbIlNu"
-  },
-  {
-    "entity_name": "The Family Office: What Is It, Purpose, Strategies",
-    "reason": "extraction_failed: Not a family office \u2014 Bank of America Private Bank: The entity is a private bank's article about family offices, not a dedicated wealth management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://www.privatebank.bankofamerica.com/articles/managing-your-family-legacy-through-a-family-office.html"
-  },
-  {
-    "entity_name": "Alternative Real Estate Investment Strategies for Family Offices",
-    "reason": "extraction_failed: Not a family office \u2014 Katten Muchin Rosenman LLP: The entity is a law firm hosting an event for family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://katten.com/alternative-real-estate-investment-strategies-for-family-offices"
   },
   {
     "entity_name": "Kaulig Capital",
@@ -915,14 +865,44 @@
     "source": "https://www.kauligcapital.com/investment-strategies/real-estate"
   },
   {
-    "entity_name": "Largest And Global Sovereign Wealth Fund Institute | SWFI",
-    "reason": "extraction_failed: Not a family office \u2014 SWFI: The entity appears to be a research institute or a data provider about family offices and sovereign wealth funds, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "entity_name": "Family Office Real Estate Advisory - Trinity Real Estate",
+    "reason": "extraction_failed: Not a family office \u2014 Trinity Real Estate: The entity appears to be a commercial real estate advisory firm serving multiple family offices and high-net-worth individuals, rather than a dedicated wealth management entity for a single ultra-high-net-worth family or a small number of families.",
+    "source": "https://trinityre.com/family-office-real-estate-advisory"
+  },
+  {
+    "entity_name": "Alternative Real Estate Investment Strategies for Family Offices | Katten Muchin Rosenman LLP",
+    "reason": "extraction_failed: Not a family office \u2014 Katten Muchin Rosenman LLP: The entity is a law firm hosting an event for family offices, not a dedicated wealth/investment management entity serving a specific family or families.",
+    "source": "https://katten.com/alternative-real-estate-investment-strategies-for-family-offices"
+  },
+  {
+    "entity_name": "The Family Office: What Is It, Purpose, Strategies",
+    "reason": "extraction_failed: Not a family office \u2014 Bank of America Private Bank: The entity appears to be a private bank's internal family office services business unit, not a dedicated wealth management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.privatebank.bankofamerica.com/articles/managing-your-family-legacy-through-a-family-office.html"
+  },
+  {
+    "entity_name": "Top 100 Largest Family Office Rankings by Total Assets | SWFI",
+    "reason": "extraction_failed: Not a family office \u2014 SWFI: The entity appears to be a research institution providing rankings and data on family offices, rather than a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.swfinstitute.org/fund-rankings/family-office"
   },
   {
+    "entity_name": "Family Office Directory \u2014 Browse & Explore | Simple",
+    "reason": "extraction_failed: Not a family office \u2014 Simple: The entity appears to be a software or service provider for family offices, not a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
+    "source": "https://andsimple.co/family-offices"
+  },
+  {
     "entity_name": "Prestel & Partner Family Office London 2026",
-    "reason": "extraction_failed: Not a family office \u2014 Prestel & Partner: The entity appears to be an event organizer for family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Prestel & Partner: The entity appears to be an event organizer and platform for family offices, rather than a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
     "source": "https://prestelandpartner.com/familyofficeforumlondon.html"
+  },
+  {
+    "entity_name": "Top 10 Family Offices in London: 2026 Guide",
+    "reason": "extraction_failed: Not a family office \u2014 Dakota: The entity appears to be a software or research company that provides services and data about family offices, rather than a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.dakota.com/resources/blog/top-10-family-offices-in-london-2026-guide"
+  },
+  {
+    "entity_name": "3C Capital",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://praxisrock.com/resources/investors/family-offices-london"
   },
   {
     "entity_name": "Fink Family Office",
@@ -930,29 +910,9 @@
     "source": "https://uk.linkedin.com/company/fink-family-office"
   },
   {
-    "entity_name": "Top 10 Family Offices in London: 2026 Guide - Dakota",
-    "reason": "extraction_failed: Not a family office \u2014 Dakota: The entity appears to be a software and data services company that provides products and services to family offices, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://www.dakota.com/resources/blog/top-10-family-offices-in-london-2026-guide"
-  },
-  {
-    "entity_name": "Family Offices in London | 146 Verified Firms - Praxis Rock",
-    "reason": "extraction_failed: Extraction LLM returned non-JSON for Family Offices in London | 146 Verified Firms - Praxis Rock: Here are the extracted facts in JSON format:\n\n```json\n[\n  {\n    \"is_family_office\": true,\n    \"is_family_office_reasoning\": \"The entity is described as a self-managed, integrated family office.\",\n    ",
-    "source": "https://praxisrock.com/resources/investors/family-offices-london"
-  },
-  {
-    "entity_name": "Funds and family office | London, Leeds & Manchester - PKF Littlejohn",
-    "reason": "extraction_failed: Not a family office \u2014 PKF Littlejohn: The entity provides services to family offices and other clients, indicating it is not a dedicated family office.",
+    "entity_name": "Funds and family office | London, Leeds & Manchester",
+    "reason": "extraction_failed: Not a family office \u2014 PKF Funds and Family Office: The entity provides services to multiple families and family offices, indicating it is a professional services firm rather than a dedicated family office.",
     "source": "https://www.pkf-l.com/sectors/funds-family-office"
-  },
-  {
-    "entity_name": "Family Office Investors for Startups: The UK Founder's Guide",
-    "reason": "extraction_failed: Not a family office \u2014 Family Office Investors for Startups: The UK Founder's Guide: The text is a research report or article about family offices, not a dedicated wealth/investment management entity serving one or more ultra-high-net-worth families.",
-    "source": "https://www.thatround.com/the-startup-founders-guide-to-family-office-investors"
-  },
-  {
-    "entity_name": "Family Office & Investor Directory",
-    "reason": "extraction_failed: Not a family office \u2014 Family Office & Investor Directory: The entity appears to be a directory or database of family offices and institutional investors, rather than a single family office.",
-    "source": "https://altss.com/profile/directory"
   },
   {
     "entity_name": "Patronus Partners",
@@ -961,12 +921,12 @@
   },
   {
     "entity_name": "Family Office Advisory | Mountside Ventures",
-    "reason": "extraction_failed: Not a family office \u2014 Mountside Ventures: The entity appears to be a venture capital advisory firm that connects startups and VC funds to family offices, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Mountside Ventures: The entity appears to be a venture capital advisory firm that connects startups and VC funds to family offices, rather than a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://mountsideventures.com/family-offices"
   },
   {
     "entity_name": "Discover Top Venture Funds | Venture Capital Archive",
-    "reason": "extraction_failed: Not a family office \u2014 Venture Capital Archive: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Venture Capital Archive: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://venturecapitalarchive.com/blogs/25-active-family-offices-in-united-kingdom"
   },
   {
@@ -976,77 +936,72 @@
   },
   {
     "entity_name": "Schroders Family Office Service - Helping you build your family wealth",
-    "reason": "extraction_failed: Not a family office \u2014 Schroders Family Office Service: The entity provides services to multiple families and offers a menu of services, indicating it is a wealth manager or family office service provider rather than a dedicated family office.",
+    "reason": "extraction_failed: Not a family office \u2014 Schroders Family Office Service: The entity appears to be a wealth management service offered by a larger financial institution, serving multiple families and providing a range of services.",
     "source": "https://www.schroders.com/en/global/family-offices"
   },
   {
     "entity_name": "Family offices | Wellington UK Professional",
-    "reason": "extraction_failed: Not a family office \u2014 Wellington: The entity appears to be an institutional asset manager/OCIO that serves multiple clients, including family offices.",
+    "reason": "extraction_failed: Not a family office \u2014 Wellington: The entity appears to be an institutional asset manager/OCIO that serves a broad mix of client types, including family offices.",
     "source": "https://www.wellington.com/en-gb/professional/capabilities/family-offices"
   },
   {
+    "entity_name": "Family Wealth Report Family Office Fintech Forum 2025",
+    "reason": "extraction_failed: Not a family office \u2014 Clearview Publishing: The entity is an event organizer and publisher, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://clearviewpublishing.com/events/family-wealth-report-family-office-fintech-forum-2025"
+  },
+  {
     "entity_name": "Dakota Marketplace Database: Top 10 UK Family Offices | dakota posted on the topic | LinkedIn",
-    "reason": "extraction_failed: Not a family office \u2014 Dakota: The entity is a platform that provides information and connections about family offices, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Dakota: The entity is a platform that provides information and connections about family offices, rather than a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.linkedin.com/posts/dakota-about_familyoffices-wealthmanagement-uhnw-activity-7340843362553389056-XokX"
   },
   {
     "entity_name": "List of the Best Family Offices - Investor Directory [2026]",
-    "reason": "extraction_failed: Not a family office \u2014 List of the Best Family Offices: The entity appears to be a directory or database of family offices, rather than a single family office.",
+    "reason": "extraction_failed: Not a family office \u2014 List of the Best Family Offices - Investor Directory [2026]: The entity appears to be a directory or database of family offices rather than a single family office.",
     "source": "https://www.openvc.app/investor-lists/family-offices"
   },
   {
-    "entity_name": "Leaders List \u2014 Family Office Advisors & Consultants",
-    "reason": "extraction_failed: Not a family office \u2014 Citywealth: The entity appears to be a research publication or directory of family office advisors, rather than a dedicated wealth management entity serving one or a small number of ultra-high-net-worth families.",
-    "source": "https://www.citywealthmag.com/leaders-list-family-office"
-  },
-  {
-    "entity_name": "Invest in Startups | Venture Capital Access for Individuals | Alumni Ventures - Alumni Ventures",
-    "reason": "extraction_failed: Not a family office \u2014 Alumni Ventures: The entity appears to be a venture capital firm offering investment opportunities to accredited investors, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "entity_name": "Invest in Startups | Venture Capital Access for Individuals | Alumni ...",
+    "reason": "extraction_failed: Not a family office \u2014 Alumni Ventures: The entity appears to be a venture capital firm or investment manager that provides access to venture deals for accredited investors, rather than a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
     "source": "https://av.vc"
   },
   {
+    "entity_name": "The Family Office",
+    "reason": "duplicate_entity",
+    "source": "https://tfoco.com/en"
+  },
+  {
+    "entity_name": "Family offices - Collyer Bristow",
+    "reason": "extraction_failed: Not a family office \u2014 Collyer Bristow: The entity appears to be a law firm that provides services to family offices, rather than a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
+    "source": "https://collyerbristow.com/private-wealth/family-offices"
+  },
+  {
     "entity_name": "Family offices | Wellington US Institutional",
-    "reason": "extraction_failed: Not a family office \u2014 Wellington: The entity appears to be an institutional asset manager/OCIO that serves multiple client types, including family offices.",
+    "reason": "extraction_failed: Not a family office \u2014 Wellington: The entity appears to be an institutional asset manager/OCIO that serves a broad mix of client types, including family offices.",
     "source": "https://www.wellington.com/en-us/institutional/capabilities/family-offices"
   },
   {
     "entity_name": "QED Investors: Home",
-    "reason": "extraction_failed: Not a family office \u2014 QED Investors: The entity appears to be a venture capital firm with a broad investment mandate, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 QED Investors: QED Investors is a venture capital firm that invests in fintech companies, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.qedinvestors.com"
   },
   {
-    "entity_name": "Family offices - Collyer Bristow",
-    "reason": "extraction_failed: Not a family office \u2014 Collyer Bristow: The entity is a law firm that provides services to family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://collyerbristow.com/private-wealth/family-offices"
-  },
-  {
-    "entity_name": "F-Prime Capital: Home",
-    "reason": "extraction_failed: Not a family office \u2014 F-Prime Capital: The entity appears to be a venture capital firm or investment organization with a portfolio of companies, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://www.fprimecapital.com"
-  },
-  {
-    "entity_name": "Pleased to announce that Steven Dunst ...",
-    "reason": "extraction_failed: Not a family office \u2014 Latham & Watkins: The entity is a law firm, specifically Latham & Watkins, and not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
+    "entity_name": "Pleased to announce that Steven Dunst... - Latham & Watkins",
+    "reason": "extraction_failed: Not a family office \u2014 Latham & Watkins: The entity is a law firm, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.facebook.com/lathamwatkins/posts/pleased-to-announce-that-steven-dunst-has-joined-the-firms-los-angeles-office-as/1303715718450545"
   },
   {
-    "entity_name": "Family Offices in Texas - 24 Verified Firms - Praxis Rock",
-    "reason": "extraction_failed: Not a family office \u2014 Family Offices in Texas - 24 Verified Firms - Praxis Rock: The text appears to be a directory of family offices, listing multiple firms and their details, rather than a single family office.",
+    "entity_name": "Barshop Ventures",
+    "reason": "failed_actionability_bar_no_verified_contact",
     "source": "https://praxisrock.com/resources/investors/family-offices-texas"
   },
   {
-    "entity_name": "Andell Holdings",
-    "reason": "failed_actionability_bar_no_verified_contact",
-    "source": "https://praxisrock.com/resources/investors/family-offices-los-angeles"
-  },
-  {
-    "entity_name": "Top 10 Family Offices in Texas: 2026 Guide - Dakota",
-    "reason": "extraction_failed: Not a family office \u2014 Dakota: The entity appears to be a software and data services company that provides products and services to family offices, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "entity_name": "Top 10 Family Offices in Texas: 2026 Guide",
+    "reason": "extraction_failed: Not a family office \u2014 Dakota: The entity appears to be a research report or article about family offices, rather than a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.dakota.com/resources/blog/top-10-family-offices-in-texas"
   },
   {
     "entity_name": "[PDF] THE NORTH AMERICA FAMILY OFFICE REPORT 2024",
-    "reason": "extraction_failed: Not a family office \u2014 Campden Wealth Limited: The entity is a research report publisher and not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Campden Wealth Limited: The entity is a research report publisher and not a dedicated wealth/investment management entity serving specific ultra-high-net-worth families.",
     "source": "https://www.rbcwealthmanagement.com/assets/wp-content/uploads/documents/campaign/the-north-america-family-office-report-2024.pdf"
   },
   {
@@ -1056,8 +1011,18 @@
   },
   {
     "entity_name": "Understanding Family Office Investment & Wealth Strategy",
-    "reason": "extraction_failed: Not a family office \u2014 Cresset Capital: The entity appears to be a wealth management company that offers family office services to multiple clients, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Cresset Capital: The entity appears to be a wealth management company providing services to multiple families and clients, rather than a dedicated family office serving one specific ultra-high-net-worth family or a small number of families.",
     "source": "https://cressetcapital.com/family-office/wealth-strategy"
+  },
+  {
+    "entity_name": "5 California-based RIAs with 100B+ in AUM \u2014 Registered Investment Advisors",
+    "reason": "extraction_failed: Not a family office \u2014 5 California-based RIAs with 100B+ in AUM \u2014 Registered Investment Advisors: The entity is a research report about Registered Investment Advisors (RIAs) and does not appear to be a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://medium.com/@fintrx/5-california-based-rias-with-100b-in-aum-registered-investment-advisors-46e065cc63ec"
+  },
+  {
+    "entity_name": "Family Office Investment Strategies",
+    "reason": "extraction_failed: Not a family office \u2014 Family Office Investment Strategies: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.linkedin.com/top-content/finance/family-office-investment-options/family-office-investment-strategies"
   },
   {
     "entity_name": "Davenforth LLC",
@@ -1065,54 +1030,39 @@
     "source": "https://www.axial.net/forum/companies/texas-family-offices"
   },
   {
-    "entity_name": "Family Office Investment Strategy: How Portfolios Are Built Over Time",
-    "reason": "extraction_failed: Not a family office \u2014 FundCount: The entity is a software vendor that sells products to family offices.",
-    "source": "https://fundcount.com/family-office-investment-strategy"
-  },
-  {
     "entity_name": "Family Office Private Equity - Asena Advisors",
-    "reason": "extraction_failed: Not a family office \u2014 Asena Advisors: The entity appears to be a research report or article about family offices, rather than a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
+    "reason": "extraction_failed: Not a family office \u2014 Asena Advisors: The entity appears to be a research report or article about family offices and private equity, rather than a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://asenaadvisors.com/blog/family-office-private-equity"
   },
   {
-    "entity_name": "10 Venture-Focused Family Offices in Texas Every GP Should Know",
-    "reason": "extraction_failed: Extraction LLM returned non-JSON for 10 Venture-Focused Family Offices in Texas Every GP Should Know: ```json\n{\n  \"is_family_office\": true,\n  \"is_family_office_reasoning\": \"The entity is described as a family office with specific investment focus and background information.\",\n  \"entity_name\": \"Duncan ",
-    "source": "https://www.linkedin.com/pulse/10-venture-focused-family-offices-texas-every-gp-should-know-lwtif"
+    "entity_name": "Family Offices' Investment Strategies - A New PwC Study",
+    "reason": "extraction_failed: Not a family office \u2014 Family Offices' Investment Strategies - A New PwC Study: The entity is a research report about family offices, not a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
+    "source": "https://www.familywealthreport.com/article.php/Family-Offices%27-Investment-Strategies-_dash_-A-New-PwC-Study-"
   },
   {
-    "entity_name": "Family Office Investment Strategies",
-    "reason": "extraction_failed: Not a family office \u2014 Family Office Investment Strategies: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://www.linkedin.com/top-content/finance/family-office-investment-options/family-office-investment-strategies"
-  },
-  {
-    "entity_name": "Examining Family Offices by Primary Business Activities",
-    "reason": "extraction_failed: Not a family office \u2014 FINTRX: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
+    "entity_name": "[PDF] Examining Family Offices by Primary Business Activities - FINTRX",
+    "reason": "extraction_failed: Not a family office \u2014 FINTRX: The entity appears to be a research report publisher, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.fintrx.com/hubfs/_Approved%20Marketing%20Collateral/PDFs%20and%20Reports/FINTRX%20Global%20Family%20Office%20Report%20Part%205%20%7C%20Sponsored%20By%20Charles%20Schwab.pdf"
   },
   {
-    "entity_name": "Cresset San Francisco Family Office & Private Wealth Management",
-    "reason": "extraction_failed: Not a family office \u2014 Cresset Capital: The entity appears to be a wealth management firm offering family office services to multiple clients, rather than a dedicated family office serving one or a small number of ultra-high-net-worth families.",
-    "source": "https://cressetcapital.com/locations/san-francisco"
-  },
-  {
     "entity_name": "Family Office Investment Insights Report: Adapting to the Terrain | Goldman Sachs",
-    "reason": "extraction_failed: Not a family office \u2014 Goldman Sachs: The entity is a research report by Goldman Sachs about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Goldman Sachs: The entity is a research report by Goldman Sachs, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://pwm.gs.com/nam/en-us/insights/markets-and-investing/market-insights/family-office-investment-insights-adapting-to-the-terrain"
   },
   {
     "entity_name": "Family Offices - Quintus Investment Counsel - Pasadena, CA",
-    "reason": "extraction_failed: Not a family office \u2014 Quintus Investment Counsel: The entity appears to be a wealth management firm that serves family offices among other clients.",
+    "reason": "extraction_failed: Not a family office \u2014 Quintus Investment Counsel: The entity appears to be a wealth management firm serving multiple families, not a dedicated private family office.",
     "source": "https://www.raymondjames.com/quintus/who-we-serve/family-offices"
   },
   {
-    "entity_name": "5 California-based RIAs with 100B+ in AUM - Medium",
-    "reason": "extraction_failed: Not a family office \u2014 5 California-based RIAs with 100B+ in AUM - Medium: The text appears to be a general article about RIAs and does not suggest the entity is a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://medium.com/@fintrx/5-california-based-rias-with-100b-in-aum-registered-investment-advisors-46e065cc63ec"
+    "entity_name": "Duncan Family Office",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://www.linkedin.com/pulse/10-venture-focused-family-offices-texas-every-gp-should-know-lwtif"
   },
   {
-    "entity_name": "Top California Family Offices with Recent Private M&A Activity",
-    "reason": "extraction_failed: Extraction LLM returned a JSON array instead of one object for Top California Family Offices with Recent Private M&A Activity: ```json\n[\n  {\n    \"is_family_office\": true,\n    \"is_family_office_reasoning\": \"The entity is described as a family office and has characteristics typical of a private family office.\",\n    \"entity_name",
-    "source": "https://www.axial.net/forum/companies/california-family-offices"
+    "entity_name": "Family Offices",
+    "reason": "extraction_failed: Not a family office \u2014 Katten: The entity is a law firm that provides services to family offices, rather than a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
+    "source": "https://katten.com/family-offices"
   },
   {
     "entity_name": "Carmel Capital Partners",
@@ -1121,73 +1071,78 @@
   },
   {
     "entity_name": "How Do Family Offices Invest in Private Equity Assets?",
-    "reason": "extraction_failed: Not a family office \u2014 How Do Family Offices Invest in Private Equity Assets?: The text is an article about family offices, not a dedicated wealth management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 How Do Family Offices Invest in Private Equity Assets?: The entity is an article about family offices, not a dedicated wealth management entity serving one or a small number of ultra-high-net-worth families.",
     "source": "https://eqtgroup.com/en/thinq/Education/how-do-family-offices-invest-in-private-equity-assets"
   },
   {
+    "entity_name": "[PDF] Family Office - Day Pitney",
+    "reason": "extraction_failed: Not a family office \u2014 Day Pitney: The entity is a law firm that provides services to family offices, rather than a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
+    "source": "https://www.daypitney.com/practice/print/2349?type=area"
+  },
+  {
     "entity_name": "Global Family Office Landscape 2026 - MindStudio",
-    "reason": "extraction_failed: Not a family office \u2014 MindStudio: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Global Family Office Landscape 2026 - MindStudio: The entity appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://app.mindstudio.ai/share/public/asset/64UXHHq7q3DR4oBVvbIlNu"
   },
   {
-    "entity_name": "The why, who, what and how of starting a family office",
-    "reason": "extraction_failed: Not a family office \u2014 J.P. Morgan Private Bank: The entity is a private bank's webpage about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://privatebank.jpmorgan.com/nam/en/insights/markets-and-investing/ideas-and-insights/the-why-who-what-and-how-of-starting-a-family-office"
-  },
-  {
     "entity_name": "Private Clients & Family Offices - Cambridge Associates",
-    "reason": "extraction_failed: Not a family office \u2014 Cambridge Associates: The entity provides services to multiple family offices and ultra-high-net-worth individuals, indicating it is not a dedicated wealth management entity serving one specific family.",
+    "reason": "extraction_failed: Not a family office \u2014 Cambridge Associates: The entity provides investment management services to multiple families and ultra-high-net-worth individuals, indicating it is not a dedicated wealth management entity serving one specific family or a small number of families.",
     "source": "https://www.cambridgeassociates.com/private-clients-family-offices"
   },
   {
-    "entity_name": "Investment Organization - CalPERS",
-    "reason": "extraction_failed: Not a family office \u2014 CalPERS: The entity is a pension fund manager, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "entity_name": "Sparks Capital",
+    "reason": "failed_actionability_bar_no_verified_contact",
+    "source": "https://www.axial.net/forum/companies/california-family-offices/2"
+  },
+  {
+    "entity_name": "Investment Organization | CalPERS",
+    "reason": "extraction_failed: Not a family office \u2014 CalPERS: The entity appears to be a large pension fund manager serving a broad range of clients, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.calpers.ca.gov/investments/about-investment-office/investment-organization"
   },
   {
-    "entity_name": "Family offices still keen on direct deals but dial back early- ...",
-    "reason": "extraction_failed: Not a family office \u2014 Family offices still keen on direct deals but dial back early- ...: The text appears to be a research report or article about family offices, not a family office itself.",
+    "entity_name": "Family offices still keen on direct deals but dial back early-stage investing",
+    "reason": "extraction_failed: Not a family office \u2014 Family offices still keen on direct deals but dial back early-stage investing: The text appears to be a research report or article about family offices, not a specific family office entity.",
     "source": "https://www.cnbc.com/2025/09/22/family-offices-direct-investing-private-equity-citi-survey.html"
   },
   {
-    "entity_name": "Family Office Deal Flow \u2014 March 2026",
-    "reason": "extraction_failed: Extraction LLM returned non-JSON for Family Office Deal Flow \u2014 March 2026: Here are the extracted facts in JSON format:\n\n```json\n{\n  \"is_family_office\": true,\n  \"is_family_office_reasoning\": \"The entity is a dedicated wealth/investment management entity serving one specific ",
-    "source": "https://altss.com/blog/family-office-deal-flow-march-2026"
+    "entity_name": "Charting The Adoption Of Direct Startup Investments By Family Offices",
+    "reason": "extraction_failed: Not a family office \u2014 Charting The Adoption Of Direct Startup Investments By Family Offices: The text is a research report/article about family offices, not a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
+    "source": "https://news.crunchbase.com/venture/charting-adoption-direct-startup-investments-family-offices"
   },
   {
-    "entity_name": "Top Family Offices [2025]",
-    "reason": "extraction_failed: Extraction LLM returned non-JSON for Top Family Offices [2025]: ```\n{\n  \"is_family_office\": true,\n  \"is_family_office_reasoning\": \"The entity appears to be a dedicated investment vehicle for a specific family.\",\n  \"entity_name\": \"Omidyar Network\",\n  \"investing_the",
+    "entity_name": "Omidyar Network",
+    "reason": "duplicate_entity",
     "source": "https://incubatorlist.com/top-family-offices"
   },
   {
-    "entity_name": "Family Office",
-    "reason": "failed_actionability_bar_no_verified_contact",
-    "source": "https://startupintros.com/orgs/family-office"
-  },
-  {
-    "entity_name": "Bezos Expeditions",
-    "reason": "failed_actionability_bar_no_verified_contact",
-    "source": "https://altss.com/blog/family-offices-that-lead-seed-series-a-in-2025"
-  },
-  {
-    "entity_name": "Family Office Investors for Startups: The UK Founder's Guide",
-    "reason": "extraction_failed: Not a family office \u2014 Family Office Investors for Startups: The UK Founder's Guide: The text is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "entity_name": "Family Office Investors for Startups: The UK Founder\u2019s Guide",
+    "reason": "extraction_failed: Not a family office \u2014 Family Office Investors for Startups: The UK Founder\u2019s Guide: The text is a research report or article about family offices, not a dedicated wealth/investment management entity serving one or more ultra-high-net-worth families.",
     "source": "https://www.thatround.com/the-startup-founders-guide-to-family-office-investors"
   },
   {
-    "entity_name": "Family Office \u00d7 Venture Studio Research 2025",
-    "reason": "extraction_failed: Not a family office \u2014 Family Office \u00d7 Venture Studio Research 2025: The entity appears to be a research organization or a venture studio support organization, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "entity_name": "Bezos Expeditions",
+    "reason": "duplicate_entity",
+    "source": "https://altss.com/blog/family-offices-that-lead-seed-series-a-in-2025"
+  },
+  {
+    "entity_name": "Family Office \u00d7 Venture Studio Research 2025 - Inniches",
+    "reason": "extraction_failed: Not a family office \u2014 Inniches: The entity appears to be a research organization or a venture studio support organization, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://inniches.com/family-office-venture-studio-research-2025"
   },
   {
-    "entity_name": "Family Offices looking to invest",
-    "reason": "extraction_failed: Not a family office \u2014 Family Offices looking to invest: The entities listed appear to be venture capital firms or investment companies, not dedicated wealth/investment management entities serving one specific ultra-high-net-worth family or a small number of families.",
+    "entity_name": "VC News Daily: Venture Capital Financings and Technology Startups",
+    "reason": "extraction_failed: Not a family office \u2014 VC News Daily: The entity appears to be a venture capital news website, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://vcnewsdaily.com"
+  },
+  {
+    "entity_name": "Family Offices looking to invest - Capboard",
+    "reason": "extraction_failed: Not a family office \u2014 Family Offices looking to invest - Capboard: The entity appears to be a platform listing various investors, including venture capital firms and angel investor groups, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.capboard.io/en/investors/family_office"
   },
   {
-    "entity_name": "\ud83d\udcb0The Family Office List - Product Market Fit",
-    "reason": "extraction_failed: Not a family office \u2014 Product Market Fit: The entity appears to be a software or technology vendor that provides a list of family offices, rather than a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
-    "source": "https://www.productmarketfit.tech/p/the-family-office-list"
+    "entity_name": "Masterclass Family Office Investment for Startups - Seed ...",
+    "reason": "extraction_failed: Not a family office \u2014 Masterclass Family Office Investment for Startups - Seed ...: The entity appears to be a YouTube video or podcast about family office investment, not a family office itself.",
+    "source": "https://www.youtube.com/watch?v=lG7XZpm83cc"
   },
   {
     "entity_name": "Uncovering the Shift: Why Family Offices are Embracing Direct Investments in Startups",
@@ -1196,147 +1151,177 @@
   },
   {
     "entity_name": "500 family offices actively writing Seed, Series A/B & LP checks right now.\nYou won't find most of them on any database. \n\nThey don't have a public investment arm. They don't do panels. They don't\u2026 | Niclas Schlopsna | 275 comments",
-    "reason": "extraction_failed: Not a family office \u2014 500 family offices actively writing Seed, Series A/B & LP checks right now.\nYou won't find most of them on any database. \n\nThey don't have a public investment arm. They don't do panels. They don't\u2026 | Niclas Schlopsna | 275 comments: The text appears to be a LinkedIn post by Niclas Schlopsna about family offices, rather than a family office itself.",
+    "reason": "extraction_failed: Not a family office \u2014 500 family offices actively writing Seed, Series A/B & LP checks right now.\nYou won't find most of them on any database. \n\nThey don't have a public investment arm. They don't do panels. They don't\u2026 | Niclas Schlopsna | 275 comments: The text appears to be a LinkedIn post by Niclas Schlopsna about family offices, rather than a profile of a specific family office.",
     "source": "https://www.linkedin.com/posts/nschlopsna_500-family-offices-actively-writing-seed-activity-7441827343611936768-6-z-"
   },
   {
-    "entity_name": "\u201cFriends and Family\u201d, Seed and Series A Financings | Cooley GO",
-    "reason": "extraction_failed: Not a family office \u2014 Cooley GO: The entity is a law firm's educational content page, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
-    "source": "https://www.cooleygo.com/difference-friends-family-seed-series-financings"
+    "entity_name": "Bezos Expeditions",
+    "reason": "duplicate_entity",
+    "source": "https://www.familywealthreport.com/article.php/Bezos%27-Family-Office-Loads-Up-On-AI-Startup-Investments-_dash_-Media--"
   },
   {
     "entity_name": "List of the Best Family Offices - Investor Directory [2026]",
-    "reason": "extraction_failed: Not a family office \u2014 List of the Best Family Offices: The entity appears to be a directory or database of family offices, rather than a single family office.",
+    "reason": "extraction_failed: Not a family office \u2014 List of the Best Family Offices - Investor Directory [2026]: The entity appears to be a directory or database of family offices rather than a single family office.",
     "source": "https://www.openvc.app/investor-lists/family-offices"
   },
   {
-    "entity_name": "[PDF] Starting a family office direct investment function - Plante Moran",
-    "reason": "extraction_failed: Not a family office \u2014 Plante Moran: The text is a research report or article about family offices from a professional services firm.",
-    "source": "https://go.plantemoran.com/rs/946-CTY-601/images/PM_FamilyOffice_DirectInvestment_V6.pdf"
+    "entity_name": "Bezos Expeditions",
+    "reason": "duplicate_entity",
+    "source": "https://www.cnbc.com/2026/07/02/jeff-bezos-family-office-backed-five-ai-startups-in-june.html"
   },
   {
-    "entity_name": "Family Offices Outshine VCs as Startup Investors | Alejandro Cremades posted on the topic | LinkedIn",
-    "reason": "extraction_failed: Not a family office \u2014 Family Offices Outshine VCs as Startup Investors | Alejandro Cremades posted on the topic | LinkedIn: The text is a LinkedIn post about family offices as startup investors, not a page about a specific family office.",
-    "source": "https://www.linkedin.com/posts/acremades_%F0%9D%90%8D%F0%9D%90%A8%F0%9D%90%AD-%F0%9D%90%80%F0%9D%90%A5%F0%9D%90%A5-%F0%9D%90%88%F0%9D%90%A7%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%AC-%F0%9D%90%80%F0%9D%90%AB%F0%9D%90%9E-%F0%9D%90%95%F0%9D%90%82%F0%9D%90%AC-activity-7442667358642425856-eSMv"
-  },
-  {
-    "entity_name": "Family Office Startup Funding: Case Studies & Investment ...",
-    "reason": "extraction_failed: Not a family office \u2014 Qubit Capital: The entity appears to be a startup services and investment firm that provides various services to startups and investors, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "entity_name": "Family Office Startup Funding: Case Studies & Investment Strategies",
+    "reason": "extraction_failed: Not a family office \u2014 Qubit Capital: The entity appears to be a startup services company that provides fundraising assistance, investor discovery, and other services to startups, rather than a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://qubit.capital/blog/family-office-case-studies"
   },
   {
-    "entity_name": "Trends in Direct Investing for Family Offices",
-    "reason": "extraction_failed: Not a family office \u2014 Trends in Direct Investing for Family Offices: The text is a LinkedIn article discussing trends in direct investing for family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
-    "source": "https://www.linkedin.com/top-content/finance/family-office-investment-options/trends-in-direct-investing-for-family-offices"
+    "entity_name": "How Family Offices Are Reshaping Venture Investing - Ice Miller",
+    "reason": "extraction_failed: Not a family office \u2014 How Family Offices Are Reshaping Venture Investing - Ice Miller: The entity is an article about family offices, not a family office itself.",
+    "source": "https://www.icemiller.com/thought-leadership/venture-capital-journal-how-family-offices-are-reshaping-venture-investing"
   },
   {
     "entity_name": "What Is Series Funding A, B, and C? - Investopedia",
-    "reason": "extraction_failed: Not a family office \u2014 What Is Series Funding A, B, and C? - Investopedia: The entity is an educational article about series funding and does not appear to be a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
+    "reason": "extraction_failed: Not a family office \u2014 What Is Series Funding A, B, and C? - Investopedia: The entity is an educational article about series funding and does not describe a dedicated wealth management entity for an ultra-high-net-worth family or families.",
     "source": "https://www.investopedia.com/articles/personal-finance/102015/series-b-c-funding-what-it-all-means-and-how-it-works.asp"
   },
   {
-    "entity_name": "Will Family Offices Invest in Your Startup? \u2013 Pitching Angels",
-    "reason": "extraction_failed: Not a family office \u2014 Will Family Offices Invest in Your Startup? \u2013 Pitching Angels: The text is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family.",
-    "source": "https://pitchingangels.com/2026/01/22/family-office-startup-investments"
-  },
-  {
-    "entity_name": "[PDF] Anticipated 2025 Family Office Investments - Sandalwood Securities",
-    "reason": "extraction_failed: Not a family office \u2014 Sandalwood Securities: The entity appears to be an institutional asset manager or investment firm that manages multiple funds and serves various clients, including family offices.",
-    "source": "https://www.sandalwoodsecurities.com/pdf/Sandalwood_Opportunistic_Funds_for_2025_-_website.pdf"
+    "entity_name": "Trends in Direct Investing for Family Offices",
+    "reason": "extraction_failed: Not a family office \u2014 Trends in Direct Investing for Family Offices: The text appears to be a LinkedIn article discussing trends in direct investing for family offices, rather than a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
+    "source": "https://www.linkedin.com/top-content/finance/family-office-investment-options/trends-in-direct-investing-for-family-offices"
   },
   {
     "entity_name": "Family Office / Fund of Funds VC Virtual Conf \u2013 Dec 11, 2025",
-    "reason": "extraction_failed: Not a family office \u2014 Family Office / Fund of Funds VC Virtual Conf \u2013 Dec 11, 2025: The entity appears to be an event organizer or conference host, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
+    "reason": "extraction_failed: Not a family office \u2014 Family Office / Fund of Funds VC Virtual Conf \u2013 Dec 11, 2025: The entity appears to be an event organizer for a virtual conference about family offices and fund of funds, rather than a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://pitchcalls.com/vc"
+  },
+  {
+    "entity_name": "Seed-Stage Startup Investing | Syndicate & Venture Fund",
+    "reason": "extraction_failed: Not a family office \u2014 Alumni Ventures: The entity appears to be a venture capital firm and investment syndicate that serves multiple accredited investors, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://av.vc/funds/seedfund"
+  },
+  {
+    "entity_name": "Family Office / Fund of Funds VC Virtual Conf \u2013 Dec 11, 2025",
+    "reason": "extraction_failed: Not a family office \u2014 Family Office / Fund of Funds VC Virtual Conf \u2013 Dec 11, 2025: The entity appears to be an event organizer for a virtual conference about family offices and fund of funds, rather than a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://pitchcalls.com/vc"
   },
   {
     "entity_name": "2025 Global Family Office Survey | BlackRock",
-    "reason": "extraction_failed: Not a family office \u2014 BlackRock: The entity is BlackRock, an institutional asset manager, and not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 BlackRock: The entity is BlackRock, a large institutional asset manager, and not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.blackrock.com/corporate/newsroom/press-releases/article/corporate-one/press-releases/blackrock-family-office-survey-2025"
   },
   {
+    "entity_name": "June 2026's 10 Largest Family-Office Deals | Altss Blog",
+    "reason": "extraction_failed: Not a family office \u2014 Altss: The entity is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://altss.com/blog/june-2025-s-10-largest-family-office-deals"
+  },
+  {
+    "entity_name": "August 2025\u2019s 10 Largest Family Office Deals | Altss Blog",
+    "reason": "extraction_failed: Not a family office \u2014 August 2025\u2019s 10 Largest Family Office Deals | Altss Blog: The entity is a research report or article about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://altss.com/blog/august-2025-s-10-largest-family-office-deals"
+  },
+  {
     "entity_name": "[PDF] FEBRUARY 7, 2025",
-    "reason": "extraction_failed: Not a family office \u2014 Blue Owl Capital Inc.: The entity appears to be a publicly traded company (NYSE: OWL) and an institutional asset manager, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Blue Owl Capital Inc.: The entity appears to be a publicly traded company (NYSE: OWL) and presents itself as an investment manager, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://s202.q4cdn.com/477831904/files/doc_presentations/2025/BlueOwl_InvestorDayPresentation_02072025.pdf"
   },
   {
     "entity_name": "Goldman Sachs Releases 2025 Family Office Investment Insights Report | Goldman Sachs",
-    "reason": "extraction_failed: Not a family office \u2014 The Goldman Sachs Group, Inc.: The entity is a large financial institution and asset manager, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 The Goldman Sachs Group, Inc.: The entity is a large financial institution and asset manager, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.goldmansachs.com/pressroom/press-releases/2025/2025-family-office-investment-insights-report-press-release"
   },
   {
     "entity_name": "[PDF] PwC Global Family Office Deals Study 2025",
-    "reason": "extraction_failed: Not a family office \u2014 PwC: The entity is a research report about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 PwC: The entity is a research report about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.pwc.com/gx/en/services/family-business/assets/global-family-office-deals-study-2025.pdf"
   },
   {
     "entity_name": "Family Office Investing 2025: The Shift from Fund Managers to Direct Deals",
-    "reason": "extraction_failed: Not a family office \u2014 Family Office Investing 2025: The Shift from Fund Managers to Direct Deals: The text is a LinkedIn article about family office investing trends, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
+    "reason": "extraction_failed: Not a family office \u2014 Family Office Investing 2025: The Shift from Fund Managers to Direct Deals: The text appears to be a research report or article about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.linkedin.com/pulse/family-office-investing-2025-shift-from-fund-managers-mehra-hst6c"
   },
   {
-    "entity_name": "[PDF] 2025 Investment Insights for Single Family Offices",
-    "reason": "extraction_failed: Not a family office \u2014 BNY Wealth: The entity appears to be a research report or analysis from a financial institution rather than a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family.",
-    "source": "https://info.wealth.bny.com/rs/636-GOT-884/images/BNYW_2025_Investment_Insights_Single_Family_Offices_Report.pdf"
-  },
-  {
     "entity_name": "[PDF] Family Office Financing Report 2025",
-    "reason": "extraction_failed: Not a family office \u2014 Deutsche Bank Wealth Management: The entity is a report from Deutsche Bank Wealth Management, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Deutsche Bank Wealth Management: The entity is a research report from a private bank, Deutsche Bank Wealth Management, and not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
     "source": "https://wealth.db.com/dam/deutschewealth/capabilities-assets/sophisticated-solutions/family-office/2025-fo-report/DBWM-Family-Office-Financing-Report-2025-V2.pdf"
   },
   {
-    "entity_name": "August 2026's 10 Largest Family Office Deals | Altss Blog",
-    "reason": "extraction_failed: Not a family office \u2014 August 2026's 10 Largest Family Office Deals | Altss Blog: The text is a research report or article about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://altss.com/blog/august-2025-s-10-largest-family-office-deals"
+    "entity_name": "[PDF] 2025 Investment Insights for Single Family Offices",
+    "reason": "extraction_failed: Not a family office \u2014 BNY Wealth: The entity is a research report about family offices, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or families.",
+    "source": "https://info.wealth.bny.com/rs/636-GOT-884/images/BNYW_2025_Investment_Insights_Single_Family_Offices_Report.pdf"
+  },
+  {
+    "entity_name": "Family office private equity funds, a guide | McDermott",
+    "reason": "extraction_failed: Not a family office \u2014 McDermott: The text is an article about private equity funds for family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.mcdermottlaw.com/insights/family-office-private-equity-funds"
   },
   {
     "entity_name": "2025 Global Family Office Report",
-    "reason": "extraction_failed: Not a family office \u2014 2025 Global Family Office Report: The entity is a research report about family offices, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Citi Wealth: The entity is a research report about family offices, not a dedicated wealth/investment management entity serving one or a small number of ultra-high-net-worth families.",
     "source": "https://www.privatebank.citibank.com/doc/family-office/2025-global-family-office-report.pdf"
   },
   {
-    "entity_name": "Four Family Office Trends to Watch in 2025",
-    "reason": "extraction_failed: Not a family office \u2014 bfinance: The text is an article about family office trends, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://www.bfinance.com/us/insights/four-family-office-trends-to-watch-in-2025"
-  },
-  {
-    "entity_name": "News & Insights",
-    "reason": "extraction_failed: Not a family office \u2014 Adams Street Partners: The entity appears to be an institutional asset manager/OCIO/endowment or pension manager that serves multiple clients, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "entity_name": "News & Insights | Adams Street Partners",
+    "reason": "extraction_failed: Not a family office \u2014 Adams Street Partners: The entity appears to be an institutional asset manager/OCIO that serves a broad mix of client types, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.adamsstreetpartners.com/news"
   },
   {
-    "entity_name": "Private Funds: Key Business, Legal and Tax Issues (2025)",
-    "reason": "extraction_failed: Not a family office \u2014 Debevoise & Plimpton LLP: The entity is a law firm providing services to private funds and their sponsors, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
-    "source": "https://www.debevoise.com/-/media/files/insights/publications/2025/02/private-funds-cookbook.pdf"
-  },
-  {
     "entity_name": "Pantheon",
-    "reason": "extraction_failed: Not a family office \u2014 Pantheon: The entity appears to be an institutional asset manager/OCIO/endowment or pension manager that serves multiple clients, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 Pantheon: The entity appears to be an institutional asset manager/OCIO that serves a broad mix of client types, including family offices.",
     "source": "https://www.pantheon.com"
   },
   {
     "entity_name": "New Mountain Capital: Home",
-    "reason": "extraction_failed: Not a family office \u2014 New Mountain Capital: The entity appears to be an institutional asset manager with a broad range of investment strategies and a large amount of assets under management, rather than a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
+    "reason": "extraction_failed: Not a family office \u2014 New Mountain Capital: The entity appears to be a large institutional asset manager with a broad range of clients and strategies, not a dedicated wealth/investment management entity serving one specific ultra-high-net-worth family or a small number of families.",
     "source": "https://www.newmountaincapital.com"
   },
   {
-    "entity_name": "QP Global Family Offices",
-    "reason": "manually_removed_post_hoc: Confirmed via manual research: SEC-registered RIA (CRD #294879) that manages single-family offices for multiple wealthy families as an outsourced service \u2014 a vendor, not a family office.",
-    "source": "https://www.linkedin.com/company/qp-global-family-offices"
+    "entity_name": "7 Families Who Can't Stop Having Kids | MY EXTRAORDINARY FAMILY",
+    "reason": "extraction_failed: Not a family office \u2014 Truly: The entity appears to be a YouTube channel and video production company focused on extraordinary families, rather than a dedicated wealth/investment management entity.",
+    "source": "https://www.youtube.com/watch?v=SiiSSz07aK0&vl=en"
   },
   {
-    "entity_name": "Century Private Wealth",
-    "reason": "manually_removed_post_hoc: Confirmed via manual research: DFSA-regulated wealth manager serving family offices, corporates, and institutions as clients; launched a public Nasdaq-licensed fund. Not a private family office.",
-    "source": "https://hk.linkedin.com/company/century-pvt-wealth"
+    "entity_name": "Family - Wikipedia",
+    "reason": "extraction_failed: Not a family office \u2014 Family - Wikipedia: The entity is a general article about families, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://en.wikipedia.org/wiki/Family"
   },
   {
-    "entity_name": "QP Global Family Offices",
-    "reason": "manually_removed_post_hoc: Confirmed via manual research: SEC-registered RIA (CRD #294879) that manages single-family offices for multiple wealthy families as an outsourced service \u2014 a vendor, not a family office.",
-    "source": "https://www.linkedin.com/company/qp-global-family-offices"
+    "entity_name": "FamilyLife\u00ae - Pursue what matters most",
+    "reason": "extraction_failed: Not a family office \u2014 FamilyLife: The entity appears to be a non-profit organization focused on family and marriage counseling, not a dedicated wealth/investment management entity.",
+    "source": "https://www.familylife.com"
   },
   {
-    "entity_name": "Century Private Wealth",
-    "reason": "manually_removed_post_hoc: Confirmed via manual research: DFSA-regulated wealth manager serving family offices, corporates, and institutions as clients; launched a public Nasdaq-licensed fund. Not a private family office.",
-    "source": "https://hk.linkedin.com/company/century-pvt-wealth"
+    "entity_name": "Definition of Family | HRSA",
+    "reason": "extraction_failed: Not a family office \u2014 Health Resources & Services Administration (HRSA): The entity appears to be a government agency, specifically a part of the U.S. Department of Health & Human Services, and does not describe a dedicated wealth/investment management entity for a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.hrsa.gov/get-health-care/affordable/hill-burton/family"
+  },
+  {
+    "entity_name": "Family (1976 TV series)",
+    "reason": "extraction_failed: Not a family office \u2014 Family (1976 TV series): The entity is a 1976 American television series, not a wealth management or investment entity.",
+    "source": "https://en.wikipedia.org/wiki/Family_(1976_TV_series)"
+  },
+  {
+    "entity_name": "FAMILY Definition & Meaning - Merriam-Webster",
+    "reason": "extraction_failed: Not a family office \u2014 FAMILY Definition & Meaning - Merriam-Webster: The entity is a dictionary definition of the term 'family' and does not appear to be a private family office or a company that provides family office services.",
+    "source": "https://www.merriam-webster.com/dictionary/family"
+  },
+  {
+    "entity_name": "Family | Definition, Meaning, Members, Types, & Facts | Britannica",
+    "reason": "extraction_failed: Not a family office \u2014 Family | Definition, Meaning, Members, Types, & Facts | Britannica: The entity is a general definition of a family, not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://www.britannica.com/topic/family-kinship"
+  },
+  {
+    "entity_name": "FAMILY | definition in the Cambridge English Dictionary",
+    "reason": "extraction_failed: Not a family office \u2014 FAMILY | definition in the Cambridge English Dictionary: The page is a dictionary definition of the word 'family' and does not refer to a specific family office or organization.",
+    "source": "https://dictionary.cambridge.org/us/dictionary/english/family"
+  },
+  {
+    "entity_name": "What Is a Family? - Rethinking Schools",
+    "reason": "extraction_failed: Not a family office \u2014 What Is a Family? - Rethinking Schools: The entity is an educational article and not a dedicated wealth/investment management entity serving a specific ultra-high-net-worth family or a small number of families.",
+    "source": "https://rethinkingschools.org/articles/what-is-a-family"
+  },
+  {
+    "entity_name": "Family (2018) - IMDb",
+    "reason": "extraction_failed: Not a family office \u2014 Family: The entity appears to be a movie titled 'Family' and not a wealth or investment management entity.",
+    "source": "https://www.imdb.com/title/tt6268882"
   }
 ]
