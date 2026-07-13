@@ -89,6 +89,44 @@ page title, not SEO text), investing thesis, investing mandate, background info,
 AUM, corporate LinkedIn URL, entity type, location, website, and any named principals 
 with title/LinkedIn/email/phone if mentioned. Also extract any recent signals (investments, hires, news) with dates if given.
 
+STRICT ATTRIBUTION RULE: only extract a fact if the text explicitly and directly
+states it ABOUT this specific entity ({entity_name}) by name. Do NOT extract a fact
+that actually comes from:
+- a job/hiring listing FOR a role at the entity (what a recruiter says the hired
+  person will do is not the entity making a statement about itself)
+- a page that profiles or compares MULTIPLE different family offices (e.g. "Top 10
+  Family Offices in X", "N Verified Firms" directories) — a number or description
+  elsewhere on such a page may belong to a DIFFERENT entity even if this one is
+  also named there
+- a general statement about family offices as a category, not this specific one
+If you are not sure a fact is explicitly and specifically about {entity_name} itself,
+output null for that field. A missing field is expected and fine; an unsupported one
+just gets thrown away downstream anyway, so guessing only wastes audit budget.
+
+DO NOT UPGRADE VAGUE MENTIONS INTO SPECIFIC CLAIMS: if the text mentions a number,
+date, or fact in one general context (e.g. team size, "years of experience", "a
+limited number of clients"), do not reuse it to support a DIFFERENT, more specific
+claim (a founding year, a client count, a "signal" event) unless the text itself
+draws that connection explicitly. A signal must describe an actual EVENT — a specific
+investment, hire, partnership announcement, award, or news item with some concrete
+detail — not a static fact about team size, tenure, or general capability. If the
+only evidence is a vague or general mention, leave the field or signal out entirely
+rather than sharpening it into something more specific-sounding than the source.
+
+IGNORE PLACEHOLDER/UNRENDERED VALUES: some pages contain animated stat counters
+(e.g. "$0B AUM", "0 Years", "0 Clients") that display "0" or another placeholder
+before JavaScript fills in the real number — a static scrape can capture this
+pre-animation state. A bare "0" attached to a stat label is NOT a real reported
+figure. Leave that field null rather than reporting a zero as if it were the
+actual AUM, team size, or track record.
+
+EACH PRINCIPAL'S FIELDS ARE THEIR OWN: a principal's linkedin_url, work_email,
+and direct_phone must be found explicitly next to THAT person's name. Never
+reuse a company-level fact, another principal's info, or a generic company
+link for a different principal or a different field just because it's the
+only concrete-looking thing on the page. If you cannot find a value clearly
+and specifically tied to this one person, output null for that field.
+
 CRITICAL FORMATTING RULES:
 1. You MUST return EXACTLY ONE valid JSON object mapping to the schema below. 
 2. Do NOT wrap the response in an outer JSON array container ([ ... ]). 
@@ -144,6 +182,17 @@ signals (list of {{signal_type, description, date}}). Use null for anything not 
         reasoning = parsed.get("is_family_office_reasoning", "no reasoning given")
         cleaned_name = parsed.get("entity_name") or entity_name
         raise ValueError(f"Not a family office — {cleaned_name}: {reasoning}")
+    
+    def _coerce_str(value) -> Optional[str]:
+        """Multi-location or multi-URL entities sometimes make the LLM return a
+        list instead of a plain string for a field the schema expects to be
+        text-only (location, website) — join it into one string rather than
+        crashing the whole record on a Pydantic validation error."""
+        if value is None:
+            return None
+        if isinstance(value, list):
+            return ", ".join(str(v) for v in value if v) or None
+        return str(value)
 
     def wrap(field_value: Optional[str]) -> VerifiableField:
         """Every extracted field starts life as UNVERIFIED — auditor promotes it later."""
@@ -192,8 +241,8 @@ signals (list of {{signal_type, description, date}}). Use null for anything not 
         entity_name=parsed.get("entity_name") or entity_name,  # prefer the LLM's cleaned name
         # over the raw search-result page title, which is often SEO/headline noise
         entity_type=parsed.get("entity_type"),
-        location=parsed.get("location"),
-        website=parsed.get("website"),
+        location=_coerce_str(parsed.get("location")),
+        website=_coerce_str(parsed.get("website")),
         investing_thesis=wrap(parsed.get("investing_thesis")),
         investing_mandate=wrap(parsed.get("investing_mandate")),
         background_info=wrap(parsed.get("background_info")),

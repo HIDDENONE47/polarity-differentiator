@@ -196,7 +196,7 @@ def extract_node(state: PipelineState) -> dict:
 def audit_node(state: PipelineState) -> dict:
     """Runs the full adversarial audit on the raw record. This is where VERIFIED/COULD_NOT_VERIFY get decided."""
     print(f"[audit] auditing {state['raw_record'].entity_name!r} — several LLM + Tavily calls, may take a bit")
-    audited = audit_record(state["raw_record"], rate_limit_delay=1.0)
+    audited = audit_record(state["raw_record"], rate_limit_delay=2.5)
     print(f"[audit] done: {audited.entity_name!r}")
     return {"audited_record": audited, "raw_record": None}
 

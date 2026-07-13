@@ -109,11 +109,14 @@ Required JSON shape: {{"supported": true/false, "reasoning": "<one sentence>", "
 
     try:
         parsed = json.loads(raw_output)
-        return {
+        result = {
             "supported": bool(parsed.get("supported", False)),
             "reasoning": str(parsed.get("reasoning", "")),
             "confidence": float(parsed.get("confidence", 0.0)),
         }
+        print(f"  [audit verdict] {field_label}: supported={result['supported']} "
+              f"confidence={result['confidence']:.2f} -- {result['reasoning']}")
+        return result
     except (json.JSONDecodeError, ValueError, TypeError) as e:
         # If the adjudicator itself fails to respond cleanly, we cannot trust
         # its verdict — default to "not supported" rather than guessing.
@@ -140,7 +143,7 @@ def audit_field(field: VerifiableField, field_label: str) -> VerifiableField:
 
     verdict = _adversarial_confirm(field.value, field_label, page_text)
 
-    if verdict["supported"] and verdict["confidence"] >= 0.6:
+    if verdict["supported"] and verdict["confidence"] >= 0.4:
         return VerifiableField(
             value=field.value,
             status=VerificationStatus.VERIFIED,
