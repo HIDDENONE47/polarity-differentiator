@@ -345,6 +345,23 @@ def run_pipeline(target_count: int = DEFAULT_CONFIG.target_record_count):
         print(f"🔄 Recovered {len(recovered_records)} previously accepted records from backup.")
         print(f"Remaining to target: {target_count - len(recovered_records)}")
 
+        # Also recover previously REJECTED entity names, so restarting after a Ctrl+C
+    # or a rate-limit interruption doesn't re-spend a full audit pass re-confirming
+    # something we already know fails the same way every time.
+    recovered_rejected_log = []
+    rejected_log_file = DOCS_DIR / "rejected_log.json"
+    if rejected_log_file.exists():
+        try:
+            with open(rejected_log_file, "r", encoding="utf-8") as f:
+                recovered_rejected_log = json.load(f)
+            for entry in recovered_rejected_log:
+                name = entry.get("entity_name", "").strip().lower()
+                if name and name not in seen_names:
+                    seen_names.append(name)
+            print(f"🔄 Recovered {len(recovered_rejected_log)} previously rejected entity names.")
+        except Exception as e:
+            print(f"Warning: Could not parse rejected_log.json: {e}")
+
     initial_state: PipelineState = {
         "queries": list(DISCOVERY_QUERIES),
         "current_query_results": [],

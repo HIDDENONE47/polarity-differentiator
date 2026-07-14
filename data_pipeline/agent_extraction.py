@@ -127,6 +127,19 @@ link for a different principal or a different field just because it's the
 only concrete-looking thing on the page. If you cannot find a value clearly
 and specifically tied to this one person, output null for that field.
 
+LINKEDIN COMPANY PAGES NEED SPECIAL HANDLING: if the source is a linkedin.com/company
+page, it is mostly structured metadata (Company size, Followers, Founded) with very
+little real prose, and it causes two specific mistakes:
+- corporate_linkedin is simply this page's own URL, {source_url} — do not try to
+  find or infer it from the page content, and never put a number, count, or date
+  into this field.
+- Do NOT invent a principal's linkedin_url from a company page. Listing someone's
+  name and title does not give you their personal profile URL unless the page
+  contains an actual distinct link to it. If there isn't one, output null.
+Also, do not turn LinkedIn's own UI labels (a company-size range, a follower count,
+"Founded: N/A") into background_info or a signal — that is page furniture, not a
+fact about the entity's history or activity.
+
 CRITICAL FORMATTING RULES:
 1. You MUST return EXACTLY ONE valid JSON object mapping to the schema below. 
 2. Do NOT wrap the response in an outer JSON array container ([ ... ]). 
@@ -226,7 +239,9 @@ signals (list of {{signal_type, description, date}}). Use null for anything not 
         description=s.get("description", ""),
         date=s.get("date"),
         source=VerifiableField(
-            value=source_url,
+            value=s.get("description", ""),  # the actual claim to verify -- auditing
+            # the bare source_url against its own page text is a tautology that can
+            # never meaningfully confirm or deny anything
             status=VerificationStatus.UNVERIFIED,
             source_url=source_url,
             extraction_method=ExtractionMethod.LLM_INFERENCE,
