@@ -47,7 +47,14 @@ DISCOVERY_QUERIES = [
     
     # Direct transactional & news announcements
     '"family office" "direct investment" startup announcement "seed" OR "series"',
-    '"family office" "press release" fund launch OR fund commitment 2025'
+    '"family office" "press release" fund launch OR fund commitment 2025',
+
+    # SEC Form ADV filings -- structured, public disclosure of AUM, client
+    # types, and strategy/mandate language for any family office registered
+    # as an RIA.
+    'site:adviserinfo.sec.gov "family office"',
+    '"single family office" "Form ADV" "assets under management"',
+    '"family office" "SEC registered investment adviser" "AUM"',
 ]
 
 # Safety cap on total candidates attempted, regardless of how many get accepted.
@@ -223,6 +230,15 @@ def filter_node(state: PipelineState) -> dict:
 
     if not passes_actionability_bar(audited):
         print(f"[filter] rejected (no verified contact): {audited.entity_name!r}")
+        principal_diagnostic = [
+            {
+                "name": p.name,
+                "email_status": p.work_email.status.value,
+                "phone_status": p.direct_phone.status.value,
+                "linkedin_status": p.linkedin_url.status.value,
+            }
+            for p in audited.principals
+        ]
         return {
             "audited_record": None,
             "seen_entity_names": state["seen_entity_names"] + [entity_key],
@@ -230,6 +246,8 @@ def filter_node(state: PipelineState) -> dict:
                 "entity_name": audited.entity_name,
                 "reason": "failed_actionability_bar_no_verified_contact",
                 "source": audited.discovery_source,
+                "website": audited.website,
+                "principals": principal_diagnostic or "no_principals_extracted",
             }],
         }
 
@@ -285,9 +303,16 @@ def route_after_discover(state: PipelineState) -> str:
 
 
 def route_after_extract(state: PipelineState) -> str:
-    if state["raw_record"] is not None:
-        return "audit"
-    return "discover"  # extraction failed — loop back for the next candidate
+    if state["raw_record"] is None:
+        return "discover"  # extraction failed — loop back for the next candidate
+    entity_key = state["raw_record"].entity_name.strip().lower()
+    if entity_key in state["seen_entity_names"]:
+        # Skip the audit entirely for an entity already accepted/rejected in
+        # a prior run -- auditing it again just burns several LLM + Tavily
+        # calls to re-derive a result that gets thrown away in filter_node
+        # anyway. Cheap to check now, expensive to discover after auditing.
+        return "discover"
+    return "audit"
 
 
 def route_after_filter(state: PipelineState) -> str:

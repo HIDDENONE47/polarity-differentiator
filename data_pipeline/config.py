@@ -136,9 +136,11 @@ class PipelineConfig(BaseModel):
     require_at_least_one_principal_contact: bool = True  # else record fails actionability
     embedding_model: str = "all-MiniLM-L6-v2"
     llm_model: str = "meta-llama/llama-4-scout-17b-16e-instruct"# via Groq — extraction: harder task, keep the bigger model
-    auditor_llm_model: str = "llama-3.1-8b-instant"  # via Groq — audit is a bounded yes/no judgment call,
-    # and Groq quotas are per-model/per-org, so this gives audit its own 500K-tokens/day pool instead of
-    # fighting extraction for the 70B model's much smaller 100K/day
+    auditor_llm_model: str = "llama-3.3-70b-versatile"  # upgraded from llama-3.1-8b-instant: the 8B model
+    # was observed fabricating false claims about its own input (e.g. asserting a sentence "is not present
+    # in the provided content" when it was present verbatim, including inside the model's own quoted
+    # reasoning) rather than making a borderline judgment call. Prompt tuning did not fix this — it's a
+    # capability ceiling, not a framing problem. Trade-off: shares the 70B quota pool with extraction now.
 
 
 DEFAULT_CONFIG = PipelineConfig()

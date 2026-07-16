@@ -35,6 +35,8 @@ else:
 
 client = TavilyClient(api_key=api_key)
 
+
+
 print("\n=== 1. client.search() baseline (known-working call) ===")
 try:
     r = client.search(query="family office investment", max_results=1)

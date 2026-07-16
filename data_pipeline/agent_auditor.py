@@ -64,8 +64,15 @@ def _fetch_live_page_text(url: str) -> Optional[str]:
     try:
         result = tavily_client.extract(urls=[url])
         pages = result.get("results", [])
-        content = pages[0].get("raw_content") if pages else None
-    except Exception:
+        failed = result.get("failed_results", [])
+        if pages:
+            content = pages[0].get("raw_content")
+        else:
+            content = None
+            if failed:
+                print(f"  [audit] extract failed for {url}: {failed[0].get('error', 'unknown')}")
+    except Exception as e:
+        print(f"  [audit] extract exception for {url}: {e}")
         content = None
     _page_cache[url] = content
     return content
@@ -88,6 +95,33 @@ Question: Does the source page content ACTUALLY, EXPLICITLY state or clearly
 support this claimed fact? Vague relatedness is not support. The entity being
 merely mentioned near a number is not support for that number. Silence on the
 fact means NOT supported.
+
+WHAT COUNTS AS EXPLICIT SUPPORT (read this before answering "not supported"):
+A direct declarative sentence stating the fact IS explicit support, even
+without additional surrounding context, citations, or corroborating detail.
+Example: the sentence "Assets under management stand at $1.62 billion." is,
+by itself, full support for an AUM claim of $1.62 billion -- do not withhold
+support because the sentence lacks a citation, a date, or further
+explanation. Likewise, a labeled structured field (a "General information"
+panel, key-value pair, or table row) whose label matches the fact being
+checked (e.g. label "Year founded" supporting a founding-year claim) is
+explicit support on its own. "Vague relatedness" means an unlabeled number
+or fact floating near the entity's name with no direct statement tying it to
+the claim -- it does NOT mean a plainly stated sentence or labeled field that
+you are withholding credit from for lacking extra context it doesn't need.
+If you find yourself writing a reason like "lacks context" or "no supporting
+evidence" while the exact fact is stated in a direct sentence you can quote,
+that is a mistake -- the direct statement itself is the evidence.
+
+EXCEPTION for structured data: if the page contains a labeled field (e.g. a
+"General information" panel, key-value pair, or table row) whose label
+matches the fact being checked (e.g. label "Assets under management" or "AUM"
+supporting an AUM claim; "Year founded" supporting a founding-year claim),
+that IS explicit support even without surrounding prose sentences. Do not
+reject a structured field-value pair for lacking narrative context — the
+field label itself is the context. Vague relatedness still means an
+unlabeled number floating near the entity's name, not a clearly labeled
+field.
 
 CRITICAL FORMATTING RULES:
 1. Respond ONLY as compact JSON.
@@ -122,6 +156,48 @@ Required JSON shape: {{"supported": true/false, "reasoning": "<one sentence>", "
         # its verdict — default to "not supported" rather than guessing.
         print(f"  [audit error] unparseable JSON from auditor: {raw_output[:100]}")
         return {"supported": False, "reasoning": "Adjudicator response unparseable.", "confidence": 0.0}
+
+
+def _verify_linkedin_identity(url: str, principal_name: str, entity_name: str) -> VerifiableField:
+    page_text = _fetch_live_page_text(url)
+    if not page_text:
+        return VerifiableField(status=VerificationStatus.COULD_NOT_VERIFY)
+
+    verdict = _adversarial_confirm(
+        claimed_value=f"This LinkedIn profile belongs to {principal_name}, who works at {entity_name}.",
+        field_label="principal_linkedin_identity_match",
+        page_text=page_text,
+    )
+    if verdict["supported"] and verdict["confidence"] >= 0.4:
+        return VerifiableField(
+            value=url,
+            status=VerificationStatus.VERIFIED,
+            source_url=url,
+            extraction_method=ExtractionMethod.WEB_SEARCH,
+            verification_notes=verdict["reasoning"],
+            confidence_score=verdict["confidence"],
+        )
+    return VerifiableField(status=VerificationStatus.COULD_NOT_VERIFY)
+
+
+def find_and_audit_principal_linkedin(principal_name: str, entity_name: str) -> VerifiableField:
+    try:
+        response = tavily_client.search(
+            query=f'"{principal_name}" "{entity_name}" site:linkedin.com/in',
+            search_depth="basic",
+            max_results=5,
+        )
+    except Exception:
+        return VerifiableField(status=VerificationStatus.COULD_NOT_VERIFY)
+
+    candidate_url = next(
+        (r["url"] for r in response.get("results", []) if "linkedin.com/in/" in r.get("url", "")),
+        None,
+    )
+    if not candidate_url:
+        return VerifiableField(status=VerificationStatus.COULD_NOT_VERIFY)
+
+    return _verify_linkedin_identity(candidate_url, principal_name, entity_name)
 
 
 def audit_field(field: VerifiableField, field_label: str) -> VerifiableField:
@@ -161,6 +237,30 @@ def _extract_domain(website: Optional[str]) -> Optional[str]:
     parsed = urlparse(website if "://" in website else f"https://{website}")
     domain = parsed.netloc or parsed.path
     return domain.replace("www.", "") or None
+
+
+_BLOCKED_WEBSITE_DOMAINS = (
+    "linkedin.com", "crunchbase.com", "bloomberg.com", "wikipedia.org",
+    "facebook.com", "twitter.com", "x.com", "google.com", "sec.gov",
+)
+
+
+def _discover_entity_website(entity_name: str) -> Optional[str]:
+    try:
+        response = tavily_client.search(
+            query=f'"{entity_name}" official website',
+            search_depth="basic",
+            max_results=5,
+        )
+    except Exception:
+        return None
+
+    for r in response.get("results", []):
+        url = r.get("url", "")
+        domain = _extract_domain(url)
+        if domain and not any(b in domain for b in _BLOCKED_WEBSITE_DOMAINS):
+            return url
+    return None
 
 
 def hunter_find_email(domain: str, full_name: str) -> dict:
@@ -258,14 +358,19 @@ def audit_record(record: FamilyOfficeRecord, rate_limit_delay: float = 1.0) -> F
     audited_linkedin = audit_field(record.corporate_linkedin, "corporate_linkedin")
     time.sleep(rate_limit_delay)
 
+    website = record.website or _discover_entity_website(record.entity_name)
+
     audited_principals = []
     for p in record.principals:
+        linkedin_result = audit_field(p.linkedin_url, f"{p.name}_linkedin_url")
+        if linkedin_result.status != VerificationStatus.VERIFIED and p.name and p.name != "Unknown":
+            linkedin_result = find_and_audit_principal_linkedin(p.name, record.entity_name)
         audited_principals.append(
             FamilyOfficePrincipal(
                 name=p.name,
                 title=p.title,
-                linkedin_url=audit_field(p.linkedin_url, f"{p.name}_linkedin_url"),
-                work_email=audit_work_email(p.work_email, p.name, record.website),
+                linkedin_url=linkedin_result,
+                work_email=audit_work_email(p.work_email, p.name, website),
                 direct_phone=audit_field(p.direct_phone, f"{p.name}_direct_phone"),
             )
         )
@@ -287,7 +392,7 @@ def audit_record(record: FamilyOfficeRecord, rate_limit_delay: float = 1.0) -> F
         entity_name=record.entity_name,
         entity_type=record.entity_type,
         location=record.location,
-        website=record.website,
+        website=website,
         investing_thesis=audited_thesis,
         investing_mandate=audited_mandate,
         background_info=audited_background,
@@ -389,16 +494,22 @@ def audit_record_deep(record: FamilyOfficeRecord) -> FamilyOfficeRecord:
     audited_aum = deep_audit_field(record.aum, "aum", record.entity_name)
     audited_linkedin = deep_audit_field(record.corporate_linkedin, "corporate_linkedin", record.entity_name)
 
-    audited_principals = [
-        FamilyOfficePrincipal(
-            name=p.name,
-            title=p.title,
-            linkedin_url=audit_field(p.linkedin_url, f"{p.name}_linkedin_url"),
-            work_email=audit_work_email(p.work_email, p.name, record.website),
-            direct_phone=audit_field(p.direct_phone, f"{p.name}_direct_phone"),
+    website = record.website or _discover_entity_website(record.entity_name)
+
+    audited_principals = []
+    for p in record.principals:
+        linkedin_result = audit_field(p.linkedin_url, f"{p.name}_linkedin_url")
+        if linkedin_result.status != VerificationStatus.VERIFIED and p.name and p.name != "Unknown":
+            linkedin_result = find_and_audit_principal_linkedin(p.name, record.entity_name)
+        audited_principals.append(
+            FamilyOfficePrincipal(
+                name=p.name,
+                title=p.title,
+                linkedin_url=linkedin_result,
+                work_email=audit_work_email(p.work_email, p.name, website),
+                direct_phone=audit_field(p.direct_phone, f"{p.name}_direct_phone"),
+            )
         )
-        for p in record.principals
-    ]
 
     audited_signals = [
         FamilyOfficeSignal(
@@ -414,7 +525,7 @@ def audit_record_deep(record: FamilyOfficeRecord) -> FamilyOfficeRecord:
         entity_name=record.entity_name,
         entity_type=record.entity_type,
         location=record.location,
-        website=record.website,
+        website=website,
         investing_thesis=audited_thesis,
         investing_mandate=audited_mandate,
         background_info=audited_background,

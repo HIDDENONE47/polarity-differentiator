@@ -17,7 +17,7 @@ from graph_orchestrator import _flatten_record_for_csv
 from config import FamilyOfficeRecord
 
 DOCS_DIR = Path(__file__).resolve().parent.parent / "docs"
-CLEANED_JSONL = DOCS_DIR / "family_offices_dataset.jsonl"
+CLEANED_JSONL = DOCS_DIR / "family_offices_dataset_BACKUP.jsonl"
 OUTPUT_CSV = DOCS_DIR / "family_offices_dataset.csv"
 
 
